@@ -13,7 +13,7 @@ import image10 from './images/image 12.png';
 import Img from '../../components/Img/index';
 import Img_text from '../../components/Img_Text';
 import Img_text_2 from '../../components/Img_Text_2';
-import TextTeacher from '../../components/TextTeacher/index';
+//https://github.com/PashaKarlin/Department_Website.gitimport TextTeacher from '../../components/TextTeacher/index';
 
 export default function Text(){
     return(
@@ -69,12 +69,14 @@ export default function Text(){
             <h3 className = 'title3'>
             Наші викладачі неодноразово отримували звання <br/> викладача-дослідника та молодого викладача – дослідника:
             </h3>
-            <div className = 'lastblock'>
+           {/*
+           <div className = 'lastblock'>
                 <img src = {image10} className="diplom"/>
                 <div>
                     <TextTeacher/> 
                 </div>
             </div>
+        */} 
         </div>
     );
 }
