@@ -7,7 +7,7 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-
+import './index.css'
 
 function Img(props) {
   return <img className={props.className} src={props.src} alt={props.alt} id={props.id} />;

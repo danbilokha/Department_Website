@@ -1,10 +1,10 @@
 .text{
     margin:0 18.2% 0 20%;
     text-align: justify;
-    /* display: flex; */
-    /* text-align: left; */
 }
-
+p{
+    font-size: 16px;
+}
 .textunderphoto{
      text-align: center;
 }
@@ -14,32 +14,11 @@
     width: 49%;
     height: auto;
     margin-right: 7px;
-    display: flex;
-    justify-content: space-between;
+    padding-bottom: 5px;
 }
-.images{
-    display: flex;
-    justify-content: space-between;
-}
-h1{
-    text-align: left;
-}
-h2{
-    text-align: left;
-}
-.image8{
-    margin-bottom: 1.5%;
-}   
-.lastblock{
-    display: flex;
-    
-}
-p span{
-    display: block;
-    text-align: left top;
-    /* margin-left: 2%; */
-    font-size: 18px;    
-}   
-.diplom{
-    margin-top:20px;
+.image2{
+    width:22%;
+    height: auto; 
+    float:left;
+    margin-right:23px;
 }
