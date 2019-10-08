@@ -38,7 +38,7 @@ export default function App() {
         <Route exact path="/" component={HomePage} />
         <Route path="/study" component={StudyPage}/>
         <Route path="/kafedra" component ={KafedraPage}/>
-        <Route path="/history" component ={HistoryPage}/>
+        <Route path="/history" component={HistoryPage} />
         <Route path="/features" component={FeaturePage} /> 
         <Route path="" component={NotFoundPage} />
       </Switch>

@@ -1,10 +1,9 @@
 import React from 'react';
 import './index.css';
-import Text from './Text';
-import Hello_component from './Text';
+import HelloComponent from './Text';
+import Headlines from '../../components/Header_study/main';
 
 export default function StudyPage() {
-  return (
-    <Hello_component id="firstLine"/>
-  );
+  return <HelloComponent />;
+<Headlines />;
 }
