@@ -5,5 +5,5 @@ import Headlines from '../../components/Header_study/main';
 
 export default function StudyPage() {
   return <HelloComponent />;
-<Headlines />;
+  <Headlines />;
 }

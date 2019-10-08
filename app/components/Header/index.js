@@ -1,6 +1,6 @@
 import React from 'react';
 import HeaderTag from './HeaderMenu/HeaderTag';
-import "./index.css";
+import './index.css';
 import NavigationBar from './NavBar/NavigationBar';
 
 function Header() {
