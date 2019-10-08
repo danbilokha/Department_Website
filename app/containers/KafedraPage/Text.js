@@ -17,11 +17,11 @@ export default function Text(){
     return(
         <div className = 'text'>
             <div>
-                <h3>Спеціальність:</h3>
+                <p>Спеціальність:</p>
                 <h2>172 Телекомунікації та радіотехніка</h2>
             </div>
             <div>
-                <h3>Кафедра</h3>
+                <p>Кафедра</p>
                 <h1>Інформаційно-телекомунікаційних мереж</h1>
             </div>
             <div className = "Qualification">
@@ -89,8 +89,8 @@ export default function Text(){
             <div className = "contacts_inf">
                 {/* Чи можна використовувати ForwardMessage длclassName = "Drezden_article" номера телефону та пошти*/}
                 <h2>Контакти вибіркової комісії ІТС</h2>
-                <p className = "telephone"><b>Телефон відбірковї комісії ІТС:</b>(068)-357-08-44</p>
-                <p className = "mail"><b>Електронна пошта відбіркової комісії ІТС:</b>novikov1967@ukr.net</p>
+                <p className = "telephone"><b>Телефон відбірковї комісії ІТС: </b>(068)-357-08-44</p>
+                <p className = "mail"><b>Електронна пошта відбіркової комісії ІТС: </b>novikov1967@ukr.net</p>
             </div>
             <a href="#">Поширені запитання (FAQ)</a>
             <div className="container_Slider">
@@ -147,6 +147,7 @@ export default function Text(){
                     e_mail = "its@its.kpi.ua"
                 />
             </ContactsList>
+            <iframe width="450" height="350" src="http://maps.google.co.uk/maps?q=Urkaine &amp;output=embed"></iframe>
         </div>
     );
 }

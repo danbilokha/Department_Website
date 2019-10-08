@@ -2,9 +2,7 @@
     margin:0 10% 0 7%;
     text-align: justify;
 }
-p{
-    font-size: 16px;
-}
+
 
 /*------------------------------------My script------------------------*/
 h1{
@@ -14,13 +12,12 @@ h1{
 
 h2{
     font-size: 28px;
+    margin-bottom: 20px;
 }
 
-h3{
-    font-style: normal;
+p{
+    font-size: 18px;
 }
-
-
 
 .Qualification{
     margin-top:160px;
@@ -150,7 +147,7 @@ h3{
     width: auto;
     position: relative;
     font-weight: bold;
-    margin: 0 auto;font-size: 50px;
+    margin: 0 auto;
 }
 
 .Drezden_article{
