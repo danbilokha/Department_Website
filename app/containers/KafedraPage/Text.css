@@ -105,8 +105,11 @@ h3{
 
 
 .container_Slider{
-    display: flex;
-    flex-direction: row;
+    width: 80%;
+}
+
+.image_for_slider{
+    width: 200px;
 }
 
 .center_level{   
