@@ -19,6 +19,14 @@ p{
     font-size: 18px;
 }
 
+iframe{
+    position: relative;
+    width: 90vh;
+    height: 70vh;
+    float: right; /* Выравнивание по правому краю */
+    margin: 0 0 5px 5px; /* Отступы вокруг фотографии */
+}
+
 .Qualification{
     margin-top:160px;
 }

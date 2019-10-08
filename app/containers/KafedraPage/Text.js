@@ -124,6 +124,8 @@ export default function Text(){
             </div>
             <h1>Контакти</h1>
             <ContactsList>
+
+            <iframe width="450" height="350" src="http://maps.google.co.uk/maps?q=м. Київ, пров. Індустріальний, 2 &amp;output=embed"></iframe>
                 <Contacts
                     h2 = "Кафедра ITM"
                     addressName = "Адреса факультету:" 
@@ -146,8 +148,9 @@ export default function Text(){
                     e_mailTitle = "E-mail:"
                     e_mail = "its@its.kpi.ua"
                 />
+                
             </ContactsList>
-            <iframe width="450" height="350" src="http://maps.google.co.uk/maps?q=Urkaine &amp;output=embed"></iframe>
+            
         </div>
     );
 }
