@@ -4,7 +4,7 @@ import Img from '../../components/Img/index';
 
 function Slider(props) {
     return (
-      <div className = "image_for_slider">
+      <div className = "conteiner_image_for_slider">
         <Img src={image1}  className = 'image1'/>
       </div>
     );
