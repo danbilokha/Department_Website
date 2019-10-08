@@ -12,6 +12,9 @@ import '../../components/News/index.css';
 import Contacts from '../../components/Contacts';
 import ContactsList from '../../components/ContactsList';
 
+import ReadMore from '../../components/ReadMore';
+
+
 
 export default function Text(){
     return(
@@ -79,10 +82,10 @@ export default function Text(){
             <div className = "Information_for_Students">
                 <h1>Інформація для студентів</h1>
                 <div className = "Block">
-                    <ForEnterer icon_image="I" boldName="Вступ на 1-й курс" numberName="за сертифікатами ЗНО" />
-                    <ForEnterer icon_image="I" boldName="Вступ на 1-й курс" numberName="за дипломом молодшого спеціаліста" />
-                    <ForEnterer icon_image="I" boldName="Вступ на 5-й курс" numberName="" />
-                    <ForEnterer icon_image="I" boldName="Офіційні документи" numberName="" />
+                    <ForEnterer source = "icon_certificate" boldName="Вступ на 1-й курс" numberName="за сертифікатами ЗНО" />
+                    <ForEnterer source = "icon_diploma" boldName="Вступ на 1-й курс" numberName="за дипломом молодшого спеціаліста" />
+                    <ForEnterer source = "icon_graduate_student" boldName="Вступ на 5-й курс" numberName="" />
+                    <ForEnterer source = "icon_scroll" boldName="Офіційні документи" numberName="" />
                 {/* entrant */}
                 </div>
             </div>
@@ -148,7 +151,7 @@ export default function Text(){
                     e_mailTitle = "E-mail:"
                     e_mail = "its@its.kpi.ua"
                 />
-                
+                <ReadMore readMore = "Зворотній зв'язок"/>
             </ContactsList>
             
         </div>

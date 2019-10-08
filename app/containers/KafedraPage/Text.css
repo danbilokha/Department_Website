@@ -149,6 +149,7 @@ iframe{
     width: 60%;
     position: relative;
     margin: 0 auto;
+    font-size: 14px;
 }
 
 .boldName{
@@ -156,6 +157,7 @@ iframe{
     position: relative;
     font-weight: bold;
     margin: 0 auto;
+    font-size: 20px;
 }
 
 .Drezden_article{
