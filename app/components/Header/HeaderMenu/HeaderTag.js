@@ -11,7 +11,7 @@ export default function Header(){
     <div className = 'header'>
       <img src = {its_48u}  className = "logo" />
         <div className = 'title'>
-          <HeaderLink  to="/">
+          <HeaderLink  to="/kafedra_ITM">
             <FormattedMessage id="boilerplate.components.Header.instituteName" />
           </HeaderLink>
         </div>

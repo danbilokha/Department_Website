@@ -4,6 +4,7 @@ import styled from 'styled-components';
 import { Switch, Route} from 'react-router-dom';
 import HomePage from 'containers/HomePage/Loadable';
 
+import KafedraPage from 'containers/KafedraPage/Loadable';
 import HistoryPage from 'containers/HistoryPage/Loadable';
 import TestPage from 'containers/TestPage/Loadable';
 import DonatorsPage from 'containers/DonatorsPage/Loadable';
@@ -35,6 +36,7 @@ export default function App() {
       <Switch>
         <Route exact path="/" component={HomePage} />
         <Route exact path="/TestPage" component={TestPage} />
+        <Route path="/kafedra_ITM" component ={KafedraPage}/>
         <Route path="/kafedra" component ={HistoryPage}/>
         <Route path="/donators" component={DonatorsPage}/>
         <Route path="" component={NotFoundPage} />
