@@ -131,7 +131,6 @@
     "file-loader": "3.0.1",
     "html-loader": "0.5.5",
     "html-webpack-plugin": "3.2.0",
-    "husky": "^3.0.8",
     "image-webpack-loader": "4.6.0",
     "imports-loader": "0.8.0",
     "jest-cli": "24.7.1",
@@ -164,14 +163,5 @@
     "webpack-hot-middleware": "2.24.3",
     "webpack-pwa-manifest": "4.0.0",
     "whatwg-fetch": "3.0.0"
-  },
-  "bugs": {
-    "url": "https://github.com/react-boilerplate/react-boilerplate/issues"
-  },
-  "homepage": "https://github.com/react-boilerplate/react-boilerplate#readme",
-  "main": ".eslintrc.js",
-  "directories": {
-    "doc": "docs"
-  },
-  "keywords": []
+  }
 }
