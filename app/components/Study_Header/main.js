@@ -6,19 +6,19 @@ export default class Headlines extends React.Component {
     super(props);
     this.state = {
       one: `Звіти практики`,
-      two: `Преддипломна практика 4-й курс`,
-      three: `Преддипломна практика 6-йкурс`,
+      two: `Переддипломна практика 4-й курс`,
+      three: `Переддипломна практика 6-й курс`,
     };
   }
 
   render() {
     return (
       <div>
-        <ol>
+        <ul id="headlines">
           <li>{this.state.one}</li>
           <li>{this.state.two}</li>
           <li>{this.state.three}</li>
-        </ol>
+        </ul>
       </div>
     );
   }

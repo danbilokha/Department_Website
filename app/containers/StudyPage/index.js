@@ -1,9 +1,11 @@
 import React from 'react';
 import './index.css';
-import HelloComponent from './Text';
-import Headlines from '../../components/Header_study/main';
+import Headlines from '../../components/Study_Header/main';
 
 export default function StudyPage() {
-  return <HelloComponent />;
-  <Headlines />;
+  return (
+    <div>
+      <Headlines />
+    </div>
+  );
 }
