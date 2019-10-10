@@ -15,9 +15,15 @@ export default class Headlines extends React.Component {
     return (
       <div>
         <ul id="headlines">
-          <li>{this.state.one}</li>
-          <li>{this.state.two}</li>
-          <li>{this.state.three}</li>
+          <li>
+            <a href="">{this.state.one}</a>
+          </li>
+          <li>
+            <a href="">{this.state.two}</a>
+          </li>
+          <li>
+            <a href="">{this.state.three}</a>
+          </li>
         </ul>
       </div>
     );

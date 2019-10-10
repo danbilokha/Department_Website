@@ -1,5 +1,6 @@
 import React from 'react';
 import './index.css';
+import XML from './XML.png';
 
 export default class Process extends React.Component {
   constructor(props) {
@@ -13,27 +14,63 @@ export default class Process extends React.Component {
         <h1>Навчальний процес</h1>
         <p>Навчальні плани</p>
         <table>
-          <tr>
+          <tr name="head_table">
+            <th>Тип</th>
+            <th>Nazva</th>
+            <th>Zmineno</th>
+            <th>Kym zmineno</th>
+          </tr>
+
+          <tr name="first">
             <td>
-              <img
-                src="https://github.com/PashaKarlin/Department_Website/blob/studypage/app/components/Study_process/noun_XML_761101.png"
-                alt=""
-              />
+              <img src={XML} alt="XML" />
+            </td>
+            <td>
+              <a href="">НП_бакалаври__2016_2015_ІТС</a>
             </td>
             <td />
             <td />
-            <td />
           </tr>
-          <tr>
-            <td /> <td /> <td /> <td />
+
+          <tr name="second">
+            <td>
+              <img src={XML} alt="XML" />
+            </td>
+            <td>
+              <a href="">НП_бакалаври__2016_2015_ІТС</a>
+            </td>
+            <td /> <td />
           </tr>
-          <tr>
-            <td /> <td /> <td /> <td />
+
+          <tr name="third">
+            <td>
+              <img src={XML} alt="XML" />
+            </td>
+            <td>
+              <a href="">НП_бакалаври__2016_2015_ІТС</a>
+            </td>
+            <td /> <td />
           </tr>
-          <tr>
-            <td /> <td /> <td /> <td />
+
+          <tr name="fourth">
+            <td>
+              <img src={XML} alt="XML" />
+            </td>
+            <td>
+              <a href="">НП_бакалаври__2016_2015_ІТС</a>
+            </td>
+            <td /> <td />
           </tr>
-          <tr />
+
+          <tr name="fifth">
+            <td>
+              <img src={XML} alt="XML" />
+            </td>
+            <td>
+              <a href="">НП_млад.специалист_2017_ІТС_ІТМ-ПЕРЕХОДНОЙ_2018</a>
+            </td>
+            <td /> <td />
+          </tr>
         </table>
       </div>
     );
