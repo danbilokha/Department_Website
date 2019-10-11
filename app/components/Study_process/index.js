@@ -9,16 +9,33 @@ export default class Process extends React.Component {
   }
 
   render() {
+    const thFirstWidth = {
+      width: '10%',
+    };
+
+    /*    let inputStyle = {
+      border: '1px solid black'
+    }; */
+
+    const thSecondWidth = {
+      width: '70%',
+    };
+
+    const thThirdWidth = {
+      width: '10%',
+    };
+    /*Дорешать вопрос с шириной таблицы, возможно сделать max-width OR display-flex*/
+
     return (
       <div id="proc">
         <h1>Навчальний процес</h1>
         <p>Навчальні плани</p>
-        <table>
+        <table id="study_practice">
           <tr name="head_table">
-            <th>Тип</th>
-            <th>Nazva</th>
-            <th>Zmineno</th>
-            <th>Kym zmineno</th>
+            <th style={thFirstWidth}>Тип</th>
+            <th style={thSecondWidth}>Назва</th>
+            <th style={thThirdWidth}>Змінено</th>
+            <th style={thThirdWidth}>Ким змінено</th>
           </tr>
 
           <tr name="first">
