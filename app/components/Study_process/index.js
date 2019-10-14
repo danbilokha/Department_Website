@@ -24,7 +24,7 @@ export default class Process extends React.Component {
     const thThirdWidth = {
       width: '10%',
     };
-    /*Дорешать вопрос с шириной таблицы, возможно сделать max-width OR display-flex*/
+    /* Дорешать вопрос с шириной таблицы, возможно сделать max-width OR display-flex */
 
     return (
       <div id="proc">
