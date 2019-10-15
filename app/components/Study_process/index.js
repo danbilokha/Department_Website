@@ -10,7 +10,7 @@ export default class Process extends React.Component {
 
   render() {
     const thFirstWidth = {
-      width: '10%',
+      width: '4%',
     };
 
     /*    let inputStyle = {
@@ -18,11 +18,11 @@ export default class Process extends React.Component {
     }; */
 
     const thSecondWidth = {
-      width: '70%',
+      width: '40%',
     };
 
     const thThirdWidth = {
-      width: '10%',
+      width: '15%',
     };
     /* Дорешать вопрос с шириной таблицы, возможно сделать max-width OR display-flex */
 
@@ -45,8 +45,8 @@ export default class Process extends React.Component {
             <td>
               <a href="">НП_бакалаври__2016_2015_ІТС</a>
             </td>
-            <td />
-            <td />
+            <td className="pr_change">06.02.2019 12:57</td>
+            <td className="pr_change">Биков П.І.</td>
           </tr>
 
           <tr name="second">
@@ -56,7 +56,8 @@ export default class Process extends React.Component {
             <td>
               <a href="">НП_бакалаври__2016_2015_ІТС</a>
             </td>
-            <td /> <td />
+            <td className="pr_change">06.02.2019 12:57</td>
+            <td className="pr_change">Биков П.І.</td>
           </tr>
 
           <tr name="third">
@@ -66,7 +67,8 @@ export default class Process extends React.Component {
             <td>
               <a href="">НП_бакалаври__2016_2015_ІТС</a>
             </td>
-            <td /> <td />
+            <td className="pr_change">06.02.2019 12:57</td>
+            <td className="pr_change">Биков П.І.</td>
           </tr>
 
           <tr name="fourth">
@@ -76,7 +78,8 @@ export default class Process extends React.Component {
             <td>
               <a href="">НП_бакалаври__2016_2015_ІТС</a>
             </td>
-            <td /> <td />
+            <td className="pr_change">06.02.2019 12:57</td>
+            <td className="pr_change">Биков П.І.</td>
           </tr>
 
           <tr name="fifth">
@@ -86,7 +89,8 @@ export default class Process extends React.Component {
             <td>
               <a href="">НП_млад.специалист_2017_ІТС_ІТМ-ПЕРЕХОДНОЙ_2018</a>
             </td>
-            <td /> <td />
+            <td className="pr_change">06.02.2019 12:57</td>
+            <td className="pr_change">Биков П.І.</td>
           </tr>
         </table>
       </div>
