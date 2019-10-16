@@ -14,7 +14,7 @@ const scope = 'boilerplate.containers.Center.'
 
 export default function ToDoList(){
     return(
-        <ul>
+        <ul className = 'list'>
             {topics.map(topics => {
                 const CenterId = scope + topics.title;
                     return (<lo>
