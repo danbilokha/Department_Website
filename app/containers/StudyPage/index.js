@@ -11,6 +11,7 @@ export default function StudyPage() {
       <Process />
       <h2>Перелік предметів бакалаврів</h2>
       <SubjectBachelors />
+      <h3>Перелік предметів магістрів</h3>
     </div>
   );
 }
