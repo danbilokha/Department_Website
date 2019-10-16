@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-const about = [{title: 'Історія', link: '/'}, {title: 'Партнери', link: '/'}, {title: 'Контакти', link: '/'}, {title: 'Дошка пошани', link: '/donators'}, {title:  'Фотогалерея', link: '/'}];
+const about = [{title: 'Історія', link: '/'}, {title: 'Партнери', link: '/'}, {title: 'Контакти', link: '/'}, {title: 'Дошка пошани', link: '/'}, {title:  'Фотогалерея', link: '/'}];
 const entrance = [{title: 'Бакалаврат', link: '/'}, {title: 'Магіcтратура', link: '/'}, {title: 'Аcпірантура', link: '/'}, {title: 'Документи', link: '/'}, {title: 'Контакти відбркової комісії інституту', link: '/'}, {title: 'Гуртожитки', link: '/'}];
 const departments = [{title: 'Кафедра ТК', link: '/'}, {title: 'Кафедра ТС', link: '/'}, {title: 'Кафедра ІТМ', link: '/'}];
 const scientificWork = [{title: 'Науково-технічні розробки', link: '/'}, {title: 'Наші видання', link: '/'}, {title: 'Підготовка наукових кадрів', link: '/'}, {title: 'Участь студентів у НДР', link: '/'}, {title: 'Участь у конференціях', link: '/'}, {title: 'Магістерські роботи', link: '/'}, {title: 'Захищені дисертації', link: '/'}, {title: 'Про НДЦ МД', link: '/'}];

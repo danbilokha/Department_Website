@@ -9,6 +9,7 @@ import ForEnterer from '../../components/ForEntrant/index';
 import Slider from '../../components/Slider';
 import News from '../../components/News/index';
 import '../../components/News/index.css';
+
 import Contacts from '../../components/Contacts';
 import ContactsList from '../../components/ContactsList';
 
@@ -20,11 +21,13 @@ export default function Text(){
     return(
         <div className = 'text'>
             <div>
+
                 <p>Спеціальність:</p>
                 <h2>172 Телекомунікації та радіотехніка</h2>
             </div>
             <div>
                 <p>Кафедра</p>
+
                 <h1>Інформаційно-телекомунікаційних мереж</h1>
             </div>
             <div className = "Qualification">
@@ -82,6 +85,7 @@ export default function Text(){
             <div className = "Information_for_Students">
                 <h1>Інформація для студентів</h1>
                 <div className = "Block">
+
                     <ForEnterer source = "icon_certificate" boldName="Вступ на 1-й курс" numberName="за сертифікатами ЗНО" />
                     <ForEnterer source = "icon_diploma" boldName="Вступ на 1-й курс" numberName="за дипломом молодшого спеціаліста" />
                     <ForEnterer source = "icon_graduate_student" boldName="Вступ на 5-й курс" numberName="" />
@@ -155,5 +159,6 @@ export default function Text(){
             </ContactsList>
             
         </div>
+
     );
 }

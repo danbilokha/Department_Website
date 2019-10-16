@@ -3,7 +3,6 @@
     text-align: justify;
 }
 
-
 /*------------------------------------My script------------------------*/
 h1{
     font-size: 50px;
@@ -80,7 +79,6 @@ iframe{
     margin-right: 20px;
 }
 
-
 .container_News{
     display: flex;
     justify-content: space-between;
@@ -108,6 +106,7 @@ iframe{
     padding-right: 20px;
 }
 
+
 /*---------------------------Slider----------------------------------------------*/
 
 .container_information_slider{
@@ -122,10 +121,12 @@ iframe{
     margin-top: 0;
 }
 
+
 .container_Slider{
     display: flex;
     flex-direction: row;
 }
+
 
 .conteiner_image_for_slider{
     max-width: 100%;
@@ -150,6 +151,7 @@ iframe{
     position: relative;
     margin: 0 auto;
     font-size: 14px;
+
 }
 
 .boldName{
@@ -157,7 +159,9 @@ iframe{
     position: relative;
     font-weight: bold;
     margin: 0 auto;
+
     font-size: 20px;
+
 }
 
 .Drezden_article{
@@ -182,7 +186,9 @@ iframe{
 .readMore{
     font-family: Roboto;
     font-style: normal;
+
     font-weight: bold;font-size: 50px;
+
     font-size: 20px;
     margin: 22.5px auto;
     text-align: center;
