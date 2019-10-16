@@ -3,6 +3,7 @@
     display: grid;
     grid-template-columns: 4fr 1.25fr;
     padding-top: 4em;
+    margin-bottom:0;
 }
 
 .Lists{

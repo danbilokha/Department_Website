@@ -31,7 +31,7 @@ import { changeUsername } from './actions';
 import { makeSelectUsername } from './selectors';
 import reducer from './reducer';
 import saga from './saga';
-// import './index.css'
+import './index.css'
 import Centermenu from '../../components/Center';
 
 const key = 'home';
