@@ -1,10 +1,10 @@
 .text{
     margin:0 18.2% 0 20%;
     text-align: justify;
-    /* display: flex; */
-    /* text-align: left; */
 }
-
+p{
+    font-size: 16px;
+}
 .textunderphoto{
      text-align: center;
 }
@@ -41,14 +41,11 @@ h2{
 }   
 .lastblock{
     display: flex;
-    
+    padding-bottom: 5px;
 }
-p span{
-    display: block;
-    text-align: left top;
-    /* margin-left: 2%; */
-    font-size: 18px;    
-}   
-.diplom{
-    margin-top:20px;
+.image2{
+    width:22%;
+    height: auto; 
+    float:left;
+    margin-right:23px;
 }

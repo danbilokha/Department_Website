@@ -1,11 +1,11 @@
 import React from 'react';
 import { FormattedMessage } from 'react-intl';
-import './index.css'
+import './index.css';
 
 export default function TextTeacher(){
     return(
         <div className='teachers'>
-            <p >
+            <p>
                 <span>
                     <FormattedMessage id = 'boilerplate.containers.Text.teachers1'/>
                 </span>

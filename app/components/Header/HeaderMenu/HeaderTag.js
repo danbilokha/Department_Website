@@ -9,13 +9,16 @@ import its_48u from '../images/its_48u.png';
 export default function Header(){
   return(
     <div className = 'header'>
-      <img src = {its_48u}  className = "logo" />
+      <img src = {its_48u}  className = "logo"/>
         <div className = 'title'>
-          <HeaderLink  to="/">
+          <HeaderLink  to="/kafedra_ITM">
             <FormattedMessage id="boilerplate.components.Header.instituteName" />
           </HeaderLink>
         </div>
         <div className = 'links'>
+          <HeaderLink to="/study">
+            <FormattedMessage id="boilerplate.components.Header.studing" />
+          </HeaderLink>
           <HeaderLink to='/'>
             <FormattedMessage id="boilerplate.components.Header.univercity" />
           </HeaderLink >

@@ -7,14 +7,8 @@ import image4 from './images/image 6.png';
 import image5 from './images/image 7.png';
 import image6 from './images/image 8.png';
 import image7 from './images/image 9.png';
-import image8 from './images/image 10.png';
-import image9 from './images/image 11.png';
-import image10 from './images/image 12.png';
-import Img from '../../components/Img/index';
-import Img_text from '../../components/Img_Text';
-import Img_text_2 from '../../components/Img_Text_2';
-import TextTeacher from '../../components/TextTeacher/index';
 
+import Img from '../../components/Img/index';
 export default function Text(){
     return(
         <div className = 'text'>
@@ -47,35 +41,13 @@ export default function Text(){
                 Студенти кафедри в 2007-2008 навчальному
                 році вибороли звання найкращої групи ІТС
             </p>
-            <h3>
-                Студенти кафедри ставали студентами року ІТС:
-            </h3>  
-            <div className = 'images'>
-                <Img_text image={image4} text = "boilerplate.containers.ImgText.paragraph1"/>
-                <Img_text image={image5} text = "boilerplate.containers.ImgText.paragraph2"/>
-                <Img_text image={image6} text = "boilerplate.containers.ImgText.paragraph3"/>
-                <Img_text image={image7} text = "boilerplate.containers.ImgText.paragraph4"/>
-            </div>
-            <h3>
-                Студенти кафедри у 2012 році були удостоєні ректорської стипендії:
-            </h3>
-            <div className = 'images2'> 
-                <div className='image8'>
-                    <Img_text_2 image={image8} text = "boilerplate.containers.ImgText.paragraph5" />
-                </div>
-                <div>
-                    <Img_text_2 image={image9} text = "boilerplate.containers.ImgText.paragraph6"/>
-                </div>
-            </div>
-            <h3 className = 'title3'>
-            Наші викладачі неодноразово отримували звання <br/> викладача-дослідника та молодого викладача – дослідника:
-            </h3>
-            <div className = 'lastblock'>
-                <img src = {image10} className="diplom"/>
-                <div>
-                    <TextTeacher/> 
-                </div>
-            </div>
+            <h2>
+            Студенти кафедри ставали студентами року ІТС:
+            </h2>
+            <Img src={image4}  className = 'image2'/>
+            <Img src={image5}  className = 'image2'/>
+            <Img src={image6}  className = 'image2'/>
+            <Img src={image7}  className = 'image2'/>
         </div>
     );
 }

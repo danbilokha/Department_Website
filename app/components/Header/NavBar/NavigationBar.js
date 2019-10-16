@@ -11,13 +11,13 @@ export default function Navbar(){
             <NavBarLink to="/">
               <FormattedMessage id="boilerplate.components.Header.about" />
             </NavBarLink>
-            <NavBarLink to="/">
+            <NavBarLink to="/Test">
               <FormattedMessage id="boilerplate.components.Header.entrance" />
             </NavBarLink>
-            <NavBarLink to="/kafedra">
+            <NavBarLink to="/history">
               <FormattedMessage id="boilerplate.components.Header.departments" />
             </NavBarLink>
-            <NavBarLink to="/">
+            <NavBarLink to="/kafedra">
               <FormattedMessage id="boilerplate.components.Header.studing" />
             </NavBarLink>
             <NavBarLink to="/">
