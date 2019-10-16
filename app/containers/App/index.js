@@ -5,7 +5,9 @@ import { Switch, Route } from 'react-router-dom';
 
 import KafedraPage from 'containers/KafedraPage/Loadable';
 import HistoryPage from 'containers/HistoryPage/Loadable';
-import KafedraPage from 'containers/KafedraPage/Loadable';
+import HomePage from 'containers/HomePage/Loadable';
+import DonatorsPage from 'containers/DonatorsPage/Loadable';
+
 import StudyPage from 'containers/StudyPage/Loadable';
 import NotFoundPage from 'containers/NotFoundPage/Loadable';
 
@@ -28,7 +30,6 @@ export default function App() {
       <Header />
       <Switch>
         <Route exact path="/" component={HomePage} />
-        <Route exact path="/TestPage" component={TestPage} />
         <Route path="/kafedra_ITM" component ={KafedraPage}/>
         <Route path="/kafedra" component ={HistoryPage}/>
         <Route path="/donators" component={DonatorsPage}/>
