@@ -25,7 +25,7 @@ export default function Text(){
                 Історія кафедри ІТМ
             </h2>
             <div>   
-                <div className = 'imageone'>
+                <div>
                     <Img src = {image} className = 'image1'/>
                 </div>
                 В НТУУ “КПІ” напрям підготовки “Телекомунікації” був затверджений після створення в 2002р.
@@ -39,9 +39,10 @@ export default function Text(){
                 сьогодні працюють в провідних компаніях та організаціях інформаційно-телекомунікаційного профілю інженерами електрозв'язку, інженерами з експлуатації обладнання електрозв'язку, 
                 інженерами з керування й обслуговування систем, інженерами-дослідниками, інженерами з організації виробничих процесів електрозв'язку, системними адміністраторами мереж електрозв'язку і тощо. 
             </div>
-            <div className = 'images'>
-                <Img src = {image2} className = 'image1'/>
-                <Img src = {image3} className = 'image1'/></div>
+            <div className='images'>
+                <Img src = {image2} className = 'image2'/>
+                <Img src = {image3} className = 'image2'/>
+            </div>
             <p className = 'textunderphoto'>
                 Студенти кафедри в 2007-2008 навчальному
                 році вибороли звання найкращої групи ІТС

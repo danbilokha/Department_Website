@@ -59,7 +59,7 @@ export function HomePage({
   };
 
   return (
-    <article >
+    <article>
       <Centermenu/>
       <Helmet>
         <title>Project</title>

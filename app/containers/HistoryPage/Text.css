@@ -11,15 +11,24 @@
 
 .image1{
     float: left;
-    width: 49%;
+    max-width: 49%;
     height: auto;
     margin-right: 7px;
-    display: flex;
+    display: block;
+    justify-content: space-between;
+}
+.image2{
+    float: left;
+    max-width: 49.5%;
+    height: auto;
+    margin-right: 7px;
+    display: block;
     justify-content: space-between;
 }
 .images{
     display: flex;
     justify-content: space-between;
+    
 }
 h1{
     text-align: left;
