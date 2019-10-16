@@ -10,7 +10,7 @@ export default class Process extends React.Component {
 
   render() {
     const thFirstWidth = {
-      width: '4%',
+      width: '2%',
     };
 
     /*    let inputStyle = {
@@ -18,11 +18,11 @@ export default class Process extends React.Component {
     }; */
 
     const thSecondWidth = {
-      width: '40%',
+      width: '25%',
     };
 
     const thThirdWidth = {
-      width: '15%',
+      width: '10%',
     };
     /* Дорешать вопрос с шириной таблицы, возможно сделать max-width OR display-flex */
 
