@@ -3,8 +3,7 @@ import { Helmet } from 'react-helmet';
 import styled from 'styled-components';
 import { Switch, Route } from 'react-router-dom';
 
-import HomePage from 'containers/HomePage/Loadable';
-import FeaturePage from 'containers/FeaturePage/Loadable';
+import KafedraPage from 'containers/KafedraPage/Loadable';
 import HistoryPage from 'containers/HistoryPage/Loadable';
 import KafedraPage from 'containers/KafedraPage/Loadable';
 import StudyPage from 'containers/StudyPage/Loadable';
@@ -29,10 +28,11 @@ export default function App() {
       <Header />
       <Switch>
         <Route exact path="/" component={HomePage} />
-        <Route path="/study" component={StudyPage} />
-        <Route path="/kafedra" component={KafedraPage} />
-        <Route path="/history" component={HistoryPage} />
-        <Route path="/features" component={FeaturePage} />
+        <Route exact path="/TestPage" component={TestPage} />
+        <Route path="/kafedra_ITM" component ={KafedraPage}/>
+        <Route path="/kafedra" component ={HistoryPage}/>
+        <Route path="/donators" component={DonatorsPage}/>
+
         <Route path="" component={NotFoundPage} />
       </Switch>
       <Footer />
