@@ -31,7 +31,7 @@ export default function App() {
       <Switch>
         <Route exact path="/" component={HomePage} />
         <Route path="/kafedra_ITM" component ={KafedraPage}/>
-        <Route path="/kafedra" component ={HistoryPage}/>
+        <Route path="/history" component ={HistoryPage}/>
         <Route path="/donators" component={DonatorsPage}/>
 
         <Route path="" component={NotFoundPage} />
