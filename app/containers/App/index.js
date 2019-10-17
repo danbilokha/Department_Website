@@ -33,7 +33,7 @@ export default function App() {
         <Route path="/kafedra_ITM" component ={KafedraPage}/>
         <Route path="/history" component ={HistoryPage}/>
         <Route path="/donators" component={DonatorsPage}/>
-
+        <Route path="/study" component={StudyPage}/>
         <Route path="" component={NotFoundPage} />
       </Switch>
       <Footer />
