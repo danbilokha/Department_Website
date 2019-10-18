@@ -8,16 +8,16 @@ export default class SubjectBachelors extends React.Component {
   }
 
   render() {
-    return(
-    <div>
-       <dl>
-        <dt>З</dt>
-            <dd><a href="">Завадостійке кодування в телекомунікаціних технологіях</a></dd>
-        
-        <dt>M</dt>
+    return (
+      <div>
+        <dl>
+          <dt>З</dt>
+          <dd><a href="">Завадостійке кодування в телекомунікаціних технологіях</a></dd>
+          </dd>
 
-       </dl>
-        </div>
+          <dt>M</dt>
+        </dl>
+      </div>
     );
   }
 }
