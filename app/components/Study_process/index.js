@@ -18,7 +18,7 @@ export default class Process extends React.Component {
     }; */
 
     const thSecondWidth = {
-      width: '25%',
+      width: '40%',
     };
 
     const thThirdWidth = {
