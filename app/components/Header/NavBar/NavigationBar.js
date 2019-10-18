@@ -23,7 +23,7 @@ export default function Navbar(){
             <NavBarLink to="/study">
               <FormattedMessage id="boilerplate.components.Header.scientificWork" />
             </NavBarLink>
-            <NavBarLink to="/">
+            <NavBarLink to="/teachers">
               <FormattedMessage id="boilerplate.components.Header.deansOffice" />
             </NavBarLink>
             <NavBarLink to="/">
