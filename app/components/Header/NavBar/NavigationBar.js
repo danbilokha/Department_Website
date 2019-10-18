@@ -20,7 +20,7 @@ export default function Navbar(){
             <NavBarLink to="/kafedra_ITM">
               <FormattedMessage id="boilerplate.components.Header.studing" />
             </NavBarLink>
-            <NavBarLink to="/study">
+            <NavBarLink to="/">
               <FormattedMessage id="boilerplate.components.Header.scientificWork" />
             </NavBarLink>
             <NavBarLink to="/teachers">
