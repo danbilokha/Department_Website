@@ -13,8 +13,7 @@ export default class SubjectBachelors extends React.Component {
         <dl>
           <dt>З</dt>
           <dd><a href="">Завадостійке кодування в телекомунікаціних технологіях</a></dd>
-          </dd>
-
+        
           <dt>M</dt>
         </dl>
       </div>
