@@ -3,10 +3,12 @@ import './Text.css';
 import BlockList from '../../components/BlockList/index';
 import LearningForm from '../../components/LearningForm/index';
 import Information from '../../components/InformationBox/index';
-import InformationSlider from '../../components/InformationBoxSlider/index';
+import InformationSlider from '../../components/Diploma/index';
 import ForEnterer from '../../components/ForEntrant/index';
 
-import Slider from '../../components/Slider';
+import image1 from './images/TUD.jpg';
+import Img from '../../components/Img/index';
+
 import News from '../../components/News/index';
 import '../../components/News/index.css';
 
@@ -95,12 +97,12 @@ export default function Text(){
             </div>
             <a href="#">Поширені запитання (FAQ)</a>
             <div className="container_Slider">
-                <Slider/>
-                <InformationSlider 
-                    mainHeader ="Подвійний диплом" 
-                    header="Єдина магістерська програма" 
-                    content = "У рамках Європейської програми магістратури Distributed Systems Engineering, Інститут телекомунікаційних систем Національного технічного університету України «Київський політехнічний інститут» (НТУУ «КПІ») та факультет Інформатики Технічного університету м. Дрездена (ТУД) пропонують єдину міжнародну програму «Інженерія розподілених систем»."
-                />
+                <div className = "image_diploma">
+                    <Img src={image1}  className = 'image1'/>
+                </div>
+                <h1>Подвійний диплом</h1>
+                <h2>Єдина магістерська програма</h2>
+                <p>У рамках Європейської програми магістратури Distributed Systems Engineering, Інститут телекомунікаційних систем Національного технічного університету України «Київський політехнічний інститут» (НТУУ «КПІ») та факультет Інформатики Технічного університету м. Дрездена (ТУД) пропонують єдину міжнародну програму «Інженерія розподілених систем».</p>
             </div>
             <h1>Новини</h1>
             <div className = "container_News">
