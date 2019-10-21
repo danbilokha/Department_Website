@@ -84,14 +84,8 @@ export default function Text(){
             </div>
             <div className = "Information_for_Students">
                 <h1>Інформація для студентів</h1>
-                <div className = "Block">
-
-                    <ForEnterer source = "icon_certificate" boldName="Вступ на 1-й курс" numberName="за сертифікатами ЗНО" />
-                    <ForEnterer source = "icon_diploma" boldName="Вступ на 1-й курс" numberName="за дипломом молодшого спеціаліста" />
-                    <ForEnterer source = "icon_graduate_student" boldName="Вступ на 5-й курс" numberName="" />
-                    <ForEnterer source = "icon_scroll" boldName="Офіційні документи" numberName="" />
-                {/* entrant */}
-                </div>
+                    <ForEnterer/>
+                {/* entrant */}   
             </div>
             <div className = "contacts_inf">
                 {/* Чи можна використовувати ForwardMessage длclassName = "Drezden_article" номера телефону та пошти*/}
