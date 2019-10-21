@@ -1,5 +1,5 @@
 .text{
-    margin:0 10% 0 7%;
+    margin:0 18.2% 0 20%;
     text-align: justify;
 }
 
@@ -36,7 +36,7 @@ iframe{
 }
 
 .Text_Information{
-    margin-bottom: 195px;
+    
 }
 
 .Information_for_Students{
@@ -52,14 +52,14 @@ iframe{
 
 .container_item {
     background: #FEFDFF;
-    height: 234px;
-    width: 290px;
+    height: 150px;
+    width: 240px;
     color: black;
     display: flex;
     justify-content: center;
     flex-direction: column;
     margin-right: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     border: 1px solid #A0D0E3;
     box-sizing: border-box;
     border-radius: 10px;
@@ -67,8 +67,8 @@ iframe{
 
 .container_item_form {
     background: #FEFDFF;
-    height: 107px;
-    width: 290px;
+    height: 95px;
+    width: 240px;
     color: black;
     display: flex;
     justify-content: center;
@@ -77,6 +77,7 @@ iframe{
     box-sizing: border-box;
     border-radius: 10px;
     margin-right: 20px;
+    margin-bottom: 5px;
 }
 
 .container_News{
@@ -125,6 +126,7 @@ iframe{
 .container_Slider{
     display: flex;
     flex-direction: row;
+    margin-top:50px;
 }
 
 
@@ -141,7 +143,7 @@ iframe{
     position: absolute;
     margin: auto auto;
     color: grey;
-    font-size: 160px;
+    font-size: 145px;
     font-weight: bold;
     
 }

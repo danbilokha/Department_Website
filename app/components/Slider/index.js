@@ -1,5 +1,5 @@
 import React from 'react';
-import image1 from '../../containers/KafedraPage/images/image1.png';
+import image1 from '../../containers/KafedraPage/images/TUD.jpg';
 import Img from '../../components/Img/index';
 
 function Slider(props) {
