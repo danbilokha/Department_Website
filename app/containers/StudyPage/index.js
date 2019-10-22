@@ -84,8 +84,6 @@ export default function StudyPage() {
 
         <PracticeFinal />
       </article>
-
-      
     </div>
   );
 }

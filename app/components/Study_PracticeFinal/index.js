@@ -23,11 +23,10 @@ export default class PracticeFinal extends React.Component {
 
     return (
       <table id="master_practice">
-         <tr name="head_table">
-            <th style={thFirstWidth}></th>
-            <th style={thSecondWidth}></th>
-          </tr>
-    
+        <tr name="head_table">
+          <th style={thFirstWidth} />
+          <th style={thSecondWidth} />
+        </tr>
 
         <tr name="first">
           <td>
@@ -39,21 +38,27 @@ export default class PracticeFinal extends React.Component {
         </tr>
 
         <tr name="second">
-          <td><img src={DOC} alt="XML" /></td>
+          <td>
+            <img src={DOC} alt="XML" />
+          </td>
           <td>
             <a href="">Робоча программа</a>
           </td>
         </tr>
 
         <tr name="third">
-          <td><img src={DOC} alt="XML" /></td>
+          <td>
+            <img src={DOC} alt="XML" />
+          </td>
           <td>
             <a href="">Договір на практику</a>
           </td>
         </tr>
 
         <tr name="fourth">
-          <td><img src={DOC} alt="XML" /></td>
+          <td>
+            <img src={DOC} alt="XML" />
+          </td>
           <td>
             <a href="">Опис практик</a>
           </td>
