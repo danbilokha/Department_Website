@@ -4,7 +4,8 @@
 }
 
 #master_practice th{
-    background-color: red;;
+    border-top: solid 2px blue;
+    padding-top: 2px;
 }
 
 #master_practice td{
@@ -13,3 +14,4 @@
     font-style: normal;
     font-weight:400;
 }
+
