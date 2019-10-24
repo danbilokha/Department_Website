@@ -9,6 +9,8 @@ import Table from '../../components/Table/index';
 import WordLink from '../../components/WordLink';
 import { Link } from 'react-router-dom';
 
+import image1 from './images/diagram.gif'
+
 export default function Text(){
     return(
         <div className = 'text'>
@@ -16,18 +18,18 @@ export default function Text(){
                 <h1>Вступ</h1>
                     <ForEntrant/>
             </div>
-            <h1>Спеціалізація «ІНФОРМАЦІЙНО-КОМУНІКАЦІЙНІ ТЕХНОЛОГІЇ»</h1>
-            <p>
-                <b>Спеціалізація <i>«Інформаційно-комунікаційні технології» </i></b>
-                 забезпечує фундаментальну теоретичну та прикладну практичну підготовку за загальною програмою 
-                 <b> галузі ​знань <i>«Електроніка та телекомунікації»</i></b>,  
-                 <b> спеціальності <i>«Телекомунікації та радіотехніка» </i></b>
-                  на трьох рівнях вищої освіти: бакалавр, магістр, доктор філософії.
-            </p>
+            
+            <hr/>
             <Link>
                 <h4>Положення про кафедру технічної кібернетики ФІОТ КПІ ім.Ігоря Сікорського</h4>
-            </Link>           
+            </Link>  
+            <hr/>
+            <h4>ФАХОВІ РІВНІ ПІДГОТОВКИ</h4> 
             <Table/>
+            <hr/>
+            <h4>НАПРЯМИ ПІДГОТОВКИ</h4>
+            <Img src={image1}  className = 'image1'/>
+            <hr/>
         </div>
     );
 }

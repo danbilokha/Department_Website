@@ -14,3 +14,21 @@
 h4 {
     text-align: center;
 }
+
+.image1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+hr{
+    width: 85%;
+}
+
+.table {
+    width: 95%;
+    border-collapse: collapse;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+}
