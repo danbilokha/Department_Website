@@ -43,7 +43,7 @@ export default class PracticeMaster extends React.Component {
           </td>
           <td>
             <a href="">Робоча программаOpis_zvitu_z_praktiki_Bielavin.pdf</a>
-            </td>
+          </td>
         </tr>
 
         <tr name="third">
