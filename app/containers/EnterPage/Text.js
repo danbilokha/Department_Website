@@ -13,7 +13,6 @@ export default function Text(){
             <div className = "Information_for_Students">
                 <h1>Інформація для студентів</h1>
                     <ForEntrant/>
-                {/* entrant */}   
             </div>
         </div>
     );
