@@ -19,7 +19,7 @@ import ContactsList from '../../components/ContactsList';
 import ReadMore from '../../components/ReadMore';
 
 import { FormattedMessage } from 'react-intl';
-import NavBarLink from '../../components/Header/NavBarLink';
+import WordLink from './WordLink';
 
 export default function Text(){
     return(
@@ -38,12 +38,12 @@ export default function Text(){
             </div>
             <div>
             <p>
-                <NavBarLink to="/history" className = "word_link">
+                <WordLink to="/history">
                     Кафедра
-                </NavBarLink>
-                <NavBarLink to="/enter" className = "word_link"> 
+                </WordLink>
+                <WordLink to="/enter"> 
                     Інформаційно-телекомунікаційних мереж
-                </NavBarLink>
+                </WordLink>
                  готує фахівців за спеціальністю Телекомунікації та радіотехніка та спеціалізацією Інформаційно-комунікаційні технології (ІКТ).
             </p>
             </div>
