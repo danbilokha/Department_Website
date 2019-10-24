@@ -7,6 +7,7 @@ import InformationSlider from '../../components/Diploma/index';
 import ForEnterer from '../../components/ForEntrant/index';
 
 import image1 from './images/TUD.jpg';
+import image2 from './images/Collective.jpg';
 import Img from '../../components/Img/index';
 
 import News from '../../components/News/index';
@@ -17,21 +18,36 @@ import ContactsList from '../../components/ContactsList';
 
 import ReadMore from '../../components/ReadMore';
 
-
+import { FormattedMessage } from 'react-intl';
+import NavBarLink from '../../components/Header/NavBarLink';
 
 export default function Text(){
     return(
         <div className = 'text'>
-            <div>
-
-                <p>Спеціальність:</p>
+            <div className = "header_box">
+                <h2>Спеціальність</h2>
                 <h2>172 Телекомунікації та радіотехніка</h2>
+                <h3>Спеціалізація: Інформаційно-комунікаційні технології</h3>
+            </div>
+            <hr/>
+            <div className = "presented_article">
+                <h2>Лідер в сфері інфокомунікацій<Img src={image2}  id = 'image2'/></h2>
+                <p>Науковий керівник кафедри - академік НАНУ, доктор технічних наук, заслужений діяч науки і техніки України, лауреат Державних премій СРСР, УРСР та України в галузі науки і техніки Ільченко Михайло Юхимович.
+Виконуючий обов'язки завідувача кафедри - доцент, кандидат технічних наук, Явіся Валерій Сергійович.
+Вчений секретар кафедри - старший викладач Петрова Валентина Миколаївна.</p>
             </div>
             <div>
-                <p>Кафедра</p>
-
-                <h1>Інформаційно-телекомунікаційних мереж</h1>
+            <p>
+                <NavBarLink to="/history" className = "word_link">
+                    Кафедра
+                </NavBarLink>
+                <NavBarLink to="/enter" className = "word_link"> 
+                    Інформаційно-телекомунікаційних мереж
+                </NavBarLink>
+                 готує фахівців за спеціальністю Телекомунікації та радіотехніка та спеціалізацією Інформаційно-комунікаційні технології (ІКТ).
+            </p>
             </div>
+            
             <div className = "Qualification">
                 <div>
                     <h1>Опис професії</h1>

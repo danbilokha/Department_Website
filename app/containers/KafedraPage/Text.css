@@ -1,5 +1,5 @@
 .text{
-    margin:0 18.2% 0 20%;
+    margin:0 20.2% 0 15%;
     text-align: justify;
 }
 
@@ -16,6 +16,28 @@ h2{
 
 p{
     font-size: 18px;
+}
+
+.word_link{
+    margin-left: 0px;
+}
+
+.header_box{
+    text-align:left ;
+    width: 65%;
+    
+}
+
+#image2{
+    float:right;
+    max-width: 100%;
+    width: 40%;
+    margin-left: 15px;
+}
+
+.presented_article{
+    padding: 5px 5px;
+    max-width: 100%;
 }
 
 iframe{
