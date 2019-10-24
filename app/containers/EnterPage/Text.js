@@ -6,10 +6,8 @@ import Img from '../../components/Img/index';
 import ForEntrant from '../../components/ForEntrant/index'
 import { FormattedMessage } from 'react-intl';
 import Table from '../../components/Table/index';
-import TableBody from '../../components/Table/TableBody';
-import TableCell from '../../components/Table/TableCell';
-import TableColumns from '../../components/Table/TableColumns';
-
+import WordLink from '../../components/WordLink';
+import { Link } from 'react-router-dom';
 
 export default function Text(){
     return(
@@ -26,30 +24,10 @@ export default function Text(){
                  <b> спеціальності <i>«Телекомунікації та радіотехніка» </i></b>
                   на трьох рівнях вищої освіти: бакалавр, магістр, доктор філософії.
             </p>
-            <Table>
-                <TableBody>
-                    <TableCell>
-                        <TableColumns>
-                            
-                        </TableColumns>
-                        <TableColumns>
-                            
-                        </TableColumns>
-                        <TableColumns>
-                            
-                        </TableColumns>
-                        <TableColumns>
-                            
-                        </TableColumns>
-                        <TableColumns>
-                            
-                        </TableColumns>
-                        <TableColumns>
-                            
-                        </TableColumns>
-                    </TableCell>
-                </TableBody>
-            </Table>
+            <Link>
+                <h4>Положення про кафедру технічної кібернетики ФІОТ КПІ ім.Ігоря Сікорського</h4>
+            </Link>           
+            <Table/>
         </div>
     );
 }

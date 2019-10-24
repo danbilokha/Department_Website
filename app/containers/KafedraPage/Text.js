@@ -18,7 +18,7 @@ import ContactsList from '../../components/ContactsList';
 import ReadMore from '../../components/ReadMore';
 
 import { FormattedMessage } from 'react-intl';
-import WordLink from './WordLink';
+import WordLink from '../../components/WordLink';
 
 export default function Text(){
     return(
