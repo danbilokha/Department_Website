@@ -13,7 +13,7 @@ export default styled(Link)`
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 16px;
   color: #040638;  
   margin-right: 5px;
