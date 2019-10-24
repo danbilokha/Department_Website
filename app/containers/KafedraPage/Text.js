@@ -4,7 +4,6 @@ import BlockList from '../../components/BlockList/index';
 import LearningForm from '../../components/LearningForm/index';
 import Information from '../../components/InformationBox/index';
 import InformationSlider from '../../components/Diploma/index';
-import ForEnterer from '../../components/ForEntrant/index';
 
 import image1 from './images/TUD.jpg';
 import image2 from './images/Collective.jpg';
@@ -99,11 +98,6 @@ export default function Text(){
                         ВАТ Укртелеком, ТОВ “Голден Телеком”, ЗАТ ”ДАТАГРУП”, ЗАТ “Київстар Дж.Ес.Ем.”, ЗАТ “Український Мобільний Зв’язок”, ТОВ “Глобал Телеком”, ВАТ “Бамкомзв’язок”, АТ Банк “ТАВРИКА”, Huawei Technologies Co., LTD., “ІНВЕКС Телеком” т.і. 
                         "/> 
                 </div>
-            </div>
-            <div className = "Information_for_Students">
-                <h1>Інформація для студентів</h1>
-                    <ForEnterer/>
-                {/* entrant */}   
             </div>
             <div className = "contacts_inf">
                 {/* Чи можна використовувати ForwardMessage длclassName = "Drezden_article" номера телефону та пошти*/}

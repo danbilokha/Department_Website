@@ -9,38 +9,38 @@ import icon_graduate_student from '../../containers/KafedraPage/images/icon_grad
 import icon_scroll from '../../containers/KafedraPage/images/icon_scroll.png';
 
 
-function ForEnterer(props) {
+function ForEntrant(props) {
     return (
     <div className = "Block">
       <div className = "container_item_forEnterer">
           <div>
             <Img src={icon_certificate}  className = 'icon_ForEnterer'/>
           </div>
-          <p className = "boldName">Вступ на 1-й курс</p>
-          <p className = "numberName">за сертифікатами ЗНО</p>
+          <p className = "boldName_ForEnterer">Вступ на 1-й курс</p>
+          <p className = "numberName_ForEnterer">за сертифікатами ЗНО</p>
       </div>
       <div className = "container_item_forEnterer">
           <div>
             <Img src={icon_diploma}  className = 'icon_ForEnterer'/>
           </div>
-          <p className = "boldName">Вступ на 1-й курс</p>
-          <p className = "numberName">"за дипломом молодшого спеціаліста</p>
+          <p className = "boldName_ForEnterer">Вступ на 1-й курс</p>
+          <p className = "numberName_ForEnterer">"за дипломом молодшого спеціаліста</p>
       </div>
       <div className = "container_item_forEnterer">
           <div>
             <Img src={icon_graduate_student}  className = 'icon_ForEnterer'/>
           </div>
-          <p className = "boldName">Вступ на 5-й курс</p>
-          <p className = "numberName"></p>
+          <p className = "boldName_ForEnterer">Вступ на 5-й курс</p>
+          <p className = "numberName_ForEnterer"></p>
       </div>
       <div className = "container_item_forEnterer">
           <div>
             <Img src={icon_scroll}  className = 'icon_ForEnterer'/>
           </div>
-          <p className = "boldName">Офіційні документи</p>
-          <p className = "numberName"></p>
+          <p className = "boldName_ForEnterer">Офіційні документи</p>
+          <p className = "numberName_ForEnterer"></p>
       </div>
     </div>);
   }
   
-export default ForEnterer;
+export default ForEntrant;
