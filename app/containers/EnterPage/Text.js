@@ -9,7 +9,7 @@ import Table from '../../components/Table/index';
 import WordLink from '../../components/WordLink';
 import { Link } from 'react-router-dom';
 
-import image1 from './images/diagram.gif'
+import image_diagram from './images/diagram.gif'
 
 export default function Text(){
     return(
@@ -28,7 +28,7 @@ export default function Text(){
             <Table/>
             <hr/>
             <h4>НАПРЯМИ ПІДГОТОВКИ</h4>
-            <Img src={image1}  className = 'image1'/>
+            <Img src={image_diagram}  className = 'image_diagram'/>
             <hr/>
         </div>
     );
