@@ -60,11 +60,25 @@ export default function Text(){
                 </ul>
                 в якості розробників Інтернет-послуг і адміністраторів дата-центрів, баз даних, електронних сховищ інформації.</p>
             </div>
-            <p className = "container_companies">
-                <Img src={image_microsoft} alt = "microsoft.png" className = 'companies'/>
-                <Img src={image_huawei} alt = "huawei.png" className = 'companies'/>
-                <Img src={image_nokia} alt = "nokia.png" className = 'companies'/>
-                <Img src={image_ericsson} alt = "ericsson.png" className = 'companies'/>
+            <div className = "container_companies">
+                <a href="https://www.microsoft.com"><Img src={image_microsoft} alt = "microsoft.png" className = 'companies'/></a>
+                <a href="https://consumer.huawei.com"><Img src={image_huawei} alt = "huawei.png" className = 'companies'/></a>
+                <a href="https://www.nokia.com" ><Img src={image_nokia} alt = "nokia.png" className = 'companies'/></a>
+                <a href="https://www.ericsson.com"><Img src={image_ericsson} alt = "ericsson.png" className = 'companies'/></a>
+            </div>
+            <p>
+            <b>Вивчають:</b> технології, мови та засоби програмування, побудову <b>програмно-апаратних платформ</b> для отримання
+            Інтернет-послуг та сервісів, підходи щодо створення, адміністрування та супроводу програмно-апаратної
+            інфраструктури операторів зв’язку, провайдерів Інтернет-послуг, <b>елементи гетерогенного середовища
+            на базі Інтернет</b>, Інтранет, <b>«хмарних» технологій</b> у поєднанні з сучасними <b>3G, 4G</b> та <b>5G- комунікаційними
+            мережами</b> для забезпечення якісного обслуговування користувачів, технології <b>IoT (Internet of Things)</b>,
+            організацію інформаційної взаємодії комунікацій.
+            </p>
+            <p>
+            Можуть працювати​: <b>у в центрах обробки даних</b> та <b>з програмними сервісами міжнародних та вітчизняних телекомунікаційних компаній,
+            в структурі ІТ-оператора, компаніях мобільного оператора, в ІТ-</b>компаніях, що застосовують <b>програмно-визначальні базові мережі, </b>
+            надають послуги зв'язку та Internet, у фірмах-розробниках спеціального ПЗ,
+            в технічних відділах банків та організацій різних форм власності, що використовують мережні технології​.
             </p>
             <hr/>
             <Link>

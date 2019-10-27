@@ -7,6 +7,7 @@ import icon_certificate from '../../containers/KafedraPage/images/icon_certifica
 import icon_diploma from '../../containers/KafedraPage/images/icon_diploma.png';
 import icon_graduate_student from '../../containers/KafedraPage/images/icon_graduate_student.png';
 import icon_scroll from '../../containers/KafedraPage/images/icon_scroll.png';
+import icon_contacts from '../../containers/EnterPage/images/icon_contacts.png';
 
 
 function ForEntrant(props) {
@@ -38,6 +39,13 @@ function ForEntrant(props) {
             <Img src={icon_scroll}  className = 'icon_ForEnterer'/>
           </div>
           <p className = "boldName_ForEnterer">Офіційні документи</p>
+          <p className = "numberName_ForEnterer"></p>
+      </div>
+      <div className = "container_item_forEnterer">
+          <div>
+            <Img src={icon_contacts}  className = 'icon_ForEnterer'/>
+          </div>
+          <p className = "boldName_ForEnterer">Контакти</p>
           <p className = "numberName_ForEnterer"></p>
       </div>
     </div>);
