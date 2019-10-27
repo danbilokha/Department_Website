@@ -3,9 +3,9 @@ import './Text.css';
 import BlockList from '../../components/BlockList/index';
 import LearningForm from '../../components/LearningForm/index';
 import Information from '../../components/InformationBox/index';
-import InformationSlider from '../../components/Diploma/index';
 
-import image_TUD from './images/TUD.jpg';
+
+
 import image_Collective from './images/Collective.jpg';
 import image_Benefits from './images/Benefits.png'
 import Img from '../../components/Img/index';
@@ -20,6 +20,7 @@ import ReadMore from '../../components/ReadMore';
 
 import { FormattedMessage } from 'react-intl';
 import WordLink from '../../components/WordLink';
+import Second_Diploma_news from '../../components/Diploma';
 
 export default function Text(){
     return(
@@ -70,16 +71,7 @@ export default function Text(){
             <p>Після проходження навчання студенти без зусиль знаходять роботу в сфері інфотелекомунікацій. Наші Випускники працюють на інженерних та управлінських посадах провідних підприємств, організацій та їх представництв: в сфері електроніки, телекомунікацій, програмного забезпечення і інформаційних технологій. Зокрема, Alcatel-Lucent, Nokia Corporation, Lifecell (Астеліт), Vodafone (МТС), Укртелеком, Київстар та інш.</p>
             <hr/>
             <h1 className = "center">Подвійний диплом</h1>
-            <div>
-                <div className="container_image_and_text_TUD">                
-                    <div className = "container_text_TUD">
-                        <h2>Єдина магістерська програма</h2>
-                        <p>У рамках Європейської програми магістратури Distributed Systems Engineering, Інститут телекомунікаційних систем Національного технічного університету України «Київський політехнічний інститут» (НТУУ «КПІ») та факультет Інформатики Технічного університету м. Дрездена (ТУД) пропонують єдину міжнародну програму «Інженерія розподілених систем».</p>
-                    </div>
-                    <Img src={image_TUD}  id = 'image_TUD'/>
-                </div>
-                
-            </div>
+            <Second_Diploma_news/>
             <div className = "Qualification">
                 <div>
                     <h1>Опис професії</h1>
