@@ -11,20 +11,17 @@ export default function TeachersPage() {
     <div>
       <Helmet>
         <title>Teachers Page</title>
-        <meta
-          name=""
-          content=""
-        />
+        <meta name="" content="" />
       </Helmet>
       <div className="mainContainer">
         <h1>Викладачі кафедри</h1>
         <h2>Штатні викладачі</h2>
-        <TeachersList people={Teachers}/>
+        <TeachersList people={Teachers} />
         <h2>Викладачі за сумісництвом</h2>
-        <TeachersList people={PartTime}/>
+        <TeachersList people={PartTime} />
         <h2>Інженерно-допоміжний персонал</h2>
-        <TeachersList people={Personal}/></div>
+        <TeachersList people={Personal} />
       </div>
-
+    </div>
   );
 }
