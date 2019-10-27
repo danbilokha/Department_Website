@@ -11,9 +11,7 @@ export default function TeachersList({ people }) {
       </div>
       {people.map(person => (
         // var fullname = person.fullName.replace(' ', "\r\n");
-
         (
-
           <div className="TeacherItem">
           <img src={person.img} className="portret" />
             <div className="fullName"><div><a href="#">{person.fullName}</a></div></div>
@@ -27,7 +25,7 @@ export default function TeachersList({ people }) {
               <Itemwriter title="contacts" content={person.contacts} id={person.id} />
             </div>
         </div>
-      ))}
+      )))}
     </div>
   );
 }
