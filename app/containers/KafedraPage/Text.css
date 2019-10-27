@@ -34,14 +34,14 @@ p{
 }
 
 
-#image2{
+#image_Collective{
     float:right;
     max-width: 100%;
     width: 40%;
     margin-left: 15px;
 }
 
-#image3{
+#image_Benefits{
     float:left;
     padding-right:25px;
     width: 55%;
@@ -66,7 +66,7 @@ iframe{
 }
 
 .Qualification{
-    margin-top:160px;
+    
 }
 
 .Learning_Form{
@@ -143,6 +143,7 @@ iframe{
 }
 
 .container_Slider{
+    
     margin-top: 0px;
 }
 /*---------------------------Slider----------------------------------------------*/

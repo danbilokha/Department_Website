@@ -5,9 +5,9 @@ import LearningForm from '../../components/LearningForm/index';
 import Information from '../../components/InformationBox/index';
 import InformationSlider from '../../components/Diploma/index';
 
-import image1 from './images/TUD.jpg';
-import image2 from './images/Collective.jpg';
-import image3 from './images/Benefits.png'
+import image_TUD from './images/TUD.jpg';
+import image_Collective from './images/Collective.jpg';
+import image_Benefits from './images/Benefits.png'
 import Img from '../../components/Img/index';
 
 import News from '../../components/News/index';
@@ -31,7 +31,7 @@ export default function Text(){
             </div>
             <hr/>
             <div className = "presented_article">
-                <h2>Лідер в сфері інфокомунікацій<Img src={image2}  id = 'image2'/></h2>
+                <h2>Лідер в сфері інфокомунікацій<Img src={image_Collective}  id = 'image_Collective'/></h2>
                 <p>Науковий керівник кафедри - академік НАНУ, доктор технічних наук, заслужений діяч науки і техніки України, лауреат Державних премій СРСР, УРСР та України в галузі науки і техніки Ільченко Михайло Юхимович.
 Виконуючий обов'язки завідувача кафедри - доцент, кандидат технічних наук, Явіся Валерій Сергійович.
 Вчений секретар кафедри - старший викладач Петрова Валентина Миколаївна.</p>
@@ -56,7 +56,7 @@ export default function Text(){
                  <b> спеціальності <i>«Телекомунікації та радіотехніка» </i></b>
                   на трьох рівнях вищої освіти: бакалавр, магістр, доктор філософії.
             </p>
-            <Img src={image3}  id = 'image3'/>
+            <Img src={image_Benefits}  id = 'image_Benefits'/>
             <p><b>Спеціалізація</b> спрямована на опанування випускниками спеціальних знань із:
                 <ul className = "benefits">
                     <li>проектування гетерогенних програмно-апаратних платформ, які забезпечують отримання сучасних Інтернет-послуг та сервісів у будь-який час і у будь-якому місці, працюють в глобальному середовищі;</li>
@@ -70,12 +70,15 @@ export default function Text(){
             <p>Після проходження навчання студенти без зусиль знаходять роботу в сфері інфотелекомунікацій. Наші Випускники працюють на інженерних та управлінських посадах провідних підприємств, організацій та їх представництв: в сфері електроніки, телекомунікацій, програмного забезпечення і інформаційних технологій. Зокрема, Alcatel-Lucent, Nokia Corporation, Lifecell (Астеліт), Vodafone (МТС), Укртелеком, Київстар та інш.</p>
             <hr/>
             <h1 className = "center">Подвійний диплом</h1>
-            <div className="container_Slider">
-                <div className = "image_diploma">
-                    <Img src={image1}  className = 'image1'/>
+            <div>
+                <div className="container_image_and_text_TUD">                
+                    <div className = "container_text_TUD">
+                        <h2>Єдина магістерська програма</h2>
+                        <p>У рамках Європейської програми магістратури Distributed Systems Engineering, Інститут телекомунікаційних систем Національного технічного університету України «Київський політехнічний інститут» (НТУУ «КПІ») та факультет Інформатики Технічного університету м. Дрездена (ТУД) пропонують єдину міжнародну програму «Інженерія розподілених систем».</p>
+                    </div>
+                    <Img src={image_TUD}  id = 'image_TUD'/>
                 </div>
-                <h2>Єдина магістерська програма</h2>
-                <p>У рамках Європейської програми магістратури Distributed Systems Engineering, Інститут телекомунікаційних систем Національного технічного університету України «Київський політехнічний інститут» (НТУУ «КПІ») та факультет Інформатики Технічного університету м. Дрездена (ТУД) пропонують єдину міжнародну програму «Інженерія розподілених систем».</p>
+                
             </div>
             <div className = "Qualification">
                 <div>

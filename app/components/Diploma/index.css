@@ -1,14 +1,20 @@
 .container_Slider{
-    margin-top:50px;
+    
 }
 
+.container_image_and_text_TUD{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
 
-.image1{
+.container_text_TUD{
+    width: 50%;
+    text-align: left;
+}
+
+#image_TUD{
+    width: 50%;
     max-width: 100%;
-}
-
-.image_diploma{
-    margin-right: 15px;
-    width: 65%;
-    float: left;
+    margin: 0 0 0 10px;
 }
