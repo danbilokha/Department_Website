@@ -28,10 +28,7 @@ p{
     
 }
 
-.benefits{
-    list-style-type: disc;
-    margin-left: 25px;
-}
+
 
 
 #image_Collective{
@@ -41,12 +38,7 @@ p{
     margin-left: 15px;
 }
 
-#image_Benefits{
-    float:left;
-    padding-right:25px;
-    width: 55%;
-    max-width: 100%;
-}
+
 
 .center{
     margin-top: 0px;

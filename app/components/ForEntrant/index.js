@@ -24,7 +24,7 @@ function ForEntrant(props) {
             <Img src={icon_diploma}  className = 'icon_ForEnterer'/>
           </div>
           <p className = "boldName_ForEnterer">Вступ на 1-й курс</p>
-          <p className = "numberName_ForEnterer">"за дипломом молодшого спеціаліста</p>
+          <p className = "numberName_ForEnterer">за дипломом молодшого спеціаліста</p>
       </div>
       <div className = "container_item_forEnterer">
           <div>

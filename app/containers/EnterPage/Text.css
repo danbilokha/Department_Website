@@ -25,3 +25,14 @@ hr{
     width: 95%;
 }
 
+#image_Benefits{
+    float:left;
+    padding-right:25px;
+    width: 55%;
+    max-width: 100%;
+}
+
+.benefits{
+    list-style-type: disc;
+    margin-left: 25px;
+}
