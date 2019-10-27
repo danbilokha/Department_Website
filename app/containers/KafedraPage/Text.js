@@ -53,6 +53,32 @@ export default function Text(){
             <hr/>
             <h1 className = "center">Подвійний диплом</h1>
             <Second_Diploma_news/>
+            <ContactsList>
+            <iframe width="450" height="350" src="http://maps.google.co.uk/maps?q=м. Київ, пров. Індустріальний, 2 &amp;output=embed"></iframe>
+                <Contacts
+                    h2 = "Кафедра ITM"
+                    addressName = "Адреса факультету:" 
+                    addressIndex = "03056" 
+                    address = "м. Київ, пров. Індустріальний, 2, корпус №30, к. 316" 
+                    telephoneTitle = "Телефон:" 
+                    telephone = "(044) 204-98-91" 
+                    faxTitle = "Факс:"
+                    fax = "(044) 204-82-99" 
+                    e_mailTitle = "E-mail:"
+                    e_mail = "itm@its.kpi.ua"
+                 />
+                    <Contacts 
+                    h2 = "Деканат" 
+                    addressName = "Адреса:" 
+                    addressIndex = "03056" 
+                    address = "м. Київ, пров. Індустріальний, 2, корпус №30, к. 312" 
+                    telephoneTitle = "Телефон:" 
+                    telephone = "(044) 236-40-14" 
+                    e_mailTitle = "E-mail:"
+                    e_mail = "its@its.kpi.ua"
+                />
+                <ReadMore readMore = "Зворотній зв'язок"/>
+            </ContactsList>
             <div className = "Qualification">
                 <div>
                     <h1>Опис професії</h1>
@@ -135,33 +161,7 @@ export default function Text(){
                 />
             </div>
             <h1>Контакти</h1>
-            <ContactsList>
-
-            <iframe width="450" height="350" src="http://maps.google.co.uk/maps?q=м. Київ, пров. Індустріальний, 2 &amp;output=embed"></iframe>
-                <Contacts
-                    h2 = "Кафедра ITM"
-                    addressName = "Адреса факультету:" 
-                    addressIndex = "03056" 
-                    address = "м. Київ, пров. Індустріальний, 2, корпус №30, к. 316" 
-                    telephoneTitle = "Телефон:" 
-                    telephone = "(044) 204-98-91" 
-                    faxTitle = "Факс:"
-                    fax = "(044) 204-82-99" 
-                    e_mailTitle = "E-mail:"
-                    e_mail = "itm@its.kpi.ua"
-                 />
-                    <Contacts 
-                    h2 = "Деканат" 
-                    addressName = "Адреса:" 
-                    addressIndex = "03056" 
-                    address = "м. Київ, пров. Індустріальний, 2, корпус №30, к. 312" 
-                    telephoneTitle = "Телефон:" 
-                    telephone = "(044) 236-40-14" 
-                    e_mailTitle = "E-mail:"
-                    e_mail = "its@its.kpi.ua"
-                />
-                <ReadMore readMore = "Зворотній зв'язок"/>
-            </ContactsList>
+            
         </div>
     );
 }
