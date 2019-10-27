@@ -16,9 +16,8 @@ export default function Text(){
         <div className = 'text'>
             <div className = "Information_for_Students">
                 <h1>Вступ</h1>
-                    <ForEntrant/>
+                <ForEntrant/>
             </div>
-            
             <hr/>
             <Link>
                 <h4>Положення про кафедру технічної кібернетики ФІОТ КПІ ім.Ігоря Сікорського</h4>

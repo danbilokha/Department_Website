@@ -145,16 +145,7 @@ iframe{
 
 /*---------------------------Slider----------------------------------------------*/
 
-.readMore{
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;font-size: 50px;
-    font-size: 20px;
-    margin: 22.5px auto;
-    text-align: center;
-    color: #4341BE;
-    border-radius: 28px;
-}
+
 
 .center_level{   
     width: inherit;
@@ -179,18 +170,7 @@ iframe{
     position: relative;
     font-weight: bold;
     margin: 0 auto;
-
     font-size: 20px;
-
-}
-
-.Drezden_article{
-    margin-top: 195px;
-    display: flex;
-    flex-direction: row;
-    /*
-    Also argument can be: 200px, 50vh - Відносно вистоти екрана
-    */
 }
 
 
