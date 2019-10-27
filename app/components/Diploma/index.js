@@ -11,7 +11,7 @@ function Second_Diploma_news(props) {
           <div className = "container_text_TUD">
               <h2>Єдина магістерська програма</h2>
               <p>У рамках Європейської програми магістратури Distributed Systems Engineering, Інститут телекомунікаційних систем Національного технічного університету України «Київський політехнічний інститут» (НТУУ «КПІ») та факультет Інформатики Технічного університету м. Дрездена (ТУД) пропонують єдину міжнародну програму «Інженерія розподілених систем».</p>
-              <ReadMore readMore = "Читати докладніше"/>
+              <ReadMore link = "http://its.kpi.ua/Pages/default.aspx?section=doublemaster" readMore = "Читати докладніше"/>
           </div>
           <div>
             <Img src={image_TUD}  id = 'image_TUD'/>
