@@ -4,7 +4,7 @@ import { FormattedMessage } from 'react-intl';
 import HeaderLink from './HeaderLink';
 
 
-const scope = 'boilerplate.components.Header.';
+const scope = 'boilerplate.components.';
 
 const topics=[
     {id: 1, title: 'about', link: '/'},
