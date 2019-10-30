@@ -26,9 +26,10 @@ export default function Text(){
     return(
         <div className = 'text'>
             <div className = "header_box">
-                <h2>Спеціальність</h2>
+                <h3>Спеціальність</h3>
                 <h2>172 Телекомунікації та радіотехніка</h2>
-                <h3>Спеціалізація: Інформаційно-комунікаційні технології</h3>
+                <h3>Спеціалізація</h3>
+                <h2>Інформаційно-комунікаційні технології</h2>
             </div>
             <hr/>
             <div className = "presented_article">
@@ -53,6 +54,7 @@ export default function Text(){
             <hr/>
             <h1 className = "center">Подвійний диплом</h1>
             <Second_Diploma_news/>
+            <h1>Контакти</h1>
             <ContactsList>
             <iframe width="450" height="350" src="http://maps.google.co.uk/maps?q=м. Київ, пров. Індустріальний, 2 &amp;output=embed"></iframe>
                 <Contacts
@@ -160,7 +162,7 @@ export default function Text(){
                 readMore = "Читати далі"
                 />
             </div>
-            <h1>Контакти</h1>
+            
             
         </div>
     );
