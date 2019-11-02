@@ -11,7 +11,6 @@ import TeachersPage from 'containers/TeachersPage/Loadable';
 
 import EnterPage from 'containers/EnterPage/Loadable';
 
-
 import StudyPage from 'containers/StudyPage/Loadable';
 import NotFoundPage from 'containers/NotFoundPage/Loadable';
 
@@ -34,13 +33,12 @@ export default function App() {
       <Header />
       <Switch>
         <Route exact path="/" component={HomePage} />
-        <Route path="/kafedra_ITM" component ={KafedraPage}/>
-        <Route path="/history" component ={HistoryPage}/>
-        <Route path="/donators" component={DonatorsPage}/>
-        <Route path="/study" component={StudyPage}/>
-        <Route path="/enter" component={EnterPage}/>
-        <Route path="/teachers" component={TeachersPage}/>
-        <Route path="/test" component={TestPage}/>
+        <Route path="/kafedra_ITM" component={KafedraPage} />
+        <Route path="/history" component={HistoryPage} />
+        <Route path="/donators" component={DonatorsPage} />
+        <Route path="/study" component={StudyPage} />
+        <Route path="/enter" component={EnterPage} />
+        <Route path="/teachers" component={TeachersPage} />
         <Route path="" component={NotFoundPage} />
       </Switch>
       <Footer />
