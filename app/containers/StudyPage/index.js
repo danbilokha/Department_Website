@@ -10,12 +10,9 @@ import PracticeMaster from '../../components/Study_MasterPractice/index';
 export default function StudyPage() {
   return (
     <div id="study_all">
-
       <section id="subject_list">
-
-      <SubjectBachelors /> 
-       <SubjectMaster />
- 
+        <SubjectBachelors />
+        <SubjectMaster />
       </section>
 
       <Process />
