@@ -2,6 +2,7 @@ import React from 'react';
 import Itemwriter from './Teacheritem';
 
 
+
 export default function TeachersList({people}){
     
 

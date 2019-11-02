@@ -1,10 +1,4 @@
 
-
-
-//it will JSON file in future 
-
-
-
 import Kalayda from './portrets/kalayda.png';
 import Getman from './portrets/getman.png';
 import Zaharchuk from './portrets/zaharchuk.png';
