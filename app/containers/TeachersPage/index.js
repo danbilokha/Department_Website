@@ -12,7 +12,9 @@ export default function TeachersPage() {
       <Helmet>
         <title>Teachers Page</title>
 
+
         <meta name="" content="" />
+
 
       </Helmet>
       <div className="mainContainer">

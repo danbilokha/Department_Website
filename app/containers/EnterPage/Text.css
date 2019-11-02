@@ -1,0 +1,53 @@
+.text{
+    margin:0 18.2% 0 20%;
+    text-align: justify;
+}
+
+/*------------------------------------My script------------------------*/
+
+.Block{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+.image_diagram{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+hr{
+    width: 95%;
+}
+
+#image_Benefits{
+    float:left;
+    padding-right:25px;
+    width: 55%;
+    max-width: 100%;
+}
+
+.benefits{
+    list-style-type: disc;
+    margin-left: 25px;
+}
+
+
+
+.container_companies{
+   text-align: center;
+}
+
+.container_companies a{
+    display: inline-block;
+    width: 25vh;
+ }
+
+.companies{
+    width: inherit;
+}

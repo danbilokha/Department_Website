@@ -3,10 +3,13 @@ import './Text.css';
 import BlockList from '../../components/BlockList/index';
 import LearningForm from '../../components/LearningForm/index';
 import Information from '../../components/InformationBox/index';
-import InformationSlider from '../../components/InformationBoxSlider/index';
-import ForEnterer from '../../components/ForEntrant/index';
 
-import Slider from '../../components/Slider';
+
+
+import image_Collective from './images/Collective.jpg';
+
+import Img from '../../components/Img/index';
+
 import News from '../../components/News/index';
 import '../../components/News/index.css';
 
@@ -15,21 +18,69 @@ import ContactsList from '../../components/ContactsList';
 
 import ReadMore from '../../components/ReadMore';
 
-
+import { FormattedMessage } from 'react-intl';
+import WordLink from '../../components/WordLink';
+import Second_Diploma_news from '../../components/Diploma';
 
 export default function Text(){
     return(
         <div className = 'text'>
-            <div>
-
-                <p>Спеціальність:</p>
+            <div className = "header_box">
+                <h3>Спеціальність</h3>
                 <h2>172 Телекомунікації та радіотехніка</h2>
+                <h3>Спеціалізація</h3>
+                <h2>Інформаційно-комунікаційні технології</h2>
+            </div>
+            <hr/>
+            <div className = "presented_article">
+                <h2>Лідер в сфері інфокомунікацій<Img src={image_Collective}  id = 'image_Collective'/></h2>
+                <p>Науковий керівник кафедри - академік НАНУ, доктор технічних наук, заслужений діяч науки і техніки України, лауреат Державних премій СРСР, УРСР та України в галузі науки і техніки Ільченко Михайло Юхимович.
+Виконуючий обов'язки завідувача кафедри - доцент, кандидат технічних наук, Явіся Валерій Сергійович.
+Вчений секретар кафедри - старший викладач Петрова Валентина Миколаївна.</p>
             </div>
             <div>
-                <p>Кафедра</p>
-
-                <h1>Інформаційно-телекомунікаційних мереж</h1>
+            <p>
+                <WordLink to="/history">
+                    Кафедра
+                </WordLink>
+                <WordLink to="/enter"> 
+                    Інформаційно-телекомунікаційних мереж
+                </WordLink>
+                 готує фахівців за спеціальністю Телекомунікації та радіотехніка та спеціалізацією Інформаційно-комунікаційні технології (ІКТ).
+            </p>
             </div>
+            <p>Кафедра  телекомунікацій займає найвищі позиції у рейтингу університету, зокрема, за рейтингами науково-педагогічних працівників, науково-інноваційної діяльності, індексом творчих досягнень студентів, активності міжнародної діяльності.</p>
+            <p>Після проходження навчання студенти без зусиль знаходять роботу в сфері інфотелекомунікацій. Наші Випускники працюють на інженерних та управлінських посадах провідних підприємств, організацій та їх представництв: в сфері електроніки, телекомунікацій, програмного забезпечення і інформаційних технологій. Зокрема, Alcatel-Lucent, Nokia Corporation, Lifecell (Астеліт), Vodafone (МТС), Укртелеком, Київстар та інш.</p>
+            <hr/>
+            <h1 className = "center">Подвійний диплом</h1>
+            <Second_Diploma_news/>
+            <h1>Контакти</h1>
+            <ContactsList>
+            <iframe width="450" height="350" src="http://maps.google.co.uk/maps?q=м. Київ, пров. Індустріальний, 2 &amp;output=embed"></iframe>
+                <Contacts
+                    h2 = "Кафедра ITM"
+                    addressName = "Адреса факультету:" 
+                    addressIndex = "03056" 
+                    address = "м. Київ, пров. Індустріальний, 2, корпус №30, к. 316" 
+                    telephoneTitle = "Телефон:" 
+                    telephone = "(044) 204-98-91" 
+                    faxTitle = "Факс:"
+                    fax = "(044) 204-82-99" 
+                    e_mailTitle = "E-mail:"
+                    e_mail = "itm@its.kpi.ua"
+                 />
+                    <Contacts 
+                    h2 = "Деканат" 
+                    addressName = "Адреса:" 
+                    addressIndex = "03056" 
+                    address = "м. Київ, пров. Індустріальний, 2, корпус №30, к. 312" 
+                    telephoneTitle = "Телефон:" 
+                    telephone = "(044) 236-40-14" 
+                    e_mailTitle = "E-mail:"
+                    e_mail = "its@its.kpi.ua"
+                />
+                <ReadMore readMore = "Зворотній зв'язок"/>
+            </ContactsList>
             <div className = "Qualification">
                 <div>
                     <h1>Опис професії</h1>
@@ -82,17 +133,6 @@ export default function Text(){
                         "/> 
                 </div>
             </div>
-            <div className = "Information_for_Students">
-                <h1>Інформація для студентів</h1>
-                <div className = "Block">
-
-                    <ForEnterer source = "icon_certificate" boldName="Вступ на 1-й курс" numberName="за сертифікатами ЗНО" />
-                    <ForEnterer source = "icon_diploma" boldName="Вступ на 1-й курс" numberName="за дипломом молодшого спеціаліста" />
-                    <ForEnterer source = "icon_graduate_student" boldName="Вступ на 5-й курс" numberName="" />
-                    <ForEnterer source = "icon_scroll" boldName="Офіційні документи" numberName="" />
-                {/* entrant */}
-                </div>
-            </div>
             <div className = "contacts_inf">
                 {/* Чи можна використовувати ForwardMessage длclassName = "Drezden_article" номера телефону та пошти*/}
                 <h2>Контакти вибіркової комісії ІТС</h2>
@@ -100,14 +140,7 @@ export default function Text(){
                 <p className = "mail"><b>Електронна пошта відбіркової комісії ІТС: </b>novikov1967@ukr.net</p>
             </div>
             <a href="#">Поширені запитання (FAQ)</a>
-            <div className="container_Slider">
-                <Slider/>
-                <InformationSlider 
-                    mainHeader ="Подвійний диплом" 
-                    header="Єдина магістерська програма" 
-                    content = "У рамках Європейської програми магістратури Distributed Systems Engineering, Інститут телекомунікаційних систем Національного технічного університету України «Київський політехнічний інститут» (НТУУ «КПІ») та факультет Інформатики Технічного університету м. Дрездена (ТУД) пропонують єдину міжнародну програму «Інженерія розподілених систем»."
-                />
-            </div>
+            
             <h1>Новини</h1>
             <div className = "container_News">
                 <News 
@@ -129,36 +162,8 @@ export default function Text(){
                 readMore = "Читати далі"
                 />
             </div>
-            <h1>Контакти</h1>
-            <ContactsList>
-
-            <iframe width="450" height="350" src="http://maps.google.co.uk/maps?q=м. Київ, пров. Індустріальний, 2 &amp;output=embed"></iframe>
-                <Contacts
-                    h2 = "Кафедра ITM"
-                    addressName = "Адреса факультету:" 
-                    addressIndex = "03056" 
-                    address = "м. Київ, пров. Індустріальний, 2, корпус №30, к. 316" 
-                    telephoneTitle = "Телефон:" 
-                    telephone = "(044) 204-98-91" 
-                    faxTitle = "Факс:"
-                    fax = "(044) 204-82-99" 
-                    e_mailTitle = "E-mail:"
-                    e_mail = "itm@its.kpi.ua"
-                 />
-                    <Contacts 
-                    h2 = "Деканат" 
-                    addressName = "Адреса:" 
-                    addressIndex = "03056" 
-                    address = "м. Київ, пров. Індустріальний, 2, корпус №30, к. 312" 
-                    telephoneTitle = "Телефон:" 
-                    telephone = "(044) 236-40-14" 
-                    e_mailTitle = "E-mail:"
-                    e_mail = "its@its.kpi.ua"
-                />
-                <ReadMore readMore = "Зворотній зв'язок"/>
-            </ContactsList>
+            
             
         </div>
-
     );
 }

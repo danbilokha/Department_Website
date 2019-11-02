@@ -11,6 +11,7 @@ export default function Itemwriter({ title, content, id }) {
       }
       return(
         <p><span className="ItemTitle">Інформація на порталі Intellect: </span><a href={content}>{content}</a></p>
+
       )
       
     }
@@ -21,4 +22,5 @@ export default function Itemwriter({ title, content, id }) {
   }
   return null;
 }
+
 

@@ -1,5 +1,4 @@
 
-
 import Nerush from './portrets/nerush.png';
 import Lisenko from './portrets/lisenko.png';
 import Aryasova from './portrets/aryasova.png';
@@ -76,4 +75,3 @@ export const PartTime = [
     contacts: '',
   },
 ];
-

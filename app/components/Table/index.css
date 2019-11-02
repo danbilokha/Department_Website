@@ -1,0 +1,15 @@
+.table {
+    width: 95%;
+    border-collapse: collapse;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.first_row{
+    font-weight: bold;
+}
+
+.first_column{
+    font-weight: bold;
+}

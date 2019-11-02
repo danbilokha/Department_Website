@@ -1,0 +1,17 @@
+.container_image_and_text_TUD{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.container_text_TUD{
+    width: 50%;
+    max-width: 100%;
+    text-align: left;
+}
+
+#image_TUD{
+    width: 100%;
+    max-width: 100%;
+    margin: 0 0 0 10px;
+}

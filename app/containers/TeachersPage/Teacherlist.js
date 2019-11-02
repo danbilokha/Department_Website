@@ -3,6 +3,7 @@ import Itemwriter from './Teacheritem';
 
 
 
+
 export default function TeachersList({people}){
     
 
@@ -39,4 +40,5 @@ export default function TeachersList({people}){
                 )}
         </div>
     )
+
 }

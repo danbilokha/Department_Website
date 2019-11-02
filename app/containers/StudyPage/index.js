@@ -17,6 +17,12 @@ export default function StudyPage() {
       </section>
 
       <Process />
+
+      <h2>Перелік предметів бакалаврів</h2>
+      <SubjectBachelors />
+      <h3>Перелік предметів магістрів</h3>
+      <SubjectMaster />
+
       <h4>Практика</h4>
       <article className="practice">
         <p>
