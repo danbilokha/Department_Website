@@ -1,6 +1,6 @@
 import React from 'react';
 import './index.css';
-import Headlines from '../../components/Study_Header/main';
+// import Headlines from '../../components/Study_Header (restricted)/main';
 import Process from '../../components/Study_process/index';
 import SubjectBachelors from '../../components/Study_SubjectBachelor/index';
 import SubjectMaster from '../../components/Study_SubjectMaster/index';
@@ -9,13 +9,16 @@ import PracticeMaster from '../../components/Study_MasterPractice/index';
 
 export default function StudyPage() {
   return (
-    <div id="main">
-      <Headlines />
+    <div id="study_all">
+
+      <section id="subject_list">
+
+      <SubjectBachelors /> 
+       <SubjectMaster />
+ 
+      </section>
+
       <Process />
-      <h2>Перелік предметів бакалаврів</h2>
-      <SubjectBachelors />
-      <h3>Перелік предметів магістрів</h3>
-      <SubjectMaster />
       <h4>Практика</h4>
       <article className="practice">
         <p>

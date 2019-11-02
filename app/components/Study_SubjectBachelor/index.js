@@ -10,13 +10,10 @@ export default class SubjectBachelors extends React.Component {
 
   render() {
     return (
-      <div>
-        {/* <dl>
-  <dt>Fruits I like:</dt>
-  <dd>Apples</dd>
-  <dd>Bananas</dd>
-  <dd>Oranges</dd>
-</dl> */}
+      <div id="bachelor_subjects">
+        
+        <h2>Перелік предметів бакалаврів</h2>
+
         <dl id="subject_list">
           <dt>В</dt>
           <dd><a href="">Вища математика</a></dd>
