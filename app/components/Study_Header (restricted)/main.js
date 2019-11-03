@@ -17,13 +17,13 @@ export default class Headlines extends React.Component {
       <div>
         <ul id="headlines">
           <li>
-            <a href="">{this.state.one}</a>
+            <a href="/">{this.state.one}</a>
           </li>
           <li>
-            <a href="">{this.state.two}</a>
+            <a href="/">{this.state.two}</a>
           </li>
           <li>
-            <a href="">{this.state.three}</a>
+            <a href="/">{this.state.three}</a>
           </li>
         </ul>
       </div>

@@ -1,9 +1,9 @@
 export const navBar = [
-  { id: 1, title: 'about', link: '/about' },
-  { id: 2, title: 'entrance', link: '/entrance' },
-  { id: 3, title: 'departments', link: '/departments' },
-  { id: 4, title: 'scientificWork', link: '/scientificWork' },
-  { id: 5, title: 'studing', link: '/studing' },
-  { id: 6, title: 'deansOffice', link: '/deansOffice' },
-  { id: 7, title: 'academicCouncil', link: '/academicCouncil' },
+  { id: 1, title: 'about', link: '/enter' },
+  { id: 2, title: 'entrance', link: '/' },
+  { id: 3, title: 'departments', link: '/' },
+  { id: 4, title: 'scientificWork', link: '/' },
+  { id: 5, title: 'studing', link: '/' },
+  { id: 6, title: 'deansOffice', link: '/' },
+  { id: 7, title: 'academicCouncil', link: '/' },
 ];
