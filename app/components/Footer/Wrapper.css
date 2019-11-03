@@ -1,24 +1,30 @@
 .Wrapper{
     background: #E0E0F4;
     display: grid;
-    grid-template-columns: 4fr 1.25fr;
     padding-top: 4em;
-    margin-bottom:0;
 }
 
 .Lists{
     display: grid;
-    padding-bottom: 4em;
-    padding-left: 20em;
-    padding-right: 0;
-    color: black;
+    padding: 4em 16em;
     justify-content: center;
-    grid-gap: 2em;
+    grid-gap: 2em .5em;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
+
 .listLink{
     font-size: 14px;
     line-height: 16px;
+}
+
+hr{
+    background: #040638;
+    color: #040638;
+    width: 135px;
+    margin: 0;
+    padding: 0;
+    height: 1.7px;
+    border: 0;
 }
 
 ul{
@@ -49,7 +55,9 @@ a:active {
   }
 
 
-  .ButtonUp{
+.ButtonUp{
+    position: absolute;
+    right: 10em;
     display: block;
     border-radius: 21px;
     margin: auto;
@@ -63,4 +71,64 @@ a:active {
 
 .ButtonUp:active{
     opacity: 0.5;
+}
+
+@media only screen and (max-width: 1224px) {
+
+    .Wrapper{
+        display: flex;
+        grid-template-columns: 1fr;
+        padding: 4em;
+        flex-direction: column-reverse;
+    }
+
+    .Lists{
+        margin: 0;
+        padding: 0;
+    }
+
+    .ButtonUp{
+        right: 50%;
+
+    }
+
+    }
+
+@media only screen and (max-width: 480px) {
+        
+    .Wrapper{
+        padding-left: 4em;
+    }
+
+    .Lists{
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+
+@media only screen and (max-width: 320px) {
+        
+    .Wrapper{
+        padding: 0;
+    }
+
+    .Lists{
+        margin-top: 6vh;
+        text-align: center;
+        grid-template-columns: 1fr;
+    }
+
+    hr{
+        margin: auto;
+    }
+
+    .ButtonUp{
+        position: relative;
+        right: 0;
+    }
+
+    .Lists a{
+        justify-content: center;
+    }
+
 }
