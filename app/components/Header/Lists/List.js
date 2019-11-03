@@ -14,8 +14,8 @@ export default function TodoList({ topics, selection }) {
           selection === true &&
           (topic.title === 'about' ||
             topic.title === 'entrance' ||
-            topic.title === 'departments' ||
-            topic.title === 'studing' ||
+            topic.title === 'teachers' ||
+            topic.title === 'studing_process' ||
             topic.title === 'scientificWork')
         ) {
           return (
