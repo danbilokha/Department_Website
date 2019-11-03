@@ -1,0 +1,10 @@
+.menu{
+    display: flex;
+    flex-flow: column wrap;
+}
+.dropdownmenustyle{
+    width:160px;
+}
+.dropdownmenustyle:hover{
+    display:block;
+}
