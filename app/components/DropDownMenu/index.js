@@ -35,7 +35,7 @@ export default class Card extends Component {
 
   render() {
     return (
-      <div className="dropdownmenustyle">
+      <div className="dropdown">
         <button onClick={this.showMenu} >
             <FormattedMessage id='boilerplate.components.about'/>
         </button>

@@ -2,9 +2,14 @@
     display: flex;
     flex-flow: column wrap;
 }
-.dropdownmenustyle{
-    width:160px;
+
+.dropdown button {
+    width:175px;
+    background-color: #FFF;
+    color:black;
+    border:none;
 }
-.dropdownmenustyle:hover{
+.dropdown button:hover{
     display:block;
+    
 }
