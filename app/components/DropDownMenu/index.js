@@ -50,7 +50,7 @@ export default class Card extends Component {
                 }}
               >
                 <button> 
-                  ІСТОРІЯ
+                  <FormattedMessage id='boilerplate.components.about'/>
                 </button>
                 <button> 
                   ПАРТНЕРИ

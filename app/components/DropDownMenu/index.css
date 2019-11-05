@@ -4,12 +4,12 @@
 }
 
 .dropdown button {
-    width:175px;
-    background-color: #FFF;
+    width:160px;
+    background-color:#FFF;
     color:black;
     border:none;
+    text-align: justify;
 }
 .dropdown button:hover{
     display:block;
-    
 }
