@@ -8,7 +8,7 @@ import { Personal } from './Lists/personal';
 
 export default function TeachersPage() {
   return (
-    <div>
+    <div className = "page_content"> 
       <Helmet>
         <title>Teachers Page</title>
 
