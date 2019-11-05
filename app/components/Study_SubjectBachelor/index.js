@@ -15,6 +15,7 @@ export default class SubjectBachelors extends React.Component {
         <h2>Перелік предметів бакалаврів</h2>
 
         <dl id="subject_list">
+          <label>Фахові предмети:</label>
           <dt>В</dt>
           <dd><a href="">Вища математика</a></dd>
           <dd><a href="">Вступ до спеціальності</a></dd>
