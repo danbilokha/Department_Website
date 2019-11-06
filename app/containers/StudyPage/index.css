@@ -9,7 +9,7 @@ h2, h3, h4{
 font-family: Roboto;
 font-style: normal;
 font-weight: bold;
-font-size: 14pt;
+font-size: 15pt;
 }
 
 #subject_list li{
@@ -19,6 +19,7 @@ width:450px;
 #subject_list{
     display:inline-block;
     width:100%;
+    padding-left:5px;
 }
 
 
