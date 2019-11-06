@@ -1,4 +1,24 @@
+.paragraph{
+    display: block;
+    font-family: Roboto;
+    background: #E5E5E5;
+}
+
 .page_content{
     margin:0 18.2% 0 20%;
     text-align: justify;
+}
+
+h1{
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+
+h2{
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+p{
+    font-size: 18px;
 }
