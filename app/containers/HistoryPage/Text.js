@@ -1,5 +1,6 @@
 import React from 'react';
 import './Text.css';
+import '../../containers/GlobalPageSetting.css'
 import image from './images/image.png';
 import image2 from './images/image 2.png';
 import image3 from './images/image 5.png';
@@ -17,7 +18,7 @@ import TextTeacher from '../../components/TextTeacher/index';
 
 export default function Text(){
     return(
-        <div className = 'text'>
+        <div className = 'page_content'>
             <h1>
                 Про Кафедру
             </h1>

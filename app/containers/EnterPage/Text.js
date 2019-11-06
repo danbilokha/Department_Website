@@ -1,5 +1,6 @@
 import React from 'react';
 import './Text.css';
+import '../../containers/GlobalPageSetting.css'
 
 import Img from '../../components/Img/index';
 
@@ -19,7 +20,7 @@ import TermDescription from '../../components/TermDescription';
 
 export default function Text(){
     return(
-        <div className = 'text'>
+        <div className = 'page_content'>
             <div className = "Information_for_Students">
                 <h1>Вступ</h1>
                 <ForEntrant/>

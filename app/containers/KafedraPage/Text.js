@@ -4,7 +4,7 @@ import BlockList from '../../components/BlockList/index';
 import LearningForm from '../../components/LearningForm/index';
 import Information from '../../components/InformationBox/index';
 
-
+import '../../containers/GlobalPageSetting.css'
 
 import image_Collective from './images/Collective.jpg';
 
@@ -24,7 +24,7 @@ import Second_Diploma_news from '../../components/Diploma';
 
 export default function Text(){
     return(
-        <div className = 'text'>
+        <div className = 'page_content'>
             <div className = "header_box">
                 <h3>Спеціальність</h3>
                 <h2>172 Телекомунікації та радіотехніка</h2>

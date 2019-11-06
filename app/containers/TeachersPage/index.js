@@ -1,6 +1,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import './Wrapper.css';
+import '../../containers/GlobalPageSetting.css'
 import TeachersList from './Teacherlist';
 import { Teachers } from './Lists/Fulltime';
 import { PartTime } from './Lists/Parttime';
