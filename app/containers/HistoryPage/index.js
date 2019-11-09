@@ -4,8 +4,8 @@ import Text from './Text';
 
 export default function HistoryPage() {
   return (
-    <div className="paragraph">
-      <Text />
+    <div className='paragraph'>
+      <Text/>
     </div>
   );
 }
