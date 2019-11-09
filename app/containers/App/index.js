@@ -8,6 +8,8 @@ import HistoryPage from 'containers/HistoryPage/Loadable';
 import HomePage from 'containers/HomePage/Loadable';
 import DonatorsPage from 'containers/DonatorsPage/Loadable';
 import TeachersPage from 'containers/TeachersPage/Loadable';
+import TestPage from 'containers/TestPage/Loadable';
+import EnterPage from 'containers/EnterPage/Loadable';
 
 import StudyPage from 'containers/StudyPage/Loadable';
 import NotFoundPage from 'containers/NotFoundPage/Loadable';
@@ -31,11 +33,13 @@ export default function App() {
       <Header />
       <Switch>
         <Route exact path="/" component={HomePage} />
-        <Route path="/kafedra_ITM" component ={KafedraPage}/>
-        <Route path="/history" component ={HistoryPage}/>
-        <Route path="/donators" component={DonatorsPage}/>
-        <Route path="/study" component={StudyPage}/>
-        <Route path="/teachers" component={TeachersPage}/>
+        <Route path="/kafedra_ITM" component={KafedraPage} />
+        <Route path="/history" component={HistoryPage} />
+        <Route path="/donators" component={DonatorsPage} />
+        <Route path="/study" component={StudyPage} />
+        <Route path="/enter" component={EnterPage} />
+        <Route path="/test" component={TestPage} />
+        <Route path="/teachers" component={TeachersPage} />
         <Route path="" component={NotFoundPage} />
       </Switch>
       <Footer />

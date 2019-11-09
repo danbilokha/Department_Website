@@ -1,0 +1,30 @@
+.container_item_forEnterer {
+    background: #FEFDFF;
+    width: 30vh;
+    color: black;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #A0D0E3;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.icon_ForEnterer{
+    height: 67px;
+    margin-top: 10px;
+}
+
+.numberName_ForEnterer{
+    width: 60%;
+    position: relative;
+    margin: 0 auto;
+    font-size: 14px;
+}
+
+.boldName_ForEnterer{
+    width: auto;
+    position: relative;
+    font-weight: bold;
+    margin: 0 auto;
+    font-size: 20px;
+}

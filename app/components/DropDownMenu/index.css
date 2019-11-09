@@ -1,0 +1,15 @@
+.menu{
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.dropdown button {
+    width:160px;
+    background-color:#FFF;
+    color:black;
+    border:none;
+    text-align: justify;
+}
+.dropdown button:hover{
+    display:block;
+}

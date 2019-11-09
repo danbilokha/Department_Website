@@ -1,42 +1,55 @@
-.text{
-    margin:0 10% 0 7%;
-    text-align: justify;
-}
+
 
 /*------------------------------------My script------------------------*/
-h1{
-    font-size: 50px;
-    margin-bottom: 0px;
+
+
+.word_link{
+    margin-left: 0px;
 }
 
-h2{
-    font-size: 28px;
-    margin-bottom: 20px;
+.header_box{
+    text-align:left ;
+    width: 65%;
+    
 }
 
-p{
-    font-size: 18px;
+
+
+
+#image_Collective{
+    float:right;
+    max-width: 100%;
+    width: 40%;
+    margin-left: 15px;
+}
+
+
+
+.center{
+    margin-top: 0px;
+    text-align: center;
+}
+
+.presented_article{
+    padding: 5px 5px;
+    max-width: 100%;
 }
 
 iframe{
     position: relative;
-    width: 90vh;
-    height: 70vh;
+    width: 78vh;
+    height: 60vh;
     float: right; /* Выравнивание по правому краю */
     margin: 0 0 5px 5px; /* Отступы вокруг фотографии */
 }
 
 .Qualification{
-    margin-top:160px;
+    
 }
 
 .Learning_Form{
     margin-top: 45px;
     margin-bottom: 45px;
-}
-
-.Text_Information{
-    margin-bottom: 195px;
 }
 
 .Information_for_Students{
@@ -52,14 +65,14 @@ iframe{
 
 .container_item {
     background: #FEFDFF;
-    height: 234px;
-    width: 290px;
+    height: 150px;
+    width: 240px;
     color: black;
     display: flex;
     justify-content: center;
     flex-direction: column;
     margin-right: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     border: 1px solid #A0D0E3;
     box-sizing: border-box;
     border-radius: 10px;
@@ -67,8 +80,8 @@ iframe{
 
 .container_item_form {
     background: #FEFDFF;
-    height: 107px;
-    width: 290px;
+    height: 95px;
+    width: 240px;
     color: black;
     display: flex;
     justify-content: center;
@@ -77,6 +90,7 @@ iframe{
     box-sizing: border-box;
     border-radius: 10px;
     margin-right: 20px;
+    margin-bottom: 5px;
 }
 
 .container_News{
@@ -106,42 +120,16 @@ iframe{
     padding-right: 20px;
 }
 
-
 /*---------------------------Slider----------------------------------------------*/
 
-.container_information_slider{
-    color: black;
-    text-align: left;
-    flex-direction: column;
-    width: 70%;
-    padding-left: 20px;
-}
 
-.container_information_slider h1{ 
-    margin-top: 0;
-}
-
-
-.container_Slider{
-    display: flex;
-    flex-direction: row;
-}
-
-
-.conteiner_image_for_slider{
-    max-width: 100%;
-}
-
-.image1{
-    max-width: 100%;
-}
 
 .center_level{   
     width: inherit;
     position: absolute;
     margin: auto auto;
     color: grey;
-    font-size: 160px;
+    font-size: 145px;
     font-weight: bold;
     
 }
@@ -159,39 +147,7 @@ iframe{
     position: relative;
     font-weight: bold;
     margin: 0 auto;
-
     font-size: 20px;
-
 }
 
-.Drezden_article{
-    margin-top: 195px;
-    display: flex;
-    flex-direction: row;
-    /*
-    Also argument can be: 200px, 50vh - Відносно вистоти екрана
-    */
-}
 
-.container_readMore{
-    height: 60px;
-    background: #FEFDFF;
-    border: 1px solid #4341BE;
-    box-sizing: border-box;
-    border-radius: 30px;
-    width: 285px;
-    
-}
-
-.readMore{
-    font-family: Roboto;
-    font-style: normal;
-
-    font-weight: bold;font-size: 50px;
-
-    font-size: 20px;
-    margin: 22.5px auto;
-    text-align: center;
-    color: #4341BE;
-    border-radius: 28px;
-}
