@@ -55,7 +55,6 @@ const diploma = [
 ];
 const usefulLinks = [
   { title: 'Новини', link: '/' },
-  { title: 'НДІ ТК', link: '/' },
   { title: 'Контакти', link: '/' },
   { title: 'Журнал', link: '/' },
   { title: 'Конференції', link: '/' },

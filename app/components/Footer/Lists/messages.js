@@ -42,11 +42,6 @@ export default defineMessages({
     defaultMessage: 'вчена рада',
     href: `/`,
   },
-  univercity: {
-    id: `${scope}.univercity`,
-    defaultMessage: 'нді тк',
-    href: `/`,
-  },
   workForStudents: {
     id: `${scope}.workForStudents`,
     defaultMessage: 'робота для студентів',
