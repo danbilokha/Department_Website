@@ -15,7 +15,7 @@ function Header() {
       <div className="TopBar">
         <div className="Logo">
           <a href="#">
-            <img src={Banner} />
+            <img alt="" src={Banner} />
           </a>
           <HeaderLink to="/teachers">
             <FormattedMessage id="boilerplate.components.instituteName" />
@@ -37,7 +37,7 @@ function Header() {
         <div className="locale">
           <LocaleToggle />
         </div>
-        <button href="">Вхід</button>
+        <button href="#">Вхід</button>
       </div>
 
       <div className="NavBar">
