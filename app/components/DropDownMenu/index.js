@@ -2,6 +2,17 @@ import React, { Component } from 'react';
 import './index.css'
 import { FormattedMessage } from 'react-intl';
 
+const topics = [
+  { id: 'about', title: 'about', link: '/' },
+  { id: 'entrance', title: 'entrance', link: '/' },
+  { id: 'studing', title: 'studing', link: '/' },
+  { id: 'scientificWork', title: 'scientificWork', link: '/' },
+  { id: 'diploma', title: 'diploma', link: '/' },
+  { id: 'deansOffice', title: 'deansOffice', link: '/' },
+  { id: 'departments', title: 'departments', link: '/' },
+  { id: 'usefulLinks', title: 'usefulLinks', link: '/' },
+];
+
 export default class Card extends Component {
   constructor() {
     super();
