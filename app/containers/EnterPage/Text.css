@@ -1,6 +1,13 @@
 
 /*------------------------------------My script------------------------*/
 
+.clearfix:after{
+    content:'';
+    display: table;
+    width: 100%;
+    clear: both;
+}
+
 .Block{
     display: flex;
     flex-wrap: wrap;
@@ -43,7 +50,12 @@ hr{
     display: inline-block;
     width: 25vh;
  }
+ 
+ .container_companies a+a{
+    margin-left: 1.5rem;
+}
 
 .companies{
     width: inherit;
 }
+

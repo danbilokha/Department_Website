@@ -1,9 +1,12 @@
 import React from 'react';
 
 const about = [
-  { title: 'Історія', link: '/' },
-  { title: 'Партнери', link: '/' },
-  { title: 'Про спеціальність', link: '/' },
+  { title: 'Історія', link: '/history#history_kafedra' },
+  { title: 'Партнери', link: '/donators#donators_kafedra' },
+  {
+    title: 'Про спеціалізацію',
+    link: '/enter#information_about_specialization',
+  },
 ];
 const entrance = [
   { title: 'Бакалаврат', link: '/' },
@@ -13,9 +16,9 @@ const entrance = [
   { title: 'Контакти відбіркової комісії інституту', link: '/' },
 ];
 const departments = [
-  { title: 'Кафедра ТК', link: '/' },
-  { title: 'Кафедра ТС', link: '/' },
-  { title: 'Кафедра ІТМ', link: '/' },
+  { title: 'Кафедра ТК', link: 'http://tk-its.kpi.ua/uk' },
+  { title: 'Кафедра ТС', link: 'http://its.kpi.ua/ts/default.aspx' },
+  { title: 'Кафедра ІТМ', link: '/kafedra_ITM#kafedra_ITM' },
   { title: 'Вчена рада', link: '/' },
 ];
 const scientificWork = [

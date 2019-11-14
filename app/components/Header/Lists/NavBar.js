@@ -4,10 +4,11 @@ export const navBar = [
   { id: 3, title: 'teachers', link: '/teachers' },
   { id: 4, title: 'studing_process', link: '/study' },
   { id: 5, title: 'scientificWork', link: '/' },
-  { id: 6, title: 'contacts', link: '/' }
+  { id: 6, title: 'contacts', link: '/contacts' },
 ];
 
-{/*Lasted: 
+{
+  /* Lasted: 
   
   
   '/history'
@@ -17,4 +18,5 @@ export const navBar = [
 
 
   '/test'
-*/}
+*/
+}

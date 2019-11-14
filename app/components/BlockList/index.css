@@ -1,0 +1,50 @@
+.container_EnterPage{
+    float: left;
+    
+}
+
+.container_EnterPage p{
+    float: right;
+}
+
+.container_item {
+    text-align: center;
+    background: #FEFDFF;
+    height: 150px;
+    width: 240px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    border: 1px solid #A0D0E3;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.center_level{   
+    width: inherit;
+    position: absolute;
+    margin: auto auto;
+    color: grey;
+    font-size: 145px;
+    font-weight: bold;
+    
+}
+
+.numberName{
+    width: 60%;
+    position: relative;
+    margin: 0 auto;
+    font-size: 14px;
+
+}
+
+.boldName{
+    width: auto;
+    position: relative;
+    font-weight: bold;
+    margin: 0 auto;
+    font-size: 20px;
+}
