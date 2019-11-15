@@ -9,8 +9,15 @@
     text-align: justify;
 }
 
+.clearfix:after{
+    content:'';
+    display: table;
+    width: 100%;
+    clear: both;
+}
+
 h1{
-    font-size: 50px;
+    font-size: 48px;
     margin-bottom: 0px;
 }
 
@@ -21,4 +28,8 @@ h2{
 
 p{
     font-size: 18px;
+}
+
+.hr_KafedraPage{
+    width: 95%;
 }

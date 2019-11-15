@@ -4,7 +4,7 @@ import { FormattedMessage } from 'react-intl';
 import './Wrapper/Header.css';
 import LocaleToggle from 'containers/LocaleToggle';
 import HeaderLink from './HeaderLink';
-import Banner from './its_48u.png';
+import Banner from './images/ІТМ_logo.png';
 import TodoList from './Lists/List';
 import { topBar } from './Lists/TopBar';
 import { navBar } from './Lists/NavBar';
@@ -15,10 +15,10 @@ function Header() {
       <div className="TopBar">
         <div className="Logo">
           <a href="#">
-            <img alt="" src={Banner} />
+            <img alt="" src={Banner} id="ITM_logo"/>
           </a>
           <HeaderLink to="/teachers">
-            <FormattedMessage id="boilerplate.components.instituteName" />
+            <FormattedMessage id="boilerplate.components.kafedraName" /> 
           </HeaderLink>
         </div>
 

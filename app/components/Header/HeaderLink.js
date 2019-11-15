@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 export default styled(Link)`
   display: inline-flex;
-  margin: 0 0.5em;
+  margin: 0 0.7em;
   text-decoration: none;
   text-transform: uppercase;
   -webkit-font-smoothing: antialiased;

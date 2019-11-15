@@ -7,6 +7,7 @@ import Information from '../../components/InformationBox/index';
 import '../GlobalPageSetting.css';
 
 import image_Collective from './images/Collective.jpg';
+import image_Welcome from './images/Welcome_on_main_page.jpg';
 
 import Img from '../../components/Img/index';
 
@@ -26,25 +27,22 @@ export default function Text() {
   return (
     <div className="page_content">
       <div className="header_box">
+        <div className="header_box_cover"><h1>Кафедра Інформаційно-Телекомунікаційних мереж</h1></div>
         <h3 id="kafedra_ITM">Спеціальність</h3>
         <h2>172 Телекомунікації та радіотехніка</h2>
         <h3>Спеціалізація</h3>
         <h2>Інформаційно-комунікаційні технології</h2>
+        <hr className="hr_KafedraPage"/>
       </div>
-      <hr />
-      <div className="presented_article">
-        <h2>
-          Лідер в сфері інфокомунікацій
-          <Img src={image_Collective} id="image_Collective" />
-        </h2>
-        <p>
-          Науковий керівник кафедри - академік НАНУ, доктор технічних наук,
+      <div className="presented_article clearfix">
+        <h2>Лідер в сфері інфокомунікацій</h2>
+        <p><Img src={image_Collective}  id="image_Collective" />
+        Науковий керівник кафедри - академік НАНУ, доктор технічних наук,
           заслужений діяч науки і техніки України, лауреат Державних премій
           СРСР, УРСР та України в галузі науки і техніки Ільченко Михайло
           Юхимович. Виконуючий обов'язки завідувача кафедри - доцент, кандидат
           технічних наук, Явіся Валерій Сергійович. Вчений секретар кафедри -
-          старший викладач Петрова Валентина Миколаївна.
-        </p>
+          старший викладач Петрова Валентина Миколаївна.</p>
       </div>
       <div>
         <p>
@@ -73,7 +71,7 @@ export default function Text() {
         Corporation, Lifecell (Астеліт), Vodafone (МТС), Укртелеком, Київстар та
         інш.
       </p>
-      <hr />
+      <hr className="hr_KafedraPage"/>
       <h1 className="center">Подвійний диплом</h1>
       <Second_Diploma_news />
       <h1 id="contacts_KafedraPage">Контакти</h1>
@@ -107,6 +105,7 @@ export default function Text() {
         />
         <ReadMore readMore="Зворотній зв'язок" />
       </ContactsList>
+      {/*
       <div className="Qualification">
         <div>
           <h1>Опис професії</h1>
@@ -130,6 +129,7 @@ export default function Text() {
           />
         </div>
       </div>
+      
       <div className="Learning_Form">
         <h2>Форми навчання</h2>
         <div className="Block">
@@ -189,8 +189,9 @@ export default function Text() {
           />
         </div>
       </div>
+      
       <div className="contacts_inf">
-        {/* Чи можна використовувати ForwardMessage длclassName = "Drezden_article" номера телефону та пошти */}
+      
         <h2>Контакти вибіркової комісії ІТС</h2>
         <p className="telephone">
           <b>Телефон відбірковї комісії ІТС: </b>(068)-357-08-44
@@ -222,6 +223,7 @@ export default function Text() {
           readMore="Читати далі"
         />
       </div>
+      */}
     </div>
   );
 }
