@@ -22,12 +22,15 @@ import ReadMore from '../../components/ReadMore';
 import { FormattedMessage } from 'react-intl';
 import WordLink from '../../components/WordLink';
 import Second_Diploma_news from '../../components/Diploma';
+import { Link } from 'react-router-dom';
 
 export default function Text() {
   return (
     <div className="page_content">
       <div className="header_box">
         <div className="header_box_cover"><h1>Кафедра Інформаційно-Телекомунікаційних мереж</h1></div>
+        <a href="kafedra_ITM#benefits"><div className="header_box_sub1"><h1>Чому саме до нас</h1></div></a>
+        <Link to="history"><div className="header_box_sub2"><h1>Історія кафедри</h1></div></Link>
         <h3 id="kafedra_ITM">Спеціальність</h3>
         <h2>172 Телекомунікації та радіотехніка</h2>
         <h3>Спеціалізація</h3>
@@ -44,18 +47,16 @@ export default function Text() {
           технічних наук, Явіся Валерій Сергійович. Вчений секретар кафедри -
           старший викладач Петрова Валентина Миколаївна.</p>
       </div>
-      <div>
-        <p>
-          <a className="inline_link" href="history#history_kafedra">
-            Кафедра{' '}
-          </a>
-          <a className="inline_link" href="enter#history_kafedra">
-            Інформаційно-телекомунікаційних мереж{' '}
-          </a>
-          готує фахівців за спеціальністю Телекомунікації та радіотехніка та
-          спеціалізацією Інформаційно-комунікаційні технології (ІКТ).
-        </p>
-      </div>
+      <p id="benefits">
+        <a className="inline_link" href="history#history_kafedra">
+          Кафедра{' '}
+        </a>
+        <a className="inline_link" href="enter#history_kafedra">
+          Інформаційно-телекомунікаційних мереж{' '}
+        </a>
+        готує фахівців за спеціальністю Телекомунікації та радіотехніка та
+        спеціалізацією Інформаційно-комунікаційні технології (ІКТ).
+      </p>
       <p>
         Кафедра телекомунікацій займає найвищі позиції у рейтингу університету,
         зокрема, за рейтингами науково-педагогічних працівників,

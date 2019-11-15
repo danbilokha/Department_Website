@@ -100,20 +100,57 @@ iframe{
 .header_box_cover{
     background: url(./images/Welcome_on_main_page.jpg);
     background-size: cover;
-    border-radius: 5px 5px 0 0;
+    border-radius: 5px;
+    border: 2px solid #040638;
     height: 15rem;
     box-shadow: inset rgba(0,0,0,0.2) 0 64px 64px 16px;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 
-.header_box_cover h1{
+.header_box h1{
     display: flex;
     align-items: flex-end;
     height: 100%;
     font-size: 42px;
     color: #f4f4f4;
     padding: 0 0 10px 30px;
+    margin: 0;
     line-height: 1.12em;
+}
+
+
+
+.header_box_sub1{
+    background: url(./images/Thinker.jpg);
+    background-size: cover;
+    width: 49%;
+    border: 2px solid #040638;
+    border-radius: 5px;
+    height: 15rem;
+    box-shadow: inset rgba(0,0,0,0.2) 0 64px 64px 16px;
+    margin-bottom: 20px;
+    float: left;
+    margin-left: .45%;
+    
+    
+}
+
+.header_box_sub1:hover {
+    
+    background-position: left; /* Смещение фона */
+   }
+
+.header_box_sub2{
+    background: url(./images/people_history.png);
+    background-size: cover;
+    width: 49%;
+    border: 2px solid #040638;
+    border-radius: 5px;
+    height: 15rem;
+    box-shadow: inset rgba(0,0,0,0.2) 0 64px 64px 16px;
+    margin-bottom: 20px;
+    float: right;
+    margin-right: .45%;
 }
 
 #image_Collective{
