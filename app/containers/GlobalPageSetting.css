@@ -27,7 +27,10 @@ h2{
 }
 
 p{
+    font-style: normal;
+    font-weight: normal;
     font-size: 18px;
+    line-height: 27px;
 }
 
 .hr_KafedraPage{
