@@ -8,6 +8,7 @@ import '../GlobalPageSetting.css';
 
 import image_Collective from './images/Collective.jpg';
 import image_Welcome from './images/Welcome_on_main_page.jpg';
+import image_allow from './images/arrow.png'
 
 import Img from '../../components/Img/index';
 
@@ -35,7 +36,20 @@ export default function Text() {
         <h2>172 Телекомунікації та радіотехніка</h2>
         <h3>Спеціалізація</h3>
         <h2>Інформаційно-комунікаційні технології</h2>
-        <hr className="hr_KafedraPage"/>
+          <div className="motivation_box">
+            <div className="motivation_box_Why">
+              <h2>Шановні Абітурієнти!</h2>
+              <p>Ви кожного дня використовуєте «хмарні» послуги та різноманітні гаджети?</p>
+              <p>Вважаєте себе достатньо мотивованою людиною?</p>
+              <p>Хочете стати справжнім майстром своєї справи? </p>
+              <p>Не пливеш за течією, а намагаєшся досягти більшого ніж інші?</p>
+            </div>
+            <div className="arrow_box"><Img src={image_allow}  id="arrow_KafedraPage" /></div>
+            <div className="motivation_box_know">
+              <h2>Тоді вам необхідно знати</h2>
+              <p>Домінуючою стратегією розвитку цивілізованих країн стає концепція інформаційного суспільства, в якому матеріальною основою стають інформаційно-комунікаційні технології (спеціалізація нашої кафедри) та системи, де тісно переплітаються завдання формування, зберігання, обробки та вільного обміну в необмеженому просторовому ресурсі значних обсягів інформації, які рухаються від джерел до чисельних споживачів. </p>
+            </div>
+          </div>
       </div>
       <div className="presented_article clearfix">
         <h2>Лідер в сфері інфокомунікацій</h2>
@@ -75,37 +89,42 @@ export default function Text() {
       <hr className="hr_KafedraPage"/>
       <h1 className="center">Подвійний диплом</h1>
       <Second_Diploma_news />
-      <h1 id="contacts_KafedraPage">Контакти</h1>
-      <ContactsList>
-        <iframe
-          width="450"
-          height="350"
-          src="http://maps.google.co.uk/maps?q=м. Київ, пров. Індустріальний, 2 &amp;output=embed"
-        />
-        <Contacts
-          h2="Кафедра ITM"
-          addressName="Адреса факультету:"
-          addressIndex="03056"
-          address="м. Київ, пров. Індустріальний, 2, корпус №30, к. 316"
-          telephoneTitle="Телефон:"
-          telephone="(044) 204-98-91"
-          faxTitle="Факс:"
-          fax="(044) 204-82-99"
-          e_mailTitle="E-mail:"
-          e_mail="itm@its.kpi.ua"
-        />
-        <Contacts
-          h2="Деканат"
-          addressName="Адреса:"
-          addressIndex="03056"
-          address="м. Київ, пров. Індустріальний, 2, корпус №30, к. 312"
-          telephoneTitle="Телефон:"
-          telephone="(044) 236-40-14"
-          e_mailTitle="E-mail:"
-          e_mail="its@its.kpi.ua"
-        />
-        <ReadMore readMore="Зворотній зв'язок" />
-      </ContactsList>
+      <div className="contacts_KafedraPage">
+        <h1 id="contacts_KafedraPage">Контакти</h1>
+        <ContactsList>
+          <Contacts
+            h2="Кафедра ITM"
+            addressName="Адреса факультету:"
+            addressIndex="03056"
+            address="м. Київ, пров. Індустріальний, 2, корпус №30, к. 316"
+            telephoneTitle="Телефон:"
+            telephone="(044) 204-98-91"
+            faxTitle="Факс:"
+            fax="(044) 204-82-99"
+            e_mailTitle="E-mail:"
+            e_mail="itm@its.kpi.ua"
+          />
+          <Contacts
+            h2="Деканат"
+            addressName="Адреса:"
+            addressIndex="03056"
+            address="м. Київ, пров. Індустріальний, 2, корпус №30, к. 312"
+            telephoneTitle="Телефон:"
+            telephone="(044) 236-40-14"
+            e_mailTitle="E-mail:"
+            e_mail="its@its.kpi.ua"
+          />
+          <div className="institute_location clearfix">
+            <h2>Де нас знайти?</h2>
+            <iframe className="institute_location_map "
+              width="450"
+              height="350"
+              src="http://maps.google.co.uk/maps?q=м. Київ, пров. Індустріальний, 2 &amp;output=embed"
+            />
+            <ReadMore readMore="Зворотній зв'язок" />
+          </div> 
+        </ContactsList>
+      </div>
       {/*
       <div className="Qualification">
         <div>

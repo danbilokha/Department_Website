@@ -1,7 +1,8 @@
 import styled from 'styled-components';
 
 const ContactsList = styled.div`
-  margin-bottom: 195px;
+  padding: 10px;
+
 `;
 
 export default ContactsList;

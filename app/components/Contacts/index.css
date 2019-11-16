@@ -1,0 +1,12 @@
+.container_contacts p{
+    line-height: 18px;
+}
+
+.container_contacts h2{
+    margin: 10px 0;
+}
+
+.container_contacts{
+    border-bottom:  2px solid ivory;
+    padding-bottom: 10px;
+}

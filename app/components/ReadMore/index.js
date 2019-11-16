@@ -3,9 +3,9 @@ import './index.css'
 
 function ReadMore(props) {
     return (
-        <div className = "container_readMore">
-            <a href = {props.link} className = "readMore">{props.readMore}</a>
-        </div>
+        <a href = {props.link} className = "container_readMore">
+            <p  className = "readMore">{props.readMore}</p>
+        </a>
     );
   }
   
