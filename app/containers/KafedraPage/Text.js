@@ -28,29 +28,32 @@ import { Link } from 'react-router-dom';
 export default function Text() {
   return (
     <div className="page_content">
-      <div className="header_box">
-        <div className="header_box_cover"><h1>Кафедра Інформаційно-Телекомунікаційних мереж</h1></div>
-        <a href="kafedra_ITM#benefits"><div className="header_box_sub1"><h1>Чому саме до нас</h1></div></a>
-        <Link to="history"><div className="header_box_sub2"><h1>Історія кафедри</h1></div></Link>
-        <h3 id="kafedra_ITM">Спеціальність</h3>
-        <h2>172 Телекомунікації та радіотехніка</h2>
-        <h3>Спеціалізація</h3>
-        <h2>Інформаційно-комунікаційні технології</h2>
-          <div className="motivation_box">
-            <div className="motivation_box_Why">
-              <h2>Шановні Абітурієнти!</h2>
-              <p>Ви кожного дня використовуєте «хмарні» послуги та різноманітні гаджети?</p>
-              <p>Вважаєте себе достатньо мотивованою людиною?</p>
-              <p>Хочете стати справжнім майстром своєї справи? </p>
-              <p>Не пливеш за течією, а намагаєшся досягти більшого ніж інші?</p>
+      <section className="container_introduction_KafedraPage">
+        <div className="header_box">
+          <div className="header_box_cover"><h1>Кафедра Інформаційно-Телекомунікаційних мереж</h1></div>
+          <a href="kafedra_ITM#benefits"><div className="header_box_sub1"><h1>Чому саме до нас</h1></div></a>
+          <Link to="history"><div className="header_box_sub2"><h1>Історія кафедри</h1></div></Link>
+          <h3 id="kafedra_ITM">Спеціальність</h3>
+          <h2>172 Телекомунікації та радіотехніка</h2>
+          <h3>Спеціалізація</h3>
+          <h2>Інформаційно-комунікаційні технології</h2>
+            <div className="motivation_box">
+              <div className="motivation_box_Why">
+                <h2>Шановні Абітурієнти!</h2>
+                <p>Ви кожного дня використовуєте «хмарні» послуги та різноманітні гаджети?</p>
+                <p>Вважаєте себе достатньо мотивованою людиною?</p>
+                <p>Хочете стати справжнім майстром своєї справи? </p>
+                <p>Не пливеш за течією, а намагаєшся досягти більшого ніж інші?</p>
+              </div>
+              <div className="arrow_box"><Img src={image_allow}  id="arrow_KafedraPage" /></div>
+              <div className="motivation_box_know">
+                <h2>Тоді вам необхідно знати</h2>
+                <p>Домінуючою стратегією розвитку цивілізованих країн стає концепція інформаційного суспільства, в якому матеріальною основою стають інформаційно-комунікаційні технології (спеціалізація нашої кафедри) та системи, де тісно переплітаються завдання формування, зберігання, обробки та вільного обміну в необмеженому просторовому ресурсі значних обсягів інформації, які рухаються від джерел до чисельних споживачів. </p>
+              </div>
             </div>
-            <div className="arrow_box"><Img src={image_allow}  id="arrow_KafedraPage" /></div>
-            <div className="motivation_box_know">
-              <h2>Тоді вам необхідно знати</h2>
-              <p>Домінуючою стратегією розвитку цивілізованих країн стає концепція інформаційного суспільства, в якому матеріальною основою стають інформаційно-комунікаційні технології (спеціалізація нашої кафедри) та системи, де тісно переплітаються завдання формування, зберігання, обробки та вільного обміну в необмеженому просторовому ресурсі значних обсягів інформації, які рухаються від джерел до чисельних споживачів. </p>
-            </div>
-          </div>
-      </div>
+        </div>
+      </section>
+      <section className="container_about_KafedraPage">
       <div className="presented_article clearfix">
         <h2>Лідер в сфері інфокомунікацій</h2>
         <p><Img src={image_Collective}  id="image_Collective" />
@@ -86,10 +89,13 @@ export default function Text() {
         Corporation, Lifecell (Астеліт), Vodafone (МТС), Укртелеком, Київстар та
         інш.
       </p>
+      </section>
       <hr className="hr_KafedraPage"/>
+      <section className="Second Degree">
       <h1 className="center">Подвійний диплом</h1>
       <Second_Diploma_news />
-      <div className="contacts_KafedraPage">
+      </section>
+      <section className="contacts_KafedraPage">
         <h1 id="contacts_KafedraPage">Контакти</h1>
         <ContactsList>
           <Contacts
@@ -124,7 +130,7 @@ export default function Text() {
             <ReadMore readMore="Зворотній зв'язок" />
           </div> 
         </ContactsList>
-      </div>
+      </section>
       {/*
       <div className="Qualification">
         <div>

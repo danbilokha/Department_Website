@@ -4,7 +4,7 @@ import './index.css';
 
 export default function TextTeacher(){
     return(
-        <div className='teachers'>
+        <div className="teachers">
             <p>
                 <span>
                     <FormattedMessage id = 'boilerplate.containers.Text.teachers1'/>
