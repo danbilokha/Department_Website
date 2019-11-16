@@ -27,7 +27,7 @@ import image23 from './images/image 28.png'
 
 export default function Images(){
     return(
-        <div>
+        <div className="container_photo_gallery">
             <Img src ={image1}/>
             <Img src ={image2}/>
             <Img src ={image3}/>
