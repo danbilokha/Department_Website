@@ -12,7 +12,7 @@ export default class SubjectBachelors extends React.Component {
 
 
       <div id="master_subjects">
-        <h3>Перелік предметів магістрів</h3>
+        <p class="study_topic">Перелік предметів магістрів</p>
     
         <label>Cпеціальні навчальні дисципліни:</label>
         

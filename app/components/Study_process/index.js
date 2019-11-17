@@ -28,7 +28,7 @@ export default class Process extends React.Component {
 
     return (
       <div id="proc">
-        <h1>Навчальний процес</h1>
+        <h3>Навчальний процес</h3>
         <p>Навчальні плани</p>
         <table id="study_practice">
           <tr name="head_table">

@@ -113,3 +113,7 @@ button:active, :hover, :focus, input[type="search"]:active, :hover, :focus {
 .locale{
     display: block;
 }
+
+boilerplate.components.kafedraName{
+    font-size:25px;
+}
