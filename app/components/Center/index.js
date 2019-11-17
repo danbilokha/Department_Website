@@ -10,12 +10,12 @@ import ToDoList from './List';
 
 function Center(){
     return(
-        <div className = 'parent'>
+        <div className = 'center-parent'>
             <Centermenu >
-               <div className = 'messages'>
+               <div className = 'center-messages'>
                     <FormattedMessage id = "boilerplate.containers.HomePage.h2"/>
                 </div>
-                <hr/>
+                <hr className="center-hr"/>
                 <ToDoList/>
             </Centermenu>
         </div>
