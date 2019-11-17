@@ -1,26 +1,48 @@
 import React from 'react';
 import './index.css'
+import ContactsList from './ContactsList/index';
+import ContactsInformation from './ContactsInformation/index.js';
+import ReadMore from '../ReadMore/index';
 
 function Contacts(props) {
 
   return (
-    <div className="container_contacts">
-      <h2>
-        <b>{props.h2}:</b>
-      </h2>
-      <p>
-        <b>{props.addressName}</b> {props.addressIndex}, {props.address}
-      </p>
-      <p>
-        <b>{props.telephoneTitle}</b> {props.telephone}
-      </p>
-      <p>
-        <b>{props.faxTitle}</b> {props.fax}
-      </p>
-      <p>
-        <b>{props.e_mailTitle}</b> {props.e_mail}
-      </p>
-    </div>
+    <div className="contacts_KafedraPage">
+        <h1 id="contacts_KafedraPage">Контакти</h1>
+        <ContactsList>
+        <ContactsInformation
+            h2="Кафедра ITM"
+            addressName="Адреса факультету:"
+            addressIndex="03056"
+            address="м. Київ, пров. Індустріальний, 2, корпус №30, к. 316"
+            telephoneTitle="Телефон:"
+            telephone="(044) 204-98-91"
+            faxTitle="Факс:"
+            fax="(044) 204-82-99"
+            e_mailTitle="E-mail:"
+            e_mail="itm@its.kpi.ua"
+          />
+          <ContactsInformation
+            h2="Деканат"
+            addressName="Адреса:"
+            addressIndex="03056"
+            address="м. Київ, пров. Індустріальний, 2, корпус №30, к. 312"
+            telephoneTitle="Телефон:"
+            telephone="(044) 236-40-14"
+            e_mailTitle="E-mail:"
+            e_mail="its@its.kpi.ua"
+          />
+          <div className="institute_location clearfix">
+            <h2>Де нас знайти?</h2>
+            <iframe className="institute_location_map "
+              width="450"
+              height="350"
+              src="http://maps.google.co.uk/maps?q=м. Київ, пров. Індустріальний, 2 &amp;output=embed"
+            />
+            <ReadMore readMore="Зворотній зв'язок" />
+          </div> 
+        </ContactsList>
+      </div>
   );
 }
 
