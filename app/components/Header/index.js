@@ -22,7 +22,7 @@ function Header() {
           </HeaderLink>
         </div>
 
-        <div>
+        <div className ="Header-list">
           <TodoList topics={topBar} />
         </div>
 
