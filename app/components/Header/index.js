@@ -8,6 +8,11 @@ import Banner from './images/ITM_logo.gif';
 import TodoList from './Lists/List';
 import { topBar } from './Lists/TopBar';
 import { navBar } from './Lists/NavBar';
+import DropDown1 from '../DropDownMenus/DropDowns/dropdown1/dropdown1'
+import DropDown2 from '../DropDownMenus/DropDowns/dropdown2/dropdown2'
+import DropDown3 from '../DropDownMenus/DropDowns/dropdown3/dropdown3'
+import DropDown4 from '../DropDownMenus/DropDowns/dropdown4/dropdown4'
+
 
 function Header() {
   return (
@@ -41,7 +46,26 @@ function Header() {
       </div>
 
       <div className="NavBar">
-        <TodoList topics={navBar} selection />
+        {/* <TodoList topics={navBar} selection /> */}
+        <HeaderLink>
+          <DropDown1/>
+        </HeaderLink>
+        <HeaderLink>
+          <DropDown2/>
+        </HeaderLink>
+        <HeaderLink>
+          <DropDown3/>
+        </HeaderLink>
+        <HeaderLink>
+          <DropDown4/>
+        </HeaderLink>
+        <HeaderLink to = "/teachers">
+          <FormattedMessage id = "boilerplate.components.teachers"/>
+        </HeaderLink>
+          <HeaderLink to = '/contacts'>
+        <FormattedMessage id ="boilerplate.components.contacts"/>
+        </HeaderLink>
+        
       </div>
     </div>
   );

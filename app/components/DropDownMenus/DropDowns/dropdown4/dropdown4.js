@@ -9,8 +9,9 @@ export default function DropDown4(){
     return(
         <div class="abc">
             <button class="dropbtn">
-                <HeaderLink>
+                <HeaderLink >
                     <FormattedMessage id={"boilerplate.components.scientificWork"}/>
+                    <div className ="drptringledown"/>
                 </HeaderLink>
             </button>
             <div class="dropdown-content">

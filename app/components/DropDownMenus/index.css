@@ -45,6 +45,15 @@
     transition: all 300ms;
   }
 
-  
-  
-  
+  .drptringledown{
+    margin: auto .5em;
+    content: '';
+    margin-top: 6px;
+    border: 4px solid transparent;
+    border-top: 3px solid  #040638;
+    margin-right:0;
+}
+/* .x{
+  height:39px;
+}
+   */

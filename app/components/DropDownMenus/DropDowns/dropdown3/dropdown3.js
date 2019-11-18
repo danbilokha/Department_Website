@@ -11,11 +11,12 @@ export default function DropDown3(){
             <button class="dropbtn">
                 <HeaderLink>
                     <FormattedMessage id={"boilerplate.components.studing"}/>
+                    <div className ="drptringledown"/>
                 </HeaderLink>
             </button>
             <div class="dropdown-content">
                 <a>
-                    <FormattedMessage id={"boilerplate.components.entrance.bakalavrat"}/> 
+                    <FormattedMessage id={"boilerplate.components.entrance.bakalavrat"}/>
                 </a>
                 <a>
                     <FormattedMessage id ={"boilerplate.components.entrance.magistratura"}/>
