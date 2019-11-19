@@ -87,7 +87,7 @@ export default function StudyPage() {
 
         <PracticeFinal />
 
-        <section>
+        <section className="textBlock">
           <strong>Звіти практики</strong>
 
           <p>
@@ -123,7 +123,7 @@ export default function StudyPage() {
       </article>
 
       <article className="practice">
-        <section>
+        <section className="textBlock">
           <strong>Переддипломна практика 4-й курс</strong>
 
           <p>
@@ -147,7 +147,7 @@ export default function StudyPage() {
           </p>
         </section>
 
-        <section>
+        <section className="textBlock">
           <strong>Переддипломна практика 6-й курс</strong>
 
           <p>
