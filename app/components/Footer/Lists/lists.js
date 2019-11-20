@@ -6,7 +6,7 @@ import HeaderLink from './HeaderLink';
 const scope = 'boilerplate.components.';
 
 const topics = [
-  { id: 'about', title: 'about', link: '/kafedra_ITM' },
+  { id: 'about', title: 'about', link: '/' },
   { id: 'entrance', title: 'entrance', link: '/enter' },
   { id: 'studing', title: 'studing', link: '/study' },
   { id: 'scientificWork', title: 'scientificWork', link: '/' },

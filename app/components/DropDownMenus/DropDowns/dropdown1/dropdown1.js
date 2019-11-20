@@ -17,7 +17,7 @@ export default function DropDown1(){
                 </HeaderLink>
             </button>
             <div class="dropdown-content">
-                <Link to='/enter'>
+                <Link to='/history'>
                     <FormattedMessage id={"boilerplate.components.about.history"}/>
                 </Link>
                 <Link to='/donators'>
