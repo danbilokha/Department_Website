@@ -2,7 +2,7 @@ import React from 'react'
 import '../../index.css'
 import { FormattedMessage } from 'react-intl'
 import HeaderLink from '../../../Header/HeaderLink'
-
+import { Link } from 'react-router-dom';
 
 
 export default function DropDown4(){
@@ -15,24 +15,24 @@ export default function DropDown4(){
                 </HeaderLink>
             </button>
             <div class="dropdown-content">
-                <a>
+                <Link to='/'>
                     <FormattedMessage id={"boilerplate.components.scientificWork.publications"}/> 
-                </a>
-                <a>
+                </Link>
+                <Link to='/'>
                     <FormattedMessage id ={"boilerplate.components.scientificWork.training"}/>
-                </a>
-                <a>
+                </Link>
+                <Link to='/conferences'>
                     <FormattedMessage id={"boilerplate.components.scientificWork.Participation"}/> 
-                </a>
-                <a>
+               </Link>
+                <Link to='/'>
                     <FormattedMessage id ={"boilerplate.components.scientificWork.Master_works"}/>
-                </a>
-                <a>
+                </Link>
+                <Link to='/'>
                     <FormattedMessage id ={"boilerplate.components.scientificWork.defendedPresentations"}/>
-                </a>
-                <a>
+                </Link>
+                <Link to='/'>
                     <FormattedMessage id ={"boilerplate.components.scientificWork.NDCMD"}/>
-                </a>
+                </Link>
             </div>
         </div>
     )

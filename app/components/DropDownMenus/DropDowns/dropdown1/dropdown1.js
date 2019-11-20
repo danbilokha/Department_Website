@@ -2,7 +2,7 @@ import React from 'react'
 import '../../index.css'
 import { FormattedMessage } from 'react-intl'
 import HeaderLink from '../../../Header/HeaderLink'
-
+import { Link } from 'react-router-dom'
 
 
 
@@ -17,16 +17,16 @@ export default function DropDown1(){
                 </HeaderLink>
             </button>
             <div class="dropdown-content">
-                <a>
-                    <FormattedMessage id={"boilerplate.components.about.history"}/> 
-                </a>
-                <a>
+                <Link to='/enter'>
+                    <FormattedMessage id={"boilerplate.components.about.history"}/>
+                </Link>
+                <Link to='/donators'>
                     <FormattedMessage id ={"boilerplate.components.about.partners"}/>
-                </a>
-                <a>
+                </Link>
+                <Link to='/'>
                     <FormattedMessage id ={"boilerplate.components.about.speciality"}/>
-                </a>
-            </div>
+                </Link>
+           </div>
         </div>
     )
 }

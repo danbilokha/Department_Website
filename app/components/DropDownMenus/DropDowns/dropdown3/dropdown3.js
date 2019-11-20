@@ -2,7 +2,7 @@ import React from 'react'
 import '../../index.css'
 import { FormattedMessage } from 'react-intl'
 import HeaderLink from '../../../Header/HeaderLink'
-
+import { Link } from 'react-router-dom';
 
 
 export default function DropDown3(){
@@ -15,37 +15,36 @@ export default function DropDown3(){
                 </HeaderLink>
             </button>
             <div class="dropdown-content">
-                <a>
+                <Link to='/'>
                     <FormattedMessage id={"boilerplate.components.entrance.bakalavrat"}/>
-                </a>
-                <a>
+                </Link>
+                <Link to='/'>
                     <FormattedMessage id ={"boilerplate.components.entrance.magistratura"}/>
-                </a>
-                <a>
+                </Link>
+                <Link to='/'>
                     <FormattedMessage id={"boilerplate.components.studing.doctor_of_philosofic"}/> 
-                </a>
-                <a>
+                </Link>
+                <Link to='/'>
                     <FormattedMessage id ={"boilerplate.components.studing.subjects"}/>
-                </a>
-                <a>
+                </Link>
+                <Link to='/'>
                     <FormattedMessage id ={"boilerplate.components.studing.learn_plans"}/>
-                </a>
-                <a>
+                </Link>
+                <Link to='/'>
                     <FormattedMessage id ={"boilerplate.components.studing.work_on_diploma"}/>
-                </a>
-                <a>
+                </Link>
+                <Link to='/'>
                     <FormattedMessage id={"boilerplate.components.studing.archieve"}/> 
-                </a>
-                <a>
+                </Link>
+                <Link to='/'>
                     <FormattedMessage id={"boilerplate.components.studing.double_diploma"}/> 
-                </a>
-                
-                <a>
-                    <FormattedMessage id={"boilerplate.components.studing.learn_after_diploma"}/> 
-                </a>
-                <a>
+                </Link>
+                <Link to='/'>
+                    <FormattedMessage id={"boilerplate.components.studing.learn_after_diploma"}/>
+                </Link>
+                <Link to='/'>
                     <FormattedMessage id={"boilerplate.components.studing.gurtki"}/> 
-                </a>
+                </Link>
             </div>
         </div>
     )

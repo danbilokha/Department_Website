@@ -16,27 +16,22 @@ export default function DropDown2(){
                 </HeaderLink>
             </button>
             <div class="dropdown-content">
-                <a> 
-                    
-                        <FormattedMessage id={"boilerplate.components.entrance.bakalavrat"} />
-                    
-                </a>
-                <a>
-                    
+                <Link to='/enter'>
+                    <FormattedMessage id={"boilerplate.components.entrance.bakalavrat"} />
+                </Link>
+                <Link to='/'>
                     <FormattedMessage id ={"boilerplate.components.entrance.magistratura"}/>
-                </a>
-                <a>
-                    
+                </Link>
+                <Link to='/'>
                     <FormattedMessage id ={"boilerplate.components.entrance.aspirantura"}/>
-                </a>
-                <a>
-
+                </Link>
+                <Link to='/'>
                     <FormattedMessage id ={"boilerplate.components.entrance.documents"}/>
-                </a>
-                <a>
-                    
+                </Link>
+               <Link to='/'>
                     <FormattedMessage id ={"boilerplate.components.entrance.institute_contacts"}/>
-                </a>
+                </Link>
+                
             </div>
         </div>
     )
