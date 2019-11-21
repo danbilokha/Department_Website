@@ -6,7 +6,7 @@ export default class HelloComponent extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      massage: `Hello world! Come to me!`,
+      massage: `Hello world!`,
     };
   }
   render() {

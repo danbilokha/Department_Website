@@ -35,8 +35,7 @@ export default function App() {
       <Helmet titleTemplate="%s-Kafedra" defaultTitle="React.js Boilerplate" />
       <Header />
       <Switch>
-        <Route exact path="/" component={HomePage} />
-        <Route path="/kafedra_ITM" component={KafedraPage} />
+        <Route exact path="/" component={KafedraPage} />
         <Route path="/history" component={HistoryPage} />
         <Route path="/donators" component={DonatorsPage} />
         <Route path="/study" component={StudyPage} />

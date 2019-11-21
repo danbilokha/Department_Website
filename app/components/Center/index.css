@@ -1,11 +1,11 @@
-.messages{
+.center-messages{
     
    font-size: 40px;
    color:#B2B9DF;
    padding-top: 100px;
    
 }
-.parent {
+.center-parent {
     background: url(./centermenu/backh2.png)  ;
     /* height: auto; */
     /* width: 1366px; */
@@ -14,9 +14,9 @@
     
     
 }
-hr{
+.center-hr{
     height: 1px;
-    width: 700px;
+    width: 100%;
 }
 ul lo{
     margin-right:50px;

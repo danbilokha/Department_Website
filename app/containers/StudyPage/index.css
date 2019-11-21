@@ -1,11 +1,17 @@
 
+.study_topic{
+    font-size:180%;
+    font-weight: bold;
+}
+
 #study_all{
     margin-left:250px;
     margin-right: 250px;
 }
 
-#subject_list li{
+#subject_list dd{
     width:450px;
+    padding-bottom:5px;
 }
 
 #subject_list{
@@ -55,11 +61,11 @@ margin-left: 20px; /* Отступ слева */
     margin-bottom: 50px;
 }
 
-section{
+.textBlock{
     margin-top:20px;
 }
 
-section strong{
+.textBlock strong{
 font-weight:bold;
 font-family: Roboto;
 font-style: normal;

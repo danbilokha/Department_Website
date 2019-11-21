@@ -3,24 +3,7 @@ header img{
     height: 48px;
 }
 
-/*
-a {
-    display: inline-flex;
-    margin:  0 .5em;
-    text-decoration: none;
-    /*text-transform: uppercase;
-    -webkit-font-smoothing: antialiased;
-    -webkit-touch-callout: none;
-    user-select: none;
-    cursor: pointer;
-    outline: 0;
-    font-family: Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 16px;
-}
-*/
+
 a:active {
   color: #fff;
 }
@@ -113,3 +96,7 @@ button:active, :hover, :focus, input[type="search"]:active, :hover, :focus {
 .locale{
     display: block;
 }
+
+/* boilerplate.components.kafedraName{
+    font-size:25px;
+} */

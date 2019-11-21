@@ -1,11 +1,11 @@
 import React from 'react';
-import DropDownMenu from '../../components/DropDownMenu/index';
+import DropDowns from '../../components/DropDownMenus/index'
 import './index.css'
 
 export default function Test() {
   return (
-    <div className ='dropdownmenu'>
-        <DropDownMenu/>
+    <div className='dropdownmenu'>
+        <DropDowns/>
     </div>
   );
 }
