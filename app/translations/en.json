@@ -12,7 +12,17 @@
   "boilerplate.components.about.history":"Історія",
   "boilerplate.components.about.partners":"Партнери",
   "boilerplate.components.about.speciality":"Про Спеціальність",
-  "boilerplate.components.entrance": "ВСТУП",
+  "boilerplate.components.entrance": "ВСТУПНИКАМ",
+  
+  "boilerplate.components.entrance.entryFor1": "Вступ на 1 курс",
+  "boilerplate.components.entrance.entryFor5": "Вступ на 5 курс",
+  "boilerplate.components.entrance.newForEnterer": "Новини вступникам",
+  "boilerplate.components.entrance.learningProgram": "Освітня програма",
+  "boilerplate.components.entrance.doctorPhilosophii": "Доктор філософії",
+  "boilerplate.components.entrance.officialDocuments": "Офіційні документи",
+  "boilerplate.components.entrance.contactsOfcomisii": "Контакти відбіркової комісії",
+  "boilerplate.components.entrance.listOfToEnter": "Список зарахованих на перший курс",
+
   "boilerplate.components.entrance.bakalavrat": "Бакалаврат",
   "boilerplate.components.entrance.magistratura": "Магіcтратура",
   "boilerplate.components.entrance.aspirantura": "Аcпірантура",

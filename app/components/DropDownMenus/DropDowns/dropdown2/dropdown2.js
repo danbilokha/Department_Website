@@ -17,19 +17,28 @@ export default function DropDown2(){
             </button>
             <div class="dropdown-content">
                 <Link to='/enter'>
-                    <FormattedMessage id={"boilerplate.components.entrance.bakalavrat"} />
+                    <FormattedMessage id={"boilerplate.components.entrance.newForEnterer"} />
                 </Link>
                 <Link to='/'>
-                    <FormattedMessage id ={"boilerplate.components.entrance.magistratura"}/>
+                    <FormattedMessage id ={"boilerplate.components.entrance.learningProgram"}/>
                 </Link>
-                <Link to='/'>
-                    <FormattedMessage id ={"boilerplate.components.entrance.aspirantura"}/>
+                <Link to='/entry_for_first_course'>
+                    <FormattedMessage id ={"boilerplate.components.entrance.entryFor1"}/>
                 </Link>
-                <Link to='/'>
-                    <FormattedMessage id ={"boilerplate.components.entrance.documents"}/>
+                <Link to='/entry_for_fifth_course'>
+                    <FormattedMessage id ={"boilerplate.components.entrance.entryFor5"}/>
                 </Link>
                <Link to='/'>
-                    <FormattedMessage id ={"boilerplate.components.entrance.institute_contacts"}/>
+                    <FormattedMessage id ={"boilerplate.components.entrance.doctorPhilosophii"}/>
+                </Link>
+                <Link to='/'>
+                    <FormattedMessage id ={"boilerplate.components.entrance.officialDocuments"}/>
+                </Link>
+                <Link to='/'>
+                    <FormattedMessage id ={"boilerplate.components.entrance.contactsOfcomisii"}/>
+                </Link>
+                <Link to='/'>
+                    <FormattedMessage id ={"boilerplate.components.entrance.listOfToEnter"}/>
                 </Link>
                 
             </div>
