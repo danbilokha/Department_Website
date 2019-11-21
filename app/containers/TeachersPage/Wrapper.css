@@ -1,25 +1,10 @@
-/* .mainContainer{
-    margin: 10vh 15vw;
-} */
-
 .TeacherList{
-    margin-bottom: 15em;
-}
-
-#listTitle{
-    color: #585866;
-}
-
-#listTitle :first-child{
-    width: 135px;
-}
-
-#listTitle :nth-child(2){
-    width: 135px;
+    margin-bottom: 5vh;
+    text-align: start;
 }
 
 .TeacherItem{
-    margin-top: 5em;
+    margin-top: 5vh;
     display: grid;
     grid-template-columns: 1fr 1fr 5fr;
 }
@@ -40,6 +25,7 @@
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
+
 }
 
 .ItemTitle{

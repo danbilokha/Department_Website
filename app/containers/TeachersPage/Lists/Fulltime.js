@@ -1,5 +1,3 @@
-
-
 import Globa from './portrets/globa.png';
 import Mogilevych from './portrets/mogilevych.png';
 import Alexeev from './portrets/alexeev.png';
@@ -13,7 +11,6 @@ import Shtogrina from './portrets/shtogrina.png';
 import Kononova from './portrets/kononova.png';
 import Sulima from './portrets/sulima.png';
 import Gaeviy from './portrets/gaeviy.png';
-
 
 export const Teachers = [
   {
@@ -124,7 +121,6 @@ export const Teachers = [
     scienceDegree: 'доктор технічних наук (2019)',
     disciplines:
       "Інформатика - 1,2, Технології програмування, Прикладне програмування в телекомунікаційних системах - 1, Апаратне та програмне забезпечення комп'ютерної техніки, Спеціальні розділи математики, Дослідження операцій, Захист інформації в ТКМ, Математичні методи аналізу та проектування телекомунікаційних систем та мереж-1,2",
-    sphere: '',
     sphere:
       'Захист інформаційних ресурсів, Безпека в телекомунікаційних системах, Дослідження операцій (теорія та методи оптимізації), Застосування відомих матиматичних методів в телекомунікаціях, Системи тарифікації в телекомунікаційних компаніях',
     achievements:
@@ -210,4 +206,3 @@ export const Teachers = [
     contacts: '',
   },
 ];
-
