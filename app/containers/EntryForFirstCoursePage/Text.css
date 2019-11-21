@@ -1,0 +1,72 @@
+.container_start_entryForFirst{
+    text-align: center;
+}
+
+.uppercase{
+    color: #0c1070;
+    text-transform: uppercase;
+    border-bottom: dotted;
+}
+
+.uppercase:hover{
+    border-bottom: solid;
+}
+
+.content_steps_for_entering{
+    margin: 10px;
+}
+
+.content_steps_for_entering p{
+    font-weight: 100;
+}
+
+.content_steps_for_entering thead{
+    text-align: center;
+    border-bottom: 2px solid white;
+}
+
+.content_steps_for_entering tr{
+    padding: 0.2em 0.7em;
+    background: #efefef;
+    background: rgba(0,0,0,0.063);
+}
+
+.content_steps_for_entering td{
+    border: 1px solid #ccc; 
+}
+
+.content_steps_for_entering td p{
+    padding: 0 5px 0 5px;
+    margin: 0;
+}
+
+.numerical_table_header h4, .numerical_table_header p{
+    text-align: center;
+}
+
+
+.numerical_table th{
+    text-align: center;
+}
+.numerical_table th:nth-child(1){
+    width: 40%;
+    text-align: center;
+}
+.numerical_table th:nth-child(2){
+    width: 15%;
+    text-align: center;
+}
+.numerical_table th:nth-child(3){
+    width: 40%;
+    text-align: center;
+}
+
+.numerical_table tr{
+    background: #efefef;
+    background: rgba(0,0,0,0.063);
+}
+
+.numerical_table td{
+    padding: 0.2em 0.7em;
+    border: 1px solid #ccc; 
+}
