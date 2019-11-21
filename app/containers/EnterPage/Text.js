@@ -15,9 +15,10 @@ import image_microsoft from './images/microsoft.png';
 import image_huawei from './images/huawei.png';
 import image_nokia from './images/nokia.png';
 import image_ericsson from './images/ericsson.png';
-
 import image_Benefits from './images/Benefits.png';
 import image_diagram from './images/diagram.gif';
+import image22 from '../DonatorsPage/images/image 27.png';
+
 import TermDescription from '../../components/TermDescription';
 
 export default function Text() {
@@ -49,10 +50,10 @@ export default function Text() {
         на трьох рівнях вищої освіти: бакалавр, магістр, доктор філософії.
       </p>
       <div>
-        <Img src={image_Benefits} id="image_Benefits" />
         <p>
           <b>Спеціалізація</b> спрямована на опанування випускниками спеціальних
           знань із:
+          <Img src={image_Benefits} id="image_Benefits" />
           <ul className="benefits">
             <li>
               проектування гетерогенних програмно-апаратних платформ, які
@@ -139,21 +140,36 @@ export default function Text() {
         </p>
       </div>
       <div className="container_companies">
-        <a href="https://www.microsoft.com">
+        <a href="https://www.microsoft.com" target="_blank">
           <Img
             src={image_microsoft}
             alt="microsoft.png"
             className="companies"
           />
         </a>
-        <a href="https://consumer.huawei.com">
-          <Img src={image_huawei} alt="huawei.png" className="companies" />
+        <a href="https://consumer.huawei.com" target="_blank">
+          <Img 
+          src={image_huawei} 
+          alt="huawei.png" 
+          className="companies" />
         </a>
-        <a href="https://www.nokia.com">
-          <Img src={image_nokia} alt="nokia.png" className="companies" />
+        <a href="https://www.nokia.com" target="_blank">
+          <Img 
+          src={image_nokia} 
+          alt="nokia.png"  
+          className="companies" />
         </a>
-        <a href="https://www.ericsson.com">
-          <Img src={image_ericsson} alt="ericsson.png" className="companies" />
+        <a href="https://www.ericsson.com" target="_blank">
+          <Img 
+          src={image_ericsson} 
+          alt="ericsson.png" 
+          className="companies" />
+        </a>
+        <a href="https://www.lifecell.ua/uk" target="_blank">
+          <Img 
+          src={image22} 
+          alt="lifecell.png" 
+          className="companies" />
         </a>
       </div>
       <p>

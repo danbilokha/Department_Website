@@ -6,7 +6,7 @@ const scope = 'boilerplate.components.';
 
 export default function TodoList({ topics, selection }) {
   return (
-    <ul>
+    <ul className = "todoList">
       {topics.map(topic => {
         const footerId = scope + topic.title;
 

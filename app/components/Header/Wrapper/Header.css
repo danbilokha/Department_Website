@@ -38,7 +38,7 @@ a:active {
     align-items: center;
 }
 
-li{
+.todoList li{
     display: inline;
 }
 input[type="search"]{
