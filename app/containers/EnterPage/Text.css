@@ -21,18 +21,21 @@
 }
 
 #image_Benefits{
-    float:left;
-    padding-right:25px;
+    float: right;
     width: 55%;
     max-width: 100%;
+    margin-left: 25px;
+    padding-top: 25px;
 }
 
 .benefits{
     list-style-type: disc;
-    margin-left: 25px;
 }
 
-
+.benefits li{
+    line-height: 1.2em;
+    margin-top: 1em;
+}
 
 .container_companies{
    text-align: center;
@@ -51,3 +54,8 @@
     width: inherit;
 }
 
+@media screen and (max-width: 1000px) {
+    #image_Benefits{
+        width: 100%;
+    }
+}

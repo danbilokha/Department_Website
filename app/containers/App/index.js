@@ -10,6 +10,8 @@ import DonatorsPage from 'containers/DonatorsPage/Loadable';
 import TeachersPage from 'containers/TeachersPage/Loadable';
 import TestPage from 'containers/TestPage/Loadable';
 import EnterPage from 'containers/EnterPage/Loadable';
+import EntryForFirstCoursePage from 'containers/EntryForFirstCoursePage/Loadable';
+import EntryForFifthCoursePage from 'containers/EntryForFifthCoursePage/Loadable';
 import ConferencesPage from 'containers/ConferencesPage/Loadable';
 import ContactsPage from '../ContactsPage';
 
@@ -40,6 +42,8 @@ export default function App() {
         <Route path="/donators" component={DonatorsPage} />
         <Route path="/study" component={StudyPage} />
         <Route path="/enter" component={EnterPage} />
+        <Route path="/entry_for_first_course" component={EntryForFirstCoursePage} />
+        <Route path="/entry_for_fifth_course" component={EntryForFifthCoursePage} />
         <Route path="/test" component={TestPage} />
         <Route path="/teachers" component={TeachersPage} />
         <Route path="/contacts" component={ContactsPage} />

@@ -149,6 +149,7 @@
 .header_box_sub1{
     background: url(./images/Thinker.jpg);
     background-size: cover;
+    background-position: center;
     width: 49%;
     border: 2px solid #040638;
     border-radius: 5px;
@@ -157,8 +158,17 @@
     margin-bottom: 20px;
     float: left;
     margin-left: .45%;
-    
-    
+    transition: color 4s linear;
+}
+
+.header_box_sub1 h1:hover{
+    align-items: center;
+    color: red;
+}
+
+.header_box_sub2 h1:hover{
+    align-items: center;
+    transition: 5s;
 }
 
 .header_box_sub2{

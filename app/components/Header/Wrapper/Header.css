@@ -40,7 +40,7 @@ a:active {
     
 }
 
-li{
+.todoList li{
     display: inline;
 }
 input[type="search"]{

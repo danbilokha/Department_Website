@@ -2,6 +2,7 @@ import React from 'react';
 
 import './index.css';
 import Img from '../Img/index';
+import { Link } from 'react-router-dom';
 
 import icon_certificate from '../../containers/KafedraPage/images/icon_certificate.png';
 import icon_diploma from '../../containers/KafedraPage/images/icon_diploma.png';
@@ -16,12 +17,10 @@ function ForEntrant(props) {
         <div>
           <Img src={icon_certificate} className="icon_ForEnterer" />
         </div>
-        <a href="http://its.kpi.ua/Pages/Abiturient/%d0%92%d1%81%d1%82%d1%83%d0%bf%d0%bd%d0%b8%d0%ba%d0%b0%d0%bc-%d0%b1%d0%b0%d0%ba%d0%b0%d0%bb%d0%b0%d0%b2%d1%80%d0%b0%d0%bc.aspx">
-          <p className="boldName_ForEnterer">Вступ на 1-й курс</p>
-        </a>
+        <Link to="/entry_for_first_course"><p className="boldName_ForEnterer">Вступ на 1-й курс</p></Link>
         <p className="numberName_ForEnterer">за сертифікатами ЗНО</p>
       </div>
-      <div className="container_item_forEnterer">
+      {/* <div className="container_item_forEnterer">
         <div>
           <Img src={icon_diploma} className="icon_ForEnterer" />
         </div>
@@ -31,14 +30,12 @@ function ForEntrant(props) {
         <p className="numberName_ForEnterer">
           за дипломом молодшого спеціаліста
         </p>
-      </div>
+      </div> */}
       <div className="container_item_forEnterer">
         <div>
           <Img src={icon_graduate_student} className="icon_ForEnterer" />
         </div>
-        <a href="http://its.kpi.ua/Pages/Abiturient/%d0%92%d1%81%d1%82%d1%83%d0%bf%20%d0%bd%d0%b0%205-%d0%b9%20%d0%ba%d1%83%d1%80%d1%81.aspx">
-          <p className="boldName_ForEnterer">Вступ на 5-й курс</p>
-        </a>
+        <Link to="/entry_for_fifth_course"><p className="boldName_ForEnterer">Вступ на 5-й курс</p></Link>
         <p className="numberName_ForEnterer" />
       </div>
       <div className="container_item_forEnterer">
