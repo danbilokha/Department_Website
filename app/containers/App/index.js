@@ -32,7 +32,7 @@ const AppWrapper = styled.div`
 export default function App() {
   return (
     <AppWrapper className="AppWrapper">
-      <Helmet titleTemplate="%s-Kafedra" defaultTitle="React.js Boilerplate" />
+      <Helmet titleTemplate="%s-Kafedra" defaultTitle="ITM DEPARTMENT" />
       <Header />
       <Switch>
         <Route exact path="/" component={KafedraPage} />
