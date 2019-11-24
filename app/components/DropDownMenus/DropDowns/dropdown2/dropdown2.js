@@ -6,11 +6,11 @@ import { Link } from 'react-router-dom';
 
 
 
-export default function DropDown2(){
+export default function DropDown2(props){
     return(
         <div class="abc">
             <button class="dropbtn">
-                <HeaderLink>
+                <HeaderLink to = {props.to}>
                     <FormattedMessage id={"boilerplate.components.entrance"}/>
                     <div className ="drptringledown"/>
                 </HeaderLink>
