@@ -3,11 +3,6 @@ header img{
     height: 48px;
 }
 
-
-a:active {
-  color: #fff;
-}
-
 .TopBar{
   padding: 1em 0;
   text-align: center;
@@ -34,11 +29,13 @@ a:active {
     background: #CFD0E0;
     color:#040638;
     display: flex;
-    justify-content: center;
+    justify-content: center; 
     align-items: center;
+    
+    
 }
 
-li{
+.todoList li{
     display: inline;
 }
 input[type="search"]{
@@ -55,7 +52,7 @@ input[type="search"]{
     color: #6A6ECE;
 }
 
-button{
+.header_button_enter{
     /* font-family: Roboto; */
     font-style: normal;
     font-weight: normal;
@@ -75,12 +72,12 @@ button{
     min-width: 80px;
 }
 
-button:hover{
+.header_button_enter:hover{
     opacity: .5;
     cursor: pointer;
 }
 
-button:active, :hover, :focus, input[type="search"]:active, :hover, :focus {
+.header_button_enter:active, :hover, :focus, input[type="search"]:active, :hover, :focus {
     outline: 0;
     outline-offset: 0;
 }
@@ -97,6 +94,12 @@ button:active, :hover, :focus, input[type="search"]:active, :hover, :focus {
     display: block;
 }
 
-/* boilerplate.components.kafedraName{
-    font-size:25px;
-} */
+.invisiblespace{
+    
+    margin: auto .5em;
+    content: '';
+    margin-top: 6px;
+    border: 4px solid transparent;
+    border-top: 3px solid  #CFD0E0;
+    
+}
