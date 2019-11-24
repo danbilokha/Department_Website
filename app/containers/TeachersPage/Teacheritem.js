@@ -8,7 +8,7 @@ export default function Itemwriter({ title, content }) {
         <p>
           <span className="ItemTitle">{title}</span>
           <span>
-            <a href="/">{content}</a>
+            <a href={content}>{content}</a>
           </span>
         </p>
       );
