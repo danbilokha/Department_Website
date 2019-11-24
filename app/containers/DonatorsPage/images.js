@@ -1,4 +1,5 @@
 import React from 'react'
+import './index.css';
 import Img from "../../components/Img/index"
 import image1 from './images/image 2.1.png'
 import image2 from './images/image 3.1.png'
@@ -28,29 +29,60 @@ import image23 from './images/image 28.png'
 export default function Images(){
     return(
         <div className="container_photo_gallery">
-            <Img src ={image1}/>
+            <a href ='https://www.alcatelmobile.com/'>
+                <Img src ={image1} />
+            </a>
+            <a href ='https://www.ericsson.com/en'>
             <Img src ={image2}/>
+            </a>
+            <a href='https://www.microsoft.com/uk-ua/'>
             <Img src ={image3}/>
+            </a>
+            <a href='https://www.intel.com/content/www/us/en/homepage.html'>
             <Img src ={image4}/>
+            </a>
+            <a href='https://kyivstar.ua/uk/mm'>
             <Img src ={image5}/>
+            </a>
+            <a href='https://www.vodafone.ua/uk'>
             <Img src ={image6}/>
+            </a>
+            <a href='https://www.nokia.com/phones/uk_ua'>
             <Img src ={image7}/>
+            </a>
+            <a href='https://ukrtelecom.ua/'>
             <Img src ={image8}/>
+            </a>
+            <a href='https://tu-dresden.de/'>
             <Img src ={image9}/>
+            </a>
+            <a href='https://www.ukrkosmos.com/'>
             <Img src ={image10}/>
-            <Img src ={image11}/>
-            <Img src ={image12}/>
+            </a>
+            <a href ='https://volia.com/?partner=organic_search&utm_source=google&utm_medium=organic'>
             <Img src ={image13}/>
+            </a>
+            <a href='https://www.bkc.com.ua/'>
             <Img src ={image14}/>
+            </a>
+            <a href ='cdma.ua'>
             <Img src ={image15}/>
-            <Img src ={image16}/>
-            <Img src ={image17}/>
+            </a>
+            <a href='https://www8.hp.com/ua/ru/home.html'>
             <Img src ={image18}/>
-            <Img src ={image19}/>
+            </a>
+            <a href='http://enrantelecom.com/ru/'>
             <Img src ={image20}/>
+            </a>
+            <a href='https://www.kapsch.net/'>
             <Img src ={image21}/>
+            </a>
+            <a href='https://www.lifecell.ua/uk/'>
             <Img src ={image22}/>
+            </a>
+            <a href='https://consumer.huawei.com/ua/'>
             <Img src ={image23}/>
+            </a>
 
         </div>
     )

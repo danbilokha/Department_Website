@@ -28,7 +28,7 @@ hr{
     border: 0;
 }
 
-ul{
+.todoList, .listLink_ul{
     list-style: none;
     margin: 1em 0;
     padding: 0;

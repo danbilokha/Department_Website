@@ -30,6 +30,8 @@ export default function Text() {
       <section className="container_introduction_KafedraPage">
         <div className="header_box">
           <div className="header_box_cover"><h1>Кафедра Інформаційно-Телекомунікаційних мереж</h1></div>
+
+
           <Link to="history"><div className="header_box_sub2"><h1>Історія кафедри</h1></div></Link>
           <a href="kafedra_ITM#benefits"><div className="header_box_sub1"><h1>Чому саме до нас?</h1></div></a>
           
