@@ -5,11 +5,11 @@ import HeaderLink from '../../../Header/HeaderLink'
 import { Link } from 'react-router-dom';
 
 
-export default function DropDown4(){
+export default function DropDown4(props){
     return(
         <div class="abc">
             <button class="dropbtn">
-                <HeaderLink >
+                <HeaderLink to={props.to}>
                     <FormattedMessage id={"boilerplate.components.scientificWork"}/>
                     <div className ="drptringledown"/>
                 </HeaderLink>

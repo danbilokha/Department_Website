@@ -8,6 +8,8 @@ import TodoList from './Lists/List';
 import { topBar } from './Lists/TopBar';
 import { navBar } from './Lists/NavBar';
 
+import DropDown1 from '../DropDownMenus/DropDowns/dropdown1/dropdown1'
+import DropDown2 from '../DropDownMenus/DropDowns/dropdown2/dropdown2'
 import DropDown3 from '../DropDownMenus/DropDowns/dropdown3/dropdown3'
 import DropDown4 from '../DropDownMenus/DropDowns/dropdown4/dropdown4'
 
@@ -47,18 +49,16 @@ function Header() {
       <div className="NavBar">
         {/* <TodoList topics={navBar} selection /> */}
           <HeaderLink>
-            <DropDown3/>
+            <DropDown3 to='/study'/>
           </HeaderLink>
           <HeaderLink>
-            <DropDown4/>
+            <DropDown4 to=''/>
           </HeaderLink>
-          <HeaderLink to='/'>
-            <FormattedMessage id={"boilerplate.components.about"}/>
-            <div className='invisiblespace'/>
+          <HeaderLink>
+            <DropDown1 to='/'/>
           </HeaderLink>
-          <HeaderLink to='/enter'>
-            <FormattedMessage id={"boilerplate.components.entrance"}/> 
-            <div className='invisiblespace'/>
+          <HeaderLink>
+            <DropDown2 to='enter'/>
           </HeaderLink>
           <HeaderLink to = "/teachers">
             <FormattedMessage id = "boilerplate.components.teachers"/>
