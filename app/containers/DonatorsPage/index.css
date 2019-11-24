@@ -6,6 +6,12 @@
 }
 .container_photo_gallery Img{
     margin: 1% 2% 1% 2%;
+    cursor: pointer;
+}
+.container_photo_gallery a{
+    display:inline-block;
+    margin : 0 3em 0 2em;
+    justify-content: space-between;
 }
 .images{
     margin-top: 1%;
