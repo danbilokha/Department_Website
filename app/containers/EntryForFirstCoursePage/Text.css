@@ -2,15 +2,6 @@
     text-align: center;
 }
 
-.uppercase{
-    color: #0c1070;
-    text-transform: uppercase;
-    border-bottom: dotted;
-}
-
-.uppercase:hover{
-    border-bottom: solid;
-}
 
 .content_steps_for_entering{
     margin: 10px;

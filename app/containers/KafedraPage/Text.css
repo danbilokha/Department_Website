@@ -12,41 +12,6 @@
     text-align: center;
 }
 
-.contacts_KafedraPage h1{
-    margin: auto 0;
-    text-align: center;
-    border-bottom: 2px solid rgb(187, 194, 197);
-}
-
-.contacts_KafedraPage{
-    box-shadow: rgb(0, 0, 0 0.2) 0 4px 2px -2px;
-    font-weight: 100;
-    margin: 48px auto; 
-    color: #06244b;
-    border-radius: 5px;
-    border: 2px solid rgb(187, 194, 197);
-    background: rgba(214, 218, 218, 0.589);
-}
-
-.institute_location{
-    width: 90%;  
-    padding: 0 20px;
-    margin: 0 auto;
-}
-
-.institute_location_map{
-    width: 100%;
-    max-width: 100%;
-    margin-bottom: 15px;
-}
-
-.institute_location h2{
-    color:#0e115e;
-    font-size: 36px;
-    text-align: center;
-    margin: 10px;
-}
-
 .Learning_Form{
     margin-top: 45px;
     margin-bottom: 45px;

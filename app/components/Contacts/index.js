@@ -32,6 +32,16 @@ function Contacts(props) {
             e_mailTitle="E-mail:"
             e_mail="its@its.kpi.ua"
           />
+          <ContactsInformation
+            h2="Контакти відбіркової комісії "
+            addressName="Адреса:"
+            addressIndex="03056"
+            address="м. Київ, пров. Індустріальний, 2, корпус №30, к. 312"
+            telephoneTitle="​Телефони відбіркової комісії ІТС:"
+            telephone="+38093-027-90-40"
+            e_mailTitle="Адреса електронної пошти відбіркової комісії ІТС:"
+            e_mail="its.kpi@i.ua"
+          />
           <div className="institute_location clearfix">
             <h2>Де нас знайти?</h2>
             <iframe className="institute_location_map "

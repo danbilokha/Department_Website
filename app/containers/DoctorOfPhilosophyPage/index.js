@@ -2,11 +2,10 @@ import React from 'react';
 import './index.css';
 import Text from './Text';
 
-export default function ContactsPage() {
+export default function DoctorOfPhilosophyPage() {
     return(
         <div className = 'paragraph'>
             <Text/>
-            
         </div>
     )
 }

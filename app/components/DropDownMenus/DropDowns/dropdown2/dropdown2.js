@@ -19,7 +19,7 @@ export default function DropDown2(props){
                 <Link to='/enter'>
                     <FormattedMessage id={"boilerplate.components.entrance.newForEnterer"} />
                 </Link>
-                <Link to='/'>
+                <Link to='/educational_program'>
                     <FormattedMessage id ={"boilerplate.components.entrance.learningProgram"}/>
                 </Link>
                 <Link to='/entry_for_first_course'>
@@ -28,13 +28,13 @@ export default function DropDown2(props){
                 <Link to='/entry_for_fifth_course'>
                     <FormattedMessage id ={"boilerplate.components.entrance.entryFor5"}/>
                 </Link>
-               <Link to='/'>
+               <Link to='/doctor_of_philosophy'>
                     <FormattedMessage id ={"boilerplate.components.entrance.doctorPhilosophii"}/>
                 </Link>
-                <Link to='/'>
+                <Link href="https://pk.kpi.ua/documents/">
                     <FormattedMessage id ={"boilerplate.components.entrance.officialDocuments"}/>
                 </Link>
-                <Link to='/'>
+                <Link to='/contacts'>
                     <FormattedMessage id ={"boilerplate.components.entrance.contactsOfcomisii"}/>
                 </Link>
                 <Link to='/'>
