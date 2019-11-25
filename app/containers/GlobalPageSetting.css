@@ -37,3 +37,14 @@ p{
 .hr_KafedraPage{
     width: 95%;
 }
+
+
+.link_with_line{
+    color: #0c1070;
+    text-transform: uppercase;
+    border-bottom: dotted;
+}
+
+.link_with_line:hover{
+    border-bottom: solid;
+}

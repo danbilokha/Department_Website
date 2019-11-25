@@ -3,6 +3,7 @@ import React from 'react';
 import './index.css';
 import Img from '../Img/index';
 import { Link } from 'react-router-dom';
+import { FormattedMessage } from 'react-intl'
 
 import icon_certificate from '../../containers/KafedraPage/images/icon_certificate.png';
 import icon_diploma from '../../containers/KafedraPage/images/icon_diploma.png';
@@ -42,8 +43,10 @@ function ForEntrant(props) {
         <div>
           <Img src={icon_scroll} className="icon_ForEnterer" />
         </div>
-        <a href="http://pk.kpi.ua/documents/">
-          <p className="boldName_ForEnterer">Офіційні документи</p>
+        <a href="http://pk.kpi.ua/documents/" target="_blank">
+          <p className="boldName_ForEnterer">
+            <FormattedMessage id ={"boilerplate.components.entrance.officialDocuments"}/>
+          </p>
         </a>
         <p className="numberName_ForEnterer" />
       </div>
@@ -51,9 +54,7 @@ function ForEntrant(props) {
         <div>
           <Img src={icon_contacts} className="icon_ForEnterer" />
         </div>
-        <a href="/contacts">
-          <p className="boldName_ForEnterer">Контакти</p>
-        </a>
+        <Link to="/contacts"><p className="boldName_ForEnterer">Контакти</p></Link>
         <p className="numberName_ForEnterer" />
       </div>
     </div>

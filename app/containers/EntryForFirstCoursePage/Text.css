@@ -2,15 +2,6 @@
     text-align: center;
 }
 
-.link_with_line{
-    color: #0c1070;
-    text-transform: uppercase;
-    border-bottom: dotted;
-}
-
-.link_with_line:hover{
-    border-bottom: solid;
-}
 
 .content_steps_for_entering{
     margin: 10px;

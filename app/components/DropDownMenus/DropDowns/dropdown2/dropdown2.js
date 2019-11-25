@@ -31,10 +31,10 @@ export default function DropDown2(props){
                <Link to='/doctor_of_philosophy'>
                     <FormattedMessage id ={"boilerplate.components.entrance.doctorPhilosophii"}/>
                 </Link>
-                <Link to='/'>
+                <Link href="https://pk.kpi.ua/documents/">
                     <FormattedMessage id ={"boilerplate.components.entrance.officialDocuments"}/>
                 </Link>
-                <Link to='/'>
+                <Link to='/contacts'>
                     <FormattedMessage id ={"boilerplate.components.entrance.contactsOfcomisii"}/>
                 </Link>
                 <Link to='/'>
