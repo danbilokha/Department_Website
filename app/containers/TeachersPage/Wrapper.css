@@ -7,6 +7,7 @@
     margin-top: 5vh;
     display: grid;
     grid-template-columns: 1fr 1fr 5fr;
+    grid-template-areas: "portret fullName info";
 }
 
 .TeacherItem p{
@@ -25,7 +26,13 @@
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
+    display: grid;
+    grid-area: fullName;
+}
 
+.info{
+    display: grid;
+    grid-area: info;
 }
 
 .ItemTitle{
@@ -36,13 +43,36 @@
 .portret{
     width: 135px;
     height: 180px;
+    display: grid;
+    grid-area: portret;
 }
 
-@media only screen and (max-width: 1224px) {
+@media only screen and (max-width: 768px) {
 
-    .TeacherItem :nth-child(2){
-        padding: 1em;
-        font-size: 12px;
+    .TeacherItem{
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "portret fullName" "info info";
+    }
+
+    .portret{
+        margin: 0 auto;
+    }
+
+    .fullName{
+        margin: auto;
+    }
+
+}
+
+@media only screen and (max-width:320px) {
+
+    .TeacherItem{
+        grid-template-columns: 1fr;
+        grid-template-areas: "portret" "fullName" "info";
+    }
+
+    .fullName{
+        text-align: center;
     }
 
 }
