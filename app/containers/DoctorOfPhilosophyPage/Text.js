@@ -9,7 +9,9 @@ import Img from '../../components/Img/index';
 export default function Text() {
   return (
     <div className="page_content">
-      <h1>Доктор філософії (PhD)</h1>
+      <h1>
+        <FormattedMessage id ={"boilerplate.components.entrance.doctorPhilosophii"}/>
+      </h1>
       <h3>3-й рівень вищої освіти (Доктор філософії (PhD))</h3>
       <h3>Підготовка аспірантів і магістрів проводиться в галузі знань:</h3>
       <strong>17  Електроніка та  телекомунікації</strong>
