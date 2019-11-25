@@ -12,7 +12,9 @@ import TestPage from 'containers/TestPage/Loadable';
 import EnterPage from 'containers/EnterPage/Loadable';
 import EntryForFirstCoursePage from 'containers/EntryForFirstCoursePage/Loadable';
 import EntryForFifthCoursePage from 'containers/EntryForFifthCoursePage/Loadable';
-import EducationalProgram from '../EducationalProgram';
+import EducationalProgramPage from '../EducationalProgramPage';
+import DoctorOfPhilosophyPage from '../DoctorOfPhilosophyPage';
+
 import ConferencesPage from 'containers/ConferencesPage/Loadable';
 import ContactsPage from '../ContactsPage';
 
@@ -23,6 +25,7 @@ import Header from 'components/Header';
 import Footer from 'components/Footer';
 import './index.css';
 import GlobalStyle from '../../global-styles';
+
 
 
 
@@ -46,7 +49,8 @@ export default function App() {
         <Route path="/enter" component={EnterPage} />
         <Route path="/entry_for_first_course" component={EntryForFirstCoursePage} />
         <Route path="/entry_for_fifth_course" component={EntryForFifthCoursePage} />
-        <Route path="/educational_program" component={EducationalProgram} />
+        <Route path="/educational_program" component={EducationalProgramPage} />
+        <Route path="/doctor_of_philosophy" component={DoctorOfPhilosophyPage} />
 
         <Route path="/test" component={TestPage} />
         <Route path="/teachers" component={TeachersPage} />
