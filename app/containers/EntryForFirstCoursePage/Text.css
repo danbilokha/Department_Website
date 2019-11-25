@@ -2,13 +2,13 @@
     text-align: center;
 }
 
-.uppercase{
+.link_with_line{
     color: #0c1070;
     text-transform: uppercase;
     border-bottom: dotted;
 }
 
-.uppercase:hover{
+.link_with_line:hover{
     border-bottom: solid;
 }
 

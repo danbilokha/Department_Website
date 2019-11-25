@@ -48,7 +48,7 @@ function Header() {
 
       <div className="NavBar">
         {/* <TodoList topics={navBar} selection /> */}
-          <HeaderLink>
+          <HeaderLink to='/study'>
             <DropDown3 to='/study'/>
           </HeaderLink>
           <HeaderLink>
@@ -57,8 +57,8 @@ function Header() {
           <HeaderLink>
             <DropDown1 to='/'/>
           </HeaderLink>
-          <HeaderLink>
-            <DropDown2 to='enter'/>
+          <HeaderLink to='/enter'>
+            <DropDown2 to='/enter'/>
           </HeaderLink>
           <HeaderLink to = "/teachers">
             <FormattedMessage id = "boilerplate.components.teachers"/>

@@ -82,41 +82,6 @@ export default function Text() {
           </ul>
         </p>
       </div>
-      <section className="degree_level">
-        <div className="container_EnterPage clearfix">
-          <BlockList
-            center_level="I"
-            numberName="Перший"
-            boldName="Бакалаврський"
-          />
-        </div>
-        <TermDescription
-          bold_and_italic_name="Рівень бакалавра"
-          text="забезпечує надбання випускниками компетенцій стосовно теоретичних основ побудови, налагодження, адміністрування, контролю і діагностування стану, інформаційно-комунікаційної інфраструктури операторів зв’язку та провайдерів Інтернет-послуг. "
-        />
-        <div className="container_EnterPage clearfix">
-          <BlockList
-            center_level="II"
-            numberName="Другий"
-            boldName="Магістрський"
-          />
-        </div>
-        <TermDescription
-          bold_and_italic_name="Рівень магістра"
-          text="забезпечує надбання компетенцій по вдосконаленню, проектуванню та створенню  апаратно-програмної інфраструктури, гетерогенних Інтранет-базованих середовищ, «хмарних» технологій у поєднанні з сучасними 3G, 4G та 5G- комунікаційними мережами. "
-        />
-        <div className="container_EnterPage clearfix">
-          <BlockList
-            center_level="III"
-            numberName="Третій"
-            boldName="Освітньо-науковий"
-          />
-        </div>
-        <TermDescription
-          bold_and_italic_name="Рівень доктора філософії"
-          text="забезпечує надбання компетенцій по здійсненню наукових досліджень, пошукових робіт та прогнозуванню напрямків розв​итку інформаційно-комунікаційних технологій, створенню та впровадженню технологій всепроникаючого компьютінгу, ІоТ, BigData."
-        />
-      </section>
       <div>
         <p>
           <b>Cпівпраця з провідними компаніями</b> - розробниками
