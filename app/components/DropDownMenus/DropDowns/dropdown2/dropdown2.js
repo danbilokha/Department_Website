@@ -28,7 +28,7 @@ export default function DropDown2(props){
                 <Link to='/entry_for_fifth_course'>
                     <FormattedMessage id ={"boilerplate.components.entrance.entryFor5"}/>
                 </Link>
-               <Link to='/'>
+               <Link to='/doctor_of_philosophy'>
                     <FormattedMessage id ={"boilerplate.components.entrance.doctorPhilosophii"}/>
                 </Link>
                 <Link to='/'>
