@@ -27,10 +27,10 @@
     width: inherit;
     position: absolute;
     margin: auto auto;
-    color: grey;
+    color: rgb(216, 216, 216);
     font-size: 145px;
     font-weight: bold;
-    
+    font-family: Cinzel;
 }
 
 .numberName{
