@@ -25,7 +25,7 @@ import Header from 'components/Header';
 import Footer from 'components/Footer';
 import './index.css';
 import GlobalStyle from '../../global-styles';
-import UpArrow from '../../components/UpArrow';
+import BackToTop from '../../components/BackToTop';
 
 
 
@@ -60,7 +60,7 @@ export default function App() {
         <Route path="" component={NotFoundPage} />
       </Switch>
       <Footer />
-      <UpArrow/>
+      <BackToTop/>
       <GlobalStyle />
     </AppWrapper>
   );
