@@ -11,7 +11,7 @@ export default function Text() {
   return (
     <div className="page_content">
       <h1>Вступ на 1 курс (сертифікат ЗНО)</h1>
-      <div className="container_start_entryForFirst">
+      <div className="container_start_entry">
         <p>Кафедра інформаційно-телекомінікаційних мереж готує фахівців за</p>
         <h2>СПЕЦІАЛЬНІСТЮ 172: ТЕЛЕКОМУНІКАЦІЇ ТА РАДІОТЕХНІКА</h2>
         <h3>(ГАЛУЗЬ ЗНАНЬ 17: ЕЛЕКТРОНІКА ТА ТЕЛЕКОМУНІКАЦІЇ)</h3>
