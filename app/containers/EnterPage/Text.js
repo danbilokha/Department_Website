@@ -28,7 +28,7 @@ export default function Text() {
         <h1 id="Enter">Вступ</h1>
         <ForEntrant />
       </div>
-      <hr />
+      <hr className="hr_KafedraPage" />
       <h2 id="information_about_specialization">
         Спеціалізація «ІНФОРМАЦІЙНО-КОМУНІКАЦІЙНІ ТЕХНОЛОГІЇ»
       </h2>
@@ -161,19 +161,15 @@ export default function Text() {
         ПЗ, в технічних відділах банків та організацій різних форм власності, що
         використовують мережні технології​.
       </p>
-      <hr />
-      <Link>
-        <h4>
-          Положення про кафедру технічної кібернетики ФІОТ КПІ ім.Ігоря
-          Сікорського
-        </h4>
-      </Link>
-      <hr />
+      <a><p><span className="link_with_line">Положення про кафедру інформаційно-телекомунікаційних технологій ІТС КПІ ім.Ігоря Сікорського</span></p></a>
+      <hr className="hr_KafedraPage"/>
       {/* <h4>ФАХОВІ РІВНІ ПІДГОТОВКИ</h4> 
             <Table/>
             <hr/> */}
-      <h4>НАПРЯМИ ПІДГОТОВКИ</h4>
-      <Img src={image_diagram} className="image_diagram" />
+      <div className="container_companies">
+        <h3>НАПРЯМИ ПІДГОТОВКИ</h3>
+        <Img src={image_diagram} className="image_diagram" />
+      </div>
       <hr />
     </div>
   );

@@ -1,0 +1,16 @@
+{
+    "titleName": "ConferencesPage",
+    "conferences": [{
+        "id":1,
+        "title": "The Fourth International Conference on Information and Telecommunication Technologies and Radio Electronics (UkrMiCo’2019)",
+        "article": "",
+        "date": "10.10.11",
+        "location": "Odesa"
+    },{
+        "id":2,
+        "title": "ХІІІ МНТК Перспективи телекомунікацій 2019 і ХІ ПРІТС-2019",
+        "article": "",
+        "date": "05.12.18",
+        "location": "Kyiv"
+    }]
+  }
