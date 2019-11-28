@@ -11,7 +11,7 @@ import '../GlobalPageSetting.css';
 import '../../components/News/index.css';
 
 import Img from '../../components/Img/index';
-import Conference from '../../components/Diploma/Conference';
+import Conference from '../../components/Conference';
 
 // {
 //     "id": 0,
