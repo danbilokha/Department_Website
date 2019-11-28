@@ -98,12 +98,12 @@ export default function Text() {
           </p>
         </div>
         <p id="benefits">
-          <a className="inline_link" href="history#history_kafedra">
+          <Link className="inline_link" to="history#history_kafedra">
             Кафедра{' '}
-          </a>
-          <a className="inline_link" href="enter#history_kafedra">
+          </Link>
+          <Link className="inline_link" to="enter/#Enter">
             Інформаційно-телекомунікаційних мереж{' '}
-          </a>
+          </Link>
           готує фахівців за спеціальністю Телекомунікації та радіотехніка та
           спеціалізацією Інформаційно-комунікаційні технології (ІКТ).
         </p>
