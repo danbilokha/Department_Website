@@ -7,9 +7,9 @@ import Vector from './vector.png';
 function Footer() {
   return (
     <div className="Wrapper">
-      <A href="/">
+      {/* <A href="/">
         <img className="ButtonUp" src={Vector} alt="scroll up" />
-      </A>
+      </A> */}
       <TodoLists />
     </div>
   );
