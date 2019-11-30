@@ -10,7 +10,7 @@ export default class PracticeMaster extends React.Component {
 
   render() {
     const thFirstWidth = {
-      width: '2%',
+      width: '1%',
     };
 
     /*    let inputStyle = {
@@ -18,7 +18,7 @@ export default class PracticeMaster extends React.Component {
               }; */
 
     const thSecondWidth = {
-      width: '28%',
+      width: '30%',
     };
 
     return (

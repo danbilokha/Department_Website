@@ -1,5 +1,5 @@
 #master_final_practice{
-    width:30%;
+    width:40%;
     border-collapse: collapse;
 }
 
@@ -15,16 +15,16 @@
     font-weight:400;
 }
 
-article h5{
+.research_practice h5{
 font-weight:bold;
 font-family: Roboto;
 font-style: normal;
 font-size: 14pt;
 }
 
-article p{
+/* article p{
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     margin-right: 250px;
-}
+} */

@@ -10,7 +10,7 @@ export default class PracticeFinal extends React.Component {
 
   render() {
     const thFirstWidth = {
-      width: '2%',
+      width: '4%',
     };
 
     /*    let inputStyle = {
@@ -18,7 +18,7 @@ export default class PracticeFinal extends React.Component {
           }; */
 
     const thSecondWidth = {
-      width: '18%',
+      width: '36%',
     };
 
     return (
