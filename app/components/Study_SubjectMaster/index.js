@@ -15,6 +15,8 @@ export default class SubjectBachelors extends React.Component {
         <p class="study_topic">Перелік предметів магістрів</p>
     
         <label>Cпеціальні навчальні дисципліни:</label>
+
+        <br/>
         
         <dl id="subject_list">
           <dt>З</dt>
@@ -31,9 +33,9 @@ export default class SubjectBachelors extends React.Component {
           <dd>
             <a href="">Іноземна мова професійного спрямування</a>
           </dd>
-          <dd>
+          {/* <dd>
             <a href="">Інтелектуальна власність</a>
-          </dd>
+          </dd> */}
           <dd>
             <a href="">Інтелектуальна обробка інформації</a>
           </dd>
@@ -77,28 +79,28 @@ export default class SubjectBachelors extends React.Component {
               телекомунікацій
             </a>
           </dd>
-          <dd>
+          {/* <dd>
             <a href="">Основи наукових досліджень</a>
-          </dd>
+          </dd> */}
           <dd>
             <a href="">
               Основи прикладної теорії інформації для телекомунікацій
             </a>
           </dd>
-          <dd>
+          {/* <dd>
             <a href="">Основи сталого розвитку суспільства</a>
           </dd>
           <dd>
             <a href="">Охорона праці</a>
-          </dd>
+          </dd> */}
 
           <dt>П</dt>
-          <dd>
+          {/* <dd>
             <a href="">Патентознавство та авторське право</a>
           </dd>
           <dd>
             <a href="">Педагогіка вищої школи</a>
-          </dd>
+          </dd> */}
           <dd>
             <a href="">Програмування апаратних засобів</a>
           </dd>
@@ -133,7 +135,7 @@ export default class SubjectBachelors extends React.Component {
             <a href="">Технології обслуговування телекомунікаційних систем</a>
           </dd>
 
-          <dt>Ф</dt>
+         {/*  <dt>Ф</dt>
           <dd>
             <a href="">Філосовські проблеми наукового пізнання</a>
           </dd>
@@ -146,7 +148,7 @@ export default class SubjectBachelors extends React.Component {
           <dt>Ч</dt>
           <dd>
             <a href="">Чинники успішного працевлаштування за фахом</a>
-          </dd>
+          </dd> */}
 
         </dl>
       </div>

@@ -10,7 +10,7 @@ import PracticeMaster from '../../components/Study_MasterPractice/index';
 
 export default function StudyPage() {
   return (
-    <div id="study_all">
+    <div class="page_content">
       <section id="subject_list">
         <SubjectBachelors />
         <SubjectMaster />
@@ -18,8 +18,8 @@ export default function StudyPage() {
 
       <Process />
 
-      <h4>Практика</h4>
       <article className="practice">
+      <h4>Практика</h4>
         <p>
           Практична підготовка студентів є обов´язковим компонентом
           освітньо-професійної програми для здобуття кваліфікаційного рівня і
@@ -175,7 +175,7 @@ export default function StudyPage() {
         </section>
       </article>
 
-      <article>
+      <article class="research_practice">
         <h5>Науково-дослідна практика</h5>
         <p>
           Науково-дослідна практика є важливим елементом науково-дослідної
