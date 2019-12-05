@@ -3,10 +3,12 @@ import { FormattedMessage } from 'react-intl';
 import HeaderLink from './HeaderLink'
 import './Wrapper/Header.css';
 import LocaleToggle from 'containers/LocaleToggle';
-import Banner from './images/ITM_logo.gif';
+import Banner from './images/3..png';
 import TodoList from './Lists/List';
 import { topBar } from './Lists/TopBar';
 import { navBar } from './Lists/NavBar';
+import Img from '../../components/Img/index';
+import './index.css'
 
 import DropDown1 from '../DropDownMenus/DropDowns/dropdown1/dropdown1'
 import DropDown2 from '../DropDownMenus/DropDowns/dropdown2/dropdown2'
@@ -20,9 +22,9 @@ function Header() {
     <div>
       <div className="TopBar">
         <div className="Logo">
-          <a href="/kafedra_ITM">
-            <img alt="" src={Banner} id="ITM_logo"/>
-          </a>
+          <HeaderLink to="/">
+           <Img src={Banner} id="ITM_logo" />
+          </HeaderLink>
           <HeaderLink to="/">
             <FormattedMessage id="boilerplate.components.kafedraName" /> 
           </HeaderLink>
