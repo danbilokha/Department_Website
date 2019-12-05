@@ -29,20 +29,26 @@ h2{
 p{
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
+    font-size: 1.05em;
     line-height: 27px;
     font-family: Roboto;
 }
 
 .hr_KafedraPage{
+    margin: 0 auto;
     width: 95%;
 }
 
 
 .link_with_line{
+    font-size: 1.1em;
     color: #0c1070;
     text-transform: uppercase;
     border-bottom: dotted;
+}
+
+.link_with_line p{
+    margin: 0;
 }
 
 .link_with_line:hover{

@@ -11,11 +11,52 @@ import '../GlobalPageSetting.css';
 import '../../components/News/index.css';
 
 import Img from '../../components/Img/index';
+import Conference from '../../components/Conference';
 
+// {
+//     "id": 0,
+//     "title": "Chad Snyder",
+//     "article": "",
+//     "date": "10.05.10",
+//     "location": "Odesa"
+//   }
+
+//   const conferences = [
+//     {
+//       id: 1, 
+//       title: 'The Fourth International Conference on Information and Telecommunication Technologies and Radio Electronics (UkrMiCo’2019)',
+//       article: '',
+//       date: '10.10.15',
+//       location: 'Odesa',
+//     },
+//     {
+//       id: 2,
+//       title: 'ХІІІ МНТК "Перспективи телекомунікацій 2019" і ХІ "ПРІТС-2019"',
+//       article: '',
+//       date: '10.05.10',
+//       location: 'Odesa',
+//     },
+//     {
+//       id: 3,
+//       title: 'IEEE International Black Sea Conference on Communications and Networking',
+//       article: '',
+//       date: '10.10.18',
+//       location: 'Odesa',
+//     },
+//     {
+//       id: 4,
+//       title: 'ACS 2018. Forward announcement and call for papers 21st international multi-conference on advanced computer systems',
+//       article: '',
+//       date: '11.10.10',
+//       location: 'Odesa',
+//     }
+//   ]
+  
 
 export default function Text() {
   return (
     <div className="page_content">
+      <Conference data="../../containers/ConferencesPage/conferences.json"/>
       <div className="container_conference">
         <div className="container_conference_content">
           <div className="container_conference_image">

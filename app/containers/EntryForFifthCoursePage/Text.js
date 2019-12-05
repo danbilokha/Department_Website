@@ -17,7 +17,7 @@ export default function Text() {
         <h3>(ГАЛУЗЬ ЗНАНЬ 17: ЕЛЕКТРОНІКА ТА ТЕЛЕКОМУНІКАЦІЇ)</h3>
       </div>
       <p><b>за освітньою програмою:</b></p>
-      <a><p><span className="link_with_line">Інженерія та програмування інфокомунікацій</span></p></a>
+      <Link to='/educational_program'><p><span className="link_with_line">Інженерія та програмування інфокомунікацій</span></p></Link>
       <p><b>2-й рівень вищої освіти:</b></p>
       <ul>
         <li>
