@@ -21,7 +21,7 @@ function Header() {
       <div className="TopBar">
         <div className="Logo">
           <a href="/kafedra_ITM">
-            <img alt="" src={Banner} id="ITM_logo"/>
+            <img alt="ITM ITS" src={Banner} id="ITM_logo"/>
           </a>
           <HeaderLink to="/">
             <FormattedMessage id="boilerplate.components.kafedraName" /> 
