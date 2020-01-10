@@ -36,17 +36,16 @@ export default function Text() {
           <div className="header_box_cover">
             <h1>Кафедра Інформаційно-Телекомунікаційних мереж</h1>
           </div>
-
           <Link className="Why" to="history">
             <div className="header_box_sub2">
               <h1>Історія кафедри</h1>
             </div>
           </Link>
-          <a className="Why" href="/#benefits">
+          <Link className="Why" to="/why">
             <div className="header_box_sub1">
               <h1>Чому саме до нас?</h1>
             </div>
-          </a>
+          </Link>
 
           <h3 id="kafedra_ITM">Спеціальність</h3>
           <h2>172 Телекомунікації та радіотехніка</h2>

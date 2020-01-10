@@ -14,6 +14,7 @@ import EntryForFirstCoursePage from 'containers/EntryForFirstCoursePage/Loadable
 import EntryForFifthCoursePage from 'containers/EntryForFifthCoursePage/Loadable';
 import EducationalProgramPage from '../EducationalProgramPage';
 import DoctorOfPhilosophyPage from '../DoctorOfPhilosophyPage';
+import WhyPage from '../Why_to_ITM/Loadable';
 
 import ConferencesPage from 'containers/ConferencesPage/Loadable';
 import ContactsPage from '../ContactsPage';
@@ -52,6 +53,7 @@ export default function App() {
         <Route path="/entry_for_fifth_course" component={EntryForFifthCoursePage} />
         <Route path="/educational_program" component={EducationalProgramPage} />
         <Route path="/doctor_of_philosophy" component={DoctorOfPhilosophyPage} />
+        <Route path="/why" component={WhyPage}/>
 
         <Route path="/test" component={TestPage} />
         <Route path="/teachers" component={TeachersPage} />
