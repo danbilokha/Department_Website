@@ -36,7 +36,7 @@ export default function Text() {
           <div className="header_box_cover">
             <h1>Кафедра Інформаційно-Телекомунікаційних мереж</h1>
           </div>
-          <Link className="Why" to="history">
+          <Link className="Why" to="/history">
             <div className="header_box_sub2">
               <h1>Історія кафедри</h1>
             </div>

@@ -54,7 +54,6 @@ export default function App() {
         <Route path="/educational_program" component={EducationalProgramPage} />
         <Route path="/doctor_of_philosophy" component={DoctorOfPhilosophyPage} />
         <Route path="/why" component={WhyPage}/>
-
         <Route path="/test" component={TestPage} />
         <Route path="/teachers" component={TeachersPage} />
         <Route path="/contacts" component={ContactsPage} />
