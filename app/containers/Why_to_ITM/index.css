@@ -1,4 +1,4 @@
-#whymainstring
+#whystring
 {
     margin-bottom: 40px;
     margin-top:0;
@@ -7,4 +7,19 @@
 .topimage{
     background: url(./img1.png) repeat-x;
     height:203px;
+}
+.kafedrastring{
+    font-style: italic ;
+	cursor: pointer;
+	text-decoration: none;
+    font-size: 20px;
+    float: left;
+    margin-bottom: 0;
+    display: flex;
+}
+.textwhy{
+    font-size: large;
+}
+a{
+    margin-bottom: 0;
 }
