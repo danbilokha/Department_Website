@@ -10,6 +10,7 @@ export default class Headlines extends React.Component {
       three: `Переддипломна практика 6-й курс`,
     };
   }
+  // Restricted !!! ****************************************************************************************************************
 
   render() {
     return (

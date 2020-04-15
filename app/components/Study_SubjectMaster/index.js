@@ -9,7 +9,9 @@ export default class SubjectBachelors extends React.Component {
 
   render() {
     return (
-      <div>
+      <div id="master_subjects">
+        <h3>Перелік предметів магістрів</h3>
+
         <dl id="subject_list">
           <dt>З</dt>
           <dd>

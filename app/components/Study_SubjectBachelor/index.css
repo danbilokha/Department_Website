@@ -1,4 +1,12 @@
 
+
+#bachelor_subjects{
+width:450px;
+/*background-color:red;*/
+margin-right:0;
+float: left;
+}
+
 #subject_list dt{
     color:#808080;
     font-size:10pt;
